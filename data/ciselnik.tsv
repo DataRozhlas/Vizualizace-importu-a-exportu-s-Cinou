@@ -1,0 +1,4008 @@
+kod	nazev
+0	Potraviny a živá zvířata
+00	Živá zvířata
+001	Zvířata živá (dobytek, drůbež, ovce, kozy, koně ap.)
+0011	Hovězí dobytek, živý
+00111	Cistokrevna plemenna zvirata
+00119	Jina nez cistokrevna plemenna zvirata
+0012	Ovce a kozy, živé
+00121	Ovce, zive
+00122	Kozy, zive
+0013	Vepřový dobytek, živý
+00131	Cistokrevna plemenna zvirata
+00139	Jina nez cistokrevna plemenna zvirata
+0014	Drůbež, živá
+00141	Drubez, ziva, o hmotnosti do 185 g
+00149	Drubez, ziva, o hmotnosti nad 185 g
+0015	Koně, osli, muly a mezci, živí
+0019	Živá zviřata, j.n.
+01	Maso a masné výrobky
+011	Maso hovězí čerstvé, chlazené nebo zmrazené
+0111	Maso hovězí, čerstvé nebo chlazené
+01111	Maso hovezi s kostmi, cerstve nebo chlazene
+01112	Maso hovezi bez kosti, cerstve nebo chlazene
+0112	Maso hovězí, zmrazené
+01121	Maso hovezi s kostmi, zmrazene
+01122	Maso hovezi bez kosti, zmrazene
+012	Maso ostatní (ne hovězí) a vnitřnosti poživatelné
+0121	Maso skopové nebo kozí, čerstvé, chlazené, zmrazené
+01211	Maso skopove, cerstve nebo chlazene
+01212	Maso skopove, zmrazene
+01213	Maso kozi, cerstve, chlazene nebo zmrazene
+0122	Maso vepřové, čerstvé, chlazené nebo zmrazené
+01221	Maso veprove, cerstve nebo chlazene
+01222	Maso veprove, zmrazene
+0123	Maso, vnitřnosti drůbeže, čerstvé, chlazené, zmrazené
+01231	Drubez neporcovana, cerstva nebo chlazena
+01232	Drubez neporcovana, zmrazena
+01233	Jatra vykrmenych hus nebo kachen, cerstva, chlazena
+01234	Drubezi odrezky a dalsi vnitrnosti, cerstve, chlazene
+01235	Drůbeží odřezky a vnitřnosti, zmrazené
+0124	Maso koní, oslú, mezků, čerstvé, chlazené, zmrazené
+0125	Poživatelné vnitřnosti (ne drůbeží)
+01251	Pozivatelne vnitrnosti hovezi, cerstve, chlazene
+01252	Pozivatelne vnitrnosti hovezi, zmrazene
+01253	Pozivatelne vnitrnosti veprove, cerstve, chlazene
+01254	Pozivatelne vnitrnosti veprove, zmrazene
+01255	Poziv. vnitrnosti ovci, koz, koni ap. cerstve, chlaz.
+01256	Poziv. vnitrnosti ovci, koz, koni, oslu, ap. zmrazene
+0129	Maso a vnitřnosti, čerstvé, chlazené, zmrazené, j.n.
+01291	Maso a pozivatelne vnitrnosti kraliku nebo zajicu
+01293	Sneci (jini nez morsti)
+01299	Ost. maso, poziv. vnitrnosti, cerstve, chlaz., zmraz.
+016	Maso, vnitřnosti poživ. solené, uzené ap., pokrmy z masa
+0161	Slanina, šunka a ostatní vepřové maso
+01611	Sunky, plece a jejich porce, s kosti
+01612	Bucek (prorostly) a jeho porce
+01619	Ostatni
+0168	Maso a vnitřnosti, ne vepřové, solené, uzené apod.
+01681	Maso hovezi
+01689	Maso, poziv. vnitrnosti ostatni, vc. moucek a pokrmu
+017	Maso a vnitřnosti připravené nebo konzervované jn.
+0171	Výtažky a šťávy z masa, ryb, korýšů, měkkýšů apod.
+0172	Uzeniny nebo podobné výrobky z masa
+0173	Játra všech zvířat, připravená nebo konzervovaná,j.n.
+0174	Maso a vnitřnosti (ne játra) drůbeže, připravené,j.n
+0175	Maso a vnitřnosti (ne játra) vepřové, připravené,j.n
+0176	Maso a vnitřnosti (ne játra) hovězí, připravené, j.n
+0179	Ostatní připravené nebo konzerované maso
+02	Mléčné výrobky a vejce
+022	Mléko, smetana a mléčné výrobky (ne máslo a sýry)
+0221	Mléko a smetana, nekondenzované a neslazené
+02211	Mleko s obsahem tuku ne vice nez 1 % hmotnosti
+02212	Mleko a smetana s obsahem tuku 1 az 6 % hmotnosti
+02213	Smetana s obsahem tuku pres 6 % hmotnosti
+0222	Mléko a smetana kondenzované nebo slazené
+02221	Mleko v prasku, obsah tuku ne vice nez 1,5 %
+02222	Mleko a smetana v prasku, obsah tuku vice nez 1,5 %
+02223	Mleko a smetana zpracovane ne na prasek ap. neslazene
+02224	Mleko a smetana zpracovane ne na prasek ap. slazene
+0223	Jogurt, podmáslí, sedlé, zkysané ap. mléko a smetana
+02231	Jogurt, pr. kondenzovany, slazeny, s ovocem, kakaem
+02232	Podmasli, kefir ap. pr. slazene, s ovocem, kakaem
+02233	Smetanova aj. pozivatelna zmrzlina, pr. s kakaem
+0224	Syrovátka; produkty tvořené složkami přirodniho mléka
+02241	Syrovatka
+02249	Produkty tvorene slozkami prirodniho mleka
+023	Máslo a ostatní tuky a oleje odvozené z mléka
+024	Sýry a tvaroh
+0241	Sýr strouhaný nebo v prášku, všechny druhy
+0242	Tavený sýr, nestrouhaný ani v prášku
+0243	Plísňový sýr
+0249	Ostatní sýry, tvaroh
+02491	Cerstvy syr (vc. syrovatkoveho) nezkvaseny a tvaroh
+02499	Ostatni
+025	Vejce a žloutky čerstvé, sušené aj. konzerv., bílek vaječný
+0251	Vejce ve skořápce
+0252	Vejce, bez skořápky a vaječne žloutky
+02521	Vejce bez skorapky, vajecne zloutky, susene
+02522	Vejce, bez skorapky, vajecne zloutky, ne susene
+0253	Vaječný bílek
+03	Ryby (kromě mořských savců), korýši a měkkýši
+034	Ryby čerstvé (živé, zabité), chlazené nebo zmrazené
+0341	Ryby, čerstvé nebo chlazené (kromě filé)
+03411	Ryby, zive
+03412	Lososovite ryby, cerstve, chlazene (ne jatra ap.)
+03413	Platysovite ryby, cerstve, chlazene (ne jatra ap.)
+03414	Tunak ap., makrelovite ryby, cerstve, chlazene
+03415	Sledi, sardinky, sproty ap., cerstve, chlazene
+03416	Treska, cerstva nebo chlazena (ne jatra, jikry,mlici)
+03417	Makrela (skumbrie), cerstva nebo chlazena
+03418	Ostatni ryby, cerstve, chlazene (ne jatra, jikry ap.)
+03419	Jatra, jikry, mlici, cerstve nebo chlazene
+0342	Ryby zmrazené (kromě filé a mletého rybího masa)
+03421	Lososovite ryby, zmrazene (ne jatra, jikry, mlici)
+03422	Platysovite ryby, zmrazene (ne jatra, jikry, mlici)
+03423	Tunak ap., makrelovite ryby, zmrazene (ne jatra ap.)
+03424	Sledi, sardinky, sproty aj., zmarazene (ne jatra ap.)
+03425	Treska, zmrazena (ne jatra, jikry, mlici)
+03426	Makrela (skumbrie), zmrazena, (ne jatra, jikry,mlici)
+03427	Hejk, zmrazeny (ne jatra, jikry, mlici)
+03428	Ostatni ryby, zmrazene (ne jatra, jikry, mlici)
+03429	Jatra, jikry, mlici, zmrazene
+0344	Rybí filé, zmrazené
+0345	Rybí filé čerstvé, chlazené, ost. rybí maso i zmraz.
+03451	Rybi file a ostatni rybi maso, cerstve, chlazene
+03455	Rybi maso (ne file), zmrazene
+035	Ryby sušené, solené nebo v nálevu; ryby uzené
+0351	Ryby, sušené, solené nebo v nálevu, ne uzené
+03511	Treska (ne jako file), susena, pr. solena
+03512	File, susene, solene nebo v nalevu
+03513	Ryby susene, pr. solene, j.n.
+0352	Ryby solené, ne sušné nebo uzené a ryby v nálevu
+03521	Treska
+03522	Ancovicky
+03529	Ostatni ryby
+0353	Ryby (vč. filé), uzené
+0354	Rybí játra, jikry, mlíčí, sušené, uzené, solené ap.
+0355	Rybí moučka, vhodná pro konzumaci člověkem
+036	Korýši, měkkýši aj. vodní bezobratlí čerství ap., sušení aj.
+0361	Korýši, zmrazení
+03611	Garnaty a krevety, zmrazene
+03619	Ostatni korysi, zmrazeni
+0362	Korýši, jiní než zmrazení
+0363	Měkkýši a vodni bezobratlí, čerství, chlazení apod.
+03631	Ustrice
+03633	Sepie, chobotnice a olihen, cerstve nebo chlazene
+03635	Ostatni mekkysi a vodni bezobratli, cerstvi, chlazeni
+03637	Sepie, chobotnice a olihen, zmrazene, susene, solene
+03639	Ostatni mekkysi a vodni bezobratli, zmrazeni apod.
+037	Ryby, korýši, měkkýši ap. upravení nebo konzervovaní jn.
+0371	Ryby, upravené nebo konzervované, j.n. kaviár
+03711	Losos, cely nebo porcovany, ne vsak mlety
+03712	Sledi, sardinky, sproty ap., cele, porcovane ne mlete
+03713	Tunak ap., makrelovite ryby, cele, porcov., ne mlete
+03714	Makrely, cele nebo porcovane, ne mlete
+03715	Ostatni ryby, cele nebo porcovane, ne mlete
+03716	Ostatni ryby upravene nebo konzervovane, j.n.
+03717	Kaviar a kaviarove nahrazky pripravene z rybich jiker
+0372	Korýši, měkkýši apod., upravení, konzervovaní, j.n.
+03721	Korysi, upraveni nebo konzervovani, j.n.
+03722	Mekkysi apod., upraveni, konzervovani, j.n.
+04	Obiloviny a obilné výrobky
+041	Pšenice (vč. špaldy) a sourež nemleté
+0411	Pšenice tvrdá, nemletá
+0412	Ostatni pšenice, nemletá
+042	Rýže
+0421	Rýže neloupaná
+0422	Rýže loupaná, ne však dále upravená
+0423	Rýže polodrcená, nebo drcená, předvařená či konzerv.
+04231	Ryze (ne zlomkova)
+04232	Zlomkova ryze
+043	Ječmen nemletý
+044	Kukuřice (ne sladká) nemletá
+0441	Kukuřice sadbová
+0449	Kukuřice ostatní
+045	Obilniny nemleté (ne pšenice, ječmen, rýže, kukuřice)
+0451	Žito, nemleté
+0452	Oves, nemletý
+0453	Čirokové zrno, nemleté
+0459	Pohanka, proso, semenec a ost. obilniny, nemleté,j.n.
+04591	Proso, nemlete
+04592	Pohanka, nemleta
+04593	Semenec, nemlety
+04599	Obilniny, nemlete, j.n.
+046	Mouka pšeničná, mouka ze sourži
+0461	Mouka pšeničná nebo ze soureže
+0462	Krupky, mouka a pelety z pšenice
+047	Obilniny ostatní mleté (ne mouka pšeničná a ze sourži)
+0471	Obilná mouka (ne pšeničná nebo ze sourži)
+04711	Kukuricna mouka
+04719	Obilna mouka ostatni
+0472	Obilné krupky, mouka a pelety (ne pšeničné)
+04721	Krupky a mouka z kukurice
+04722	Kroupy a mouka z ostatnich obilnin
+04723	Pelety z obilnin
+048	Výrobky z obilnin, z mouky, ze škrobu z ovoce a zeleniny
+0481	Zrní obilnin, zpracované nebo upravené
+04811	Upravene potraviny ziskane bobtnanim ap. obilnin
+04812	Obilniny jine nez kukurice, v puvodni forme apod.
+04813	Ostatni valcovane, vlockovane zrni obilnin, ne ryze
+04814	Ostatni zpracovane zrni obilnin, ne ryze
+04815	Obilne klicky, cele, valcovane, vlockovane, mlete
+0482	Slad, připadné pražený (včetné sladové mouky)
+0483	Makarony, špagety a podobné výrobky (těstoviny)
+0484	Chléb, pečivo, koláče, suchary a ost.pekařské výrobky
+04841	Topinky, suchary, toastovy chleb apod. vyrobky
+04842	Sladke susenky, oplatky a vafle, pernik, apod.
+04849	Ostatni vyrobky z obilnin, mouky, skrobu z ovoce ap.
+0485	Směsi, těsta k přípravě pekařských výrobků 048.4
+05	Zelenina a ovoce
+054	Zelenina čerstvá, chlazená, zmrazená ap., kořeny, hlízy aj.
+0541	Brambory, čerstvé nebo chlazené
+0542	Lušténinová zelenina, sušená, loupaná, příp. dělená
+05421	Hrach
+05422	Cizrna
+05423	Boby, jine nez bob obecny a bob konsky
+05424	Cocka
+05425	Bob obecny a bob konsky
+05429	Ostatni lusteninova zelenina
+0544	Rajská jablíčka, čerstvá nebo chlazená
+0545	Ostatni čerstvá nebo chlazená zelenina
+05451	Cibule a salotka, cerstva nebo chlazena
+05452	Cesnek, por a ostatni cesnekova zelenina
+05453	Zeli ap. jedla kapust. zelenina, cerstva, chlazena
+05454	Salat a cekanka (vc. sterbaku), cerstva, chlazena
+05455	Karotka, turin, celer ap. jedle korenove zeleniny
+05456	Okurky a nakladacky, cerstve, chlazene
+05457	Lusteniny, cerstve, chlazene
+05458	Houby a lanyze, cerstve, chlazene
+05459	Ostatni zelenina, cerstva, chlazena
+0546	Zelenina zmrazená
+05461	Sladka kukurice
+05469	Ostatni zelenina a zeleninove smesi
+0547	Zelenina předbežně konzervovaná, nevhodná k konzumaci
+0548	Zeleninové výrobky, kořeny a hlízy
+05481	Maniok (kasava) cerstvy, suseny, pr. krajeny ap.
+05483	Sipatka, salep, bataty apod., cerstva ap., sago
+05484	Chmelove sisky a lupulin
+05487	Cukrovka, cerstva, susena, pr. mleta
+05489	Zeleninove produkty uzivane jako lidska potrava, j.n.
+056	Zelenina, kořeny a hlízy upravené, konzervované jn.
+0561	Zelenina sušená, celá, řezaná, krajená, lámaná
+05612	Cibule
+05613	Houby a lanyze
+05619	Ostatni zelenina, zeleninove smesi
+0564	Prášek, mouka, lupínky z brambor, ovoce, zeleniny,j.n
+05641	Prasek a mouka z brambor
+05642	Bramborove lupinky
+05645	Tapioka, jeji nahrazky ze skrobovin ve forme zrn ap.
+05646	Prasek a mouka ze susenych lustenin 054.2
+05647	Prasek, mouka ze saga, manioku, salepu, sipatky ap.
+05648	Prasek a mouka z ovoce a orechu
+0566	Zelenina upravená, konzervovaná ne octem ap., j.n.
+05661	Brambory upravene, konzervovane ne octem ap.,zmrazene
+05669	Ost. zelenina a smesi upravene, konzerv. ne octem ap.
+0567	Zelenina, upravená nebo konzervovaná, j.n.
+05671	Zelenina, ovoce, orechy ap. upravene, konzerv. octem
+05672	Rajska jablicka upravena, konzervovana ne octem ap.
+05673	Rajska jablicka upravena, konzervovana ne octem, j.n.
+05674	Houby a lanyze upravene, konzervovane ne octem ap.
+05676	Brambory upravene, konzervovane ne octem, nezmrazene
+05677	Sladka kukurice
+05679	Ost. zelenina upravena, konzerv. ne octem, nezmrazena
+057	Ovoce a ořechy (ne olejnaté) čerstvé, sušené
+0571	Pomeranče, mandarinky, klementinky čerstvé, sušené
+05711	Pomerance
+05712	Mandarinky, klementinky apod. citrusove plody
+0572	Ostatni citrusové ovoce, čerstvé nebo sušené
+05721	Citrony a limetty
+05722	Grapefruity
+05729	Citrusove ovoce, j.n., cerstve, susene
+0573	Banány
+0574	Jablka, čerstvá
+0575	Hrozny, čerstvé nebo sušené
+05751	Hrozny, cerstve
+05752	Hrozny, susene (napr. hrozinky)
+0576	Fíky, čerstvé, sušené
+0577	Jedlé ořechy, čerstvé nebo sušené
+05771	Kokosove orechy
+05772	Brazilske orechy
+05773	Akazuove orechy
+05774	Mandle
+05775	Liskove orechy, plody lisky obecne
+05776	Vlasske orechy
+05777	Kastany
+05778	Pistaciove orechy
+05779	Jedle orechy (ne smesi), cerstve, susene, j.n.
+0579	Ovoce, čerstvé nebo sušené, j.n.
+05791	Melouny (vc. vodnich melounu) a papaje, cerstve
+05792	Hrusky a kdoule, cerstve
+05793	Peckovite ovoce, j.n., cerstve
+05794	Bobuloviny, cerstve
+05795	Ananasy, cerstve, susene
+05796	Datle, cerstve, susene
+05797	Plody stromu Persea, mangovniku ap. cerstve, susene
+05798	Ostatni cerstve ovoce
+05799	Ovoce, susene, j.n. a smesi
+058	Ovoce konzervované a  výrobky ovocné (ne šťávy)
+0581	Džemy, marmelády, pasty, pyré vařené, příp. slazené
+0582	Ovoce a ořechy předběžně konzervované
+05821	Ovoce a orechy predbezne konzervovane
+05822	Kura citrus. plodu, melounu, cerstva, zmrazena, konz.
+0583	Ovoce a ořechy, nevařené nebo uvařené, zmrazené
+05831	Jahody
+05832	Maliny, boruvky, moruse, ostruziny, rybiz, angrest
+05839	Ostatni ovoce, orechy
+0589	Ovoce, ořechy aj. upravené, konzervované jinak, j.n.
+05892	Orechy, podzemnice, ost. semena, pripravena, j.n.
+05893	Ananasy
+05894	Citrusove ovoce
+05895	Merunky, tresne, hrusky
+05896	Ovoce, jedle casti rostlin, pripravene, konzerv.,j.n.
+05897	Smesi ovoce a ostatnich jedlych casti rostlin, j.n.
+059	Šťávy ovocné (vč. vinného moštu), zeleninové nekvašené
+0591	Pomerančová šťáva
+0592	Grapefruitová šťáva
+0593	Šťáva jiného jednotlivého druhu citrusového ovoce
+0599	Šťáva jednotlivého druhu ovoce, zeleniny, směsi šťáv
+05991	Ananasova stava
+05992	Stava z rajskych jablicek
+05993	Hroznova stava (vc. vinneho mostu)
+05994	Jablecna stava
+05995	Stava jineho jednotliveho druhu ovoce, zeleniny
+05996	Smesi ovocnych nebo zeleninovych stav
+06	Cukr, výrobky z cukru a med
+061	Cukr, melasa a med
+0611	Cukr surový
+06111	Trtinovy cukr, surovy
+06112	Repny cukr, surovy
+0612	Ost. řepný, třtinová cukr, chemicky čistá sacharoza
+06121	Obsahujici dodatecnou prichut nebo barvici pripravek
+06129	Zbyly ost. repny, trtinovy cukr, chem. c. sacharoza
+0615	Melasa z extrakce či rafinace cukru
+06151	Trtinova melasa
+06159	Repna a ostatni melasa z extrakce, rafinace cukru
+0616	Přírodní med
+0619	Ost. cukry, sirupy bez dodatečné příchuti, umělý med
+06191	Laktoza a laktozovy sirup
+06192	Javorovy cukr a javorovy sirup
+06193	Glokoza a sirup obsahujici mene nez 20 % fruktozy
+06194	Glokoza a sirup obsahujici 20 az 50 % fruktozy
+06195	Cista fruktoza
+06196	Ost. fruktoza a sirup obsahujici nad 50 % fruktozy
+06199	Zbyle ostatni cukry (vc. invertniho cukru)
+062	Cukrovinky
+0621	Ovoce, ořechy, kůra apod. konzervované cukrem aj.
+0622	Cukrovinky, neobsahující kakao
+06221	Zvykacka, pripadne macena v cukru
+06229	Ostatni cukrovinky neobsahujici kakao
+07	Káva, čaj, kakao, koření a výrobky z nich
+071	Káva a náhražky kávové
+0711	Káva, nepražená
+07111	Kava, neprazena, nezbavena kofeinu
+07112	Kava, neprazena, zbavena kofeinu
+0712	Káva, pražená
+0713	Výtažky, tresti a koncentráty kávy
+07131	Vytazky, tresti a koncentraty kavy
+07132	Kavove nahrazky, obsahujici kavu v jakekoli proporci
+07133	Prazena cikorka a ostatni nahrazky, vytazky, tresti
+072	Kakao
+0721	Kakaové boby
+0722	Kakaový prášek neobsahujici cukr či jiná sladidla
+0723	Kakaová pasta
+07231	Kakaova pasta nezbavena tuku (licor)
+07232	Kakaova pasta zbavena tuku (pokrutiny)
+0724	Kakaové máslo, tuk nebo olej
+0725	Kakaové skořápky, šlupky a jiný odpad
+073	Čokoláda a ost. potravinářské přípravky s kakaem jn.
+0731	Kakaová prášek obsahující cukr či jiná sladidla
+0732	Ostatní potravinářské přípravky s kakaem, nad 2 kg
+0733	Ostatní potravinářské přípravky obsahující kakao
+0739	Potravinářské přípravky obsahující kakao, j.n.
+074	Čaj pravý a cesmínový (maté)
+0741	Čaj
+07411	Zeleny caj (nefermentovany) v baleni do 3 kg
+07412	Ostatni zeleny caj (nefermentovany)
+07413	Cerny caj (fermentovany) v baleni do 3 kg
+07414	Ostatni cerny caj (fermentovany)
+0743	Čaj cesminový (maté), tresti, koncentráty čaje, maté
+07431	Mate
+07432	Vytazky, tresti, koncentraty caje, mate
+075	Koření
+0751	Pepř, nové koření, sušené, mleté, drcené
+07511	Pepr, nemlety, nedrceny
+07512	Pepr, mlety, drceny
+07513	Nove koreni, susene, mlete, drcene
+0752	Koření (kromě pepře a pimenta)
+07521	Vanilka
+07522	Skorice, kvety skoricoveho stromu, nemlete, nedrcene
+07523	Skorice, kvety skoricoveho stromu, mlete, drcene
+07524	Hrebicek (cele plody, cibulky, stonky)
+07525	Muskatovy orech, muskatovy kvet, kardamon
+07526	Semena anyzu,badianu,fenyklu,koriandru,kminu,jalovce
+07527	Zazvor (krome zazvoru konzervovaneho v cukru, sirupu)
+07528	Tymian, safran, bobkovy list
+07529	Ostatni koreni, smesi dvou nebo vice produktu sk. 075
+08	Krmiva pro zvířata (kromě nemletých obilnin)
+081	Krmiva pro zvířata (kromě nemletých obilnin)
+0811	Seno a píce, zelené, sušené
+08111	Obilna slama, plevy, neupravene, pr. rezane, drcene
+08112	Vojteska (alfalfa), moucka, pelety
+08113	Turin, mangold, krmne korenoviny, jetel apod. krmiva
+08119	Zeleninove zbytky, vedlejsi produkty jako krmivo,j.n.
+0812	Otruby a ostatní zbytky
+08123	Otruby a ostatni zbytky z luskovin
+08124	Otruby a ostatni zbytky z kukurice
+08126	Otruby a ostatni zbytky z psenice
+08129	Otruby a ostatni zbytky z ostatnich obilnin
+0813	Olejnaté pokrutiny a ostatní pevné zbytky
+08131	Olej. pokrutiny, ost. pevne zbytky ze sojovych bobu
+08132	Olejnate pokrutiny, ostatni pevne zbytky z podzemnice
+08133	Olej. pokrutiny, ost. pevne zbytky ze semen bavlniku
+08134	Olej. pokrutiny, ost. pevne zbytky z lneneho semene
+08135	Olej. pokrutiny, ost. zbytky ze slunecnicoveho semene
+08136	Olej. pokrutiny. ost. zbytky ze semen repky i jarni
+08137	Olej. pokrutiny, zbytky z kokosovych orechu, kopry
+08138	Olej. pokrutiny, zbytky z palmovych orechu, jader
+08139	Olej. pokrutiny, zbytky z ost. olej. semen, plodu
+0814	Moučky různé hrubosti a pelety z masa, z ryb, korýšů
+08141	Moucka ruzne hrubosti, pelety z masa, vnitrnosti
+08142	Moucky ruzne hrubosti a pelety z ryb
+0815	Zbytky z výroby škrobu, cukru, vaření piva, destilace
+08151	Zbytky z vyroby skrobu a podobne zbytky
+08152	Odpad z vyroby cukru, repne rizky, bagasova bunicina
+08153	Usazeniny a odpad z vareni piva a destilace alkoholu
+0819	Potravinářský odpad a upravené krmivo pro zvířata
+08194	Vinny kal, vinny kamen
+08195	Potrava pro psy, kocky, pro prodej
+08199	Pripravky uzivane jako krmivo pro zvirectvo, j.n.
+09	Různé jedlé výrobky a přípravky
+091	Margarin a pokrmové tuky
+0910	Margarin, jedlé směsi, přípravky z tuku, olejů
+09101	Margarin (vyjma tekuteho margarinu)
+09109	Ostatni jedle smesi, pripravky z tuku, oleju
+098	Výrobky, přípravky jedlé jn. (omáčky, kečup, ocet ap.)
+0981	Homogenizované potravinové přípravky
+09811	Homogenizovane pripravky z masa, vnitrnosti
+09812	Homogenizovana zelenina
+09813	Varene ovocne pripravky, homogenizovane
+09814	Homogenizovane smesi potravinovych pripravku
+0984	Omáčky, přípravky, směsi koření, hořčice, ocet
+09841	Sojova omacka
+09842	Kecup a ostatni omacky z rajcat
+09843	Horcicna moucka, pripravena horcice
+09844	Ocet, nahrazky octa ziskane z kyseliny octove
+09849	Ostatni omacky a pripravky k nim, smesi koreni
+0985	Polévky a masové vývary a přípravky k nim
+0986	Droždí, kvasinky, prášky do pečiva
+0989	Vyrobené pokrmy, j.n.
+09891	Pasta, varena, jako nadivka, kuskus, pr. upraveny
+09892	Jedle produkty zivocisneho puvodu, j.n.
+09893	Pripravky pro detskou vyzivu, j.n.
+09894	Sladovy vytazek; potravinove pripravky z mouky,skrobu
+09899	Ostatni vyrobene pokrmy
+1	Nápoje a tabák
+11	Nápoje
+111	Nápoje nealkoholické jn.
+1110	Nealkoholické nápoje, j.n.
+11101	Vody bez prisad cukru, sladidel, prichuti, led, snih
+11102	Vody s prisadou cukru, sladidel, prichuti,napoje j.n.
+112	Nápoje alkoholické
+1121	Víno z čerstvých hroznů
+11211	Vinny most
+11213	Vermut, ost. vina z cerstvych hroznu, s vytazky
+11215	Perlive vino
+11217	Vino z cerstvych hroznu (ne perlive), vinny most
+1122	Kvašené nápoje, j.n. (např. jablečný mošt, medovina)
+1123	Pivo vyrobené ze sladu
+1124	Lihoviny; likéry a ostatní alkoholické nápoje
+11241	Whisky
+11242	Lihoviny ziskane destilaci hroznoveho vina, matolin
+11244	Rum a zapadoindicky rum
+11245	Gina a jalovcova
+11249	Lihoviny a destilovane alkoholicke napoje, j.n.
+12	Tabák a tabákové výrobky
+121	Tabák nezpracovaný, odpad tabákový
+1211	Tabák, nezbavený žilek a žeber listu
+1212	Tabák zcela nebo zčásti zbavený žilek a žeber listu
+1213	Tabákový odpad
+122	Tabák zpracovaný, obsahující i náhražky tabákové
+1221	Doutníky, viržinka, kratké doutníky obsahující tabák
+1222	Cigarety
+1223	Ostatni tabákové výrobky; tabakové výtažky
+12231	Doutniky, virzinka, cigarety z tabakovych nahrazek
+12232	Tabak na koureni, pr. obsahujici tabakove nahrazky
+12239	Zpracovany tabak, j.n.
+2	Suroviny nepoživatelné, s výjimkou paliv
+21	Usně, kůže a kožešiny, surové
+211	Usně a kůže (ne kožešiny) surové
+2112	Celé usně a kůže ze skotu nebo koní, sušené, solené aj upravené
+21121	Celé usně a kůže ze skotu nebo koní, <= 16 kg, sušené, solené aj upravené
+21129	Ostatní usně a kůže ze skotu nebo koní, vč. hýždí, kruponů, břich
+2116	Kůže ovčí a jehněčí
+2117	Ovčí kůže, jehněčí kůže s vlnou, surové, př. štípané
+2119	Usně a kůže, j.n.; kožený odpad
+21191	Odpad z mizdreni aj. odpad z kuze, imitace, prach ap.
+21199	Usne a kuze, j.n., surove, pr. ostrihane, stipane
+212	Kožešiny se srstí surové (vč. hlav, ocasů, končetin ap.)
+2121	Kožky norků, surové, celé, př. bez hlavy, ocasu apod.
+2122	Surové kožky, jiné než z norků, cele
+21222	Surove kozky z jehnat, cele, pr. bez hlavy, ocasu ap.
+21225	Surove kozky z lisek, cele, pr. bez hlavy, ocasu ap.
+21229	Ostatni kozky, cele, pr. bez hlavy, ocasu, koncetin
+2123	Hlavy, ocasy, končetiny, ost. části pro kožešnictví
+22	Olejnatá semena a olejnaté plody
+222	Podzemnice, soja, semena bavlníku, slunečnice, sezamu, řepky, hořčice
+2221	Podzemnice, nepražená, jinak nepřipravená, př. drcená
+22211	Podzemnice neloupana, neprazena, jinak nepripravena
+22212	Podzemnice loupana, neprazena, jinak nepripravena
+2222	Sojové boby
+2223	Semeno bavlníku
+2224	Slunečnicové semeno
+2225	Sezamové semeno
+2226	Semeno řepky, řepky jarní, hořčice
+22261	Semeno repky a repky jarni
+22262	Semeno horcice
+223	Kopra, palmové ořechy a jádra, semeno lnu, skočce ap.
+2231	Kopra
+2234	Semeno lnu
+2237	Olejnatá semena a olejnaté plody, j.n.
+2239	Moučky olejnatých semen a olejnatých plodů
+23	Surový kaučuk (včetně syntetického a regenerovaného)
+231	Kaučuk přírodní, balata, gutaperča, guajal ap.
+2311	Přírodní kaučukový latex, případně předvulkanizovaný
+2312	Přírodní kaučuk (jiný než latex)
+23121	Uzeny kaucuk
+23125	Technicky specifikovany prirodni kaucuk (TSPK)
+23129	Ostatni prirodni kaucuk
+2313	Balata, gutaperča, guajal, cikl ap. přírodní kaučuky
+232	Kaučuk syntetický, regenerovaný, odpad, úlomky
+2321	Syntetický kaučuk
+23211	Butadien-styrenovy kaucuk (SBR), karboxylovany (XSBR)
+23212	Butadienovy kaucuk (BR)
+23213	Izobuten-isoprenovy kaucuk (IIR), halogenovany (CIIR)
+23214	Chloroprenovy (chlorobutadienovy) kaucuk (CR)
+23215	Butadien-akrylonitrilovy kaucuk (NBR)
+23216	Izoprenovy kaucuk (IR)
+23217	Nekonjugovany etylen-propylendienovy kaucuk (EPDM)
+23218	Smesi prirodnich kaucuku se syntetickym kaucukem
+23219	Ostatni synteticke kaucuky, faktis odvozeny z oleju
+2322	Renegerovaný kaučuk
+23221	Regenerovany kaucuk v primarnich formach, deskach ap.
+23222	Odpad, odrezky, ulomky netvrzeneho kaucuku, prach
+24	Korek a dřevo
+244	Korek přírodní, surový a odpad
+2440	Korek, přírodní, surový, odpad
+24402	Korek prirodni, neopracovany, v deskach, pruzich ap.
+24403	Korek, prirodni, surovy, jednoduse upraveny
+24404	Korkovy odpad, drceny, granulovany, mlety korek
+245	Dřevo palivové (ne odpad dřevní), uhlí dřevěné
+2450	Palivové dřevo (kromě dřevního odpadu), dřevěné uhlí
+24501	Palivove drevo, v kulacich, polenech, stepinach apod.
+24502	Drevene uhli (vc. plastkoveho, orechoveho)
+246	Dřevo vlákninové v třískách, odpad dřevní
+2461	Dřevo v třískách nebo částicích
+24611	Jehlicnate drevo v triskach nebo casticich
+24615	Nejehlicnate drevo v triskach nebo casticich
+2462	Piliny, dřevní odpad, př. aglomerovaný v kulacích ap.
+247	Dřevo surové nebo hrubě hraněné
+2473	Dřevo surové, hrubě hraněné, upravené barvou aj.
+2474	Dřevo jehličnatých druhů, surové, hrubě hraněné
+2475	Dřevo nejehličnatých tropických druhů, surové, hrubě hraněné
+2479	Dřevo surové, hrubě hraněné, j.n.
+248	Dřevo jednoduše opracované, pražce železniční
+2481	Železniční, tramvajové pražce (podpory) dřevěné
+24811	Neinpregnovane drevene zeleznicni, tramvajove prazce
+24819	Ostatni drevene zeleznicni, tramvajove prazce
+2482	Dřevo jehličnanů, řezané nebo štípané po délce
+2483	Dřevo jehličnatých stromů kontinuálně profilované ap.
+2484	Dřevo nejehličnatých stromů, řezané apod. nad 6 mm
+2485	Dřevo nejehličnatých stromů kontinuálně profilované
+25	Vláknina a sběrový papír
+251	Vláknina a papír sběrový
+2511	Sběrový papír a odpad papíru nebo lepenky
+25111	Sberovy papir z nebeleneho sulfatoveho aj. papiru ap.
+25112	Sberovy papir z papiru aj. z belene chem. vlakniny
+25113	Sberovy papir z papiru aj. z mechanicke vlakniny
+25119	Ostatni sberovy papir, odpad (vc. netrideneho odpadu)
+2512	Mechanicky vyrobená vláknina
+2513	Chemicky vyrobená vláknina, rozpustné druhy
+2514	Chemicky vyrobená vláknina, natronová, sulfátová
+25141	Chemicky vyrobena vlaknina z jehlicnateho dreva
+25142	Chemicky vyrobena vlaknina z nejehlicnateho dreva
+2515	Chem. vyrobená vláknina, natronová, sulfatová, bělená
+25151	Chem. vyrobena vlaknina z jehlicnatych drevin, belena
+25152	Chemicky vyrobena vlaknina z nejehl. drevin, belena
+2516	Vláknina chemicky vyrobená, sulfitová
+25161	Chemicky vyrobena vlaknina nebelena
+25162	Chem. vyrobena vlaknina polobelena, belena (nerozp.)
+2519	Polochemicky vyrobená dřevěná vláknina, vlákniny jiné
+25191	Polochemicky vyrobena drevena vlaknina
+25192	Vlaknina z jinych rostlinnych materialu
+26	Textilní vlákna (jiná než vlněné česance a ostatní česaná vlna) a jejich odpad (nezpracovaný na přízi či tkaninu)
+261	Hedvábí
+2613	Surové hedvábí (neskané)
+2614	Zámotky bource morušového a hedvábný odpad
+26141	Zamotky bource morusoveho vhodne ke smotavani
+26142	Hedvábný odpad
+263	Bavlna
+2631	Bavlna, nemykaná a nečesaná
+2632	Bavlněný lintr
+2633	Bavlněný odpad (vč. přízového odpadu,trhaný materiál)
+26331	Prizovy odpad (vc. nitoveho)
+26332	Trhany material bavlneny
+26339	Ostatni bavlneny odpad
+2634	Bavlna, mykaná, česaná
+264	Juta a ost. vlákna textilní lýková jn., koudel, odpad
+2641	Juta, ostatní textilní lýková vlákna, surová, máčená
+2649	Ostatní
+265	Vlákna textilní rostlinná (ne bavlna, juta), odpad
+2651	Len, surový, zpracovaný, ne spředený, lněná koudel
+26511	Len, surovy, maceny
+26512	Len, lamany, vochlovany aj. zpracovany, ne spredeny
+26513	Lnena koudel, odpad
+2652	Pravé konopí, surové, zpracované, koudel, odpad
+26521	Prave konopi, surove, macene
+26529	Koudel, odpad z praveho konopi
+2658	Kokosová, abaková, ramiová aj. textilní vlákna j.n., surová, zpracovaná
+266	Vlákna syntetická vhodná ke spřádání
+2665	Syntetická staplová vlákna, neupravená k spřádání
+26651	Nylonova nebo jina polyamidova vlakna
+26652	Polyesterova vlakna, nemykana, necesana
+26653	Akrylova, modakrylova vlakna, nemykana, necesana
+26659	Synteticka staplova vlakna, neupravena, j.n.
+2666	Syntetický nekonečný kabílek k výrobě syntet. vláken
+26661	Nekonecny kabilek nylonovy nebo jiny polyamidovy
+26662	Nekonecny kabilek polyesterovy
+26663	Nekonecny kabilek akrylovy nebo modakrylovy
+26669	Synteticky nekonecny kabilek, j.n.
+2667	Syntetická staplová vlákna, mykaná aj. upravená
+26671	Vlakna nylonova nebo jina polyamidova, mykana
+26672	Vlakna polyesterova, mykana
+26673	Vlakna akrylova nebo modakrylova, mykana
+26679	Synteticka staplova vlakna upravena k spradani, j.n.
+267	Vlákna umělá ostatní vhodná ke spřádání, odpad
+2671	Umělá vlákna vhodná ke spřádaní
+26711	Umela staplova vlakna, nemykana ani jinak upravena
+26712	Nekonecny kabilek umely
+26713	Umela staplova vlakna, mykana, cesana aj. upravena
+2672	Odpad z umělých vláken
+26721	Odpad ze syntetickych vlaken
+26722	Odpad z umelych vlaken
+268	Vlna, vlákna živočišná ostatní (vč. česanců vlněných)
+2681	Vlna, potní (vč. vlny prané v rounu)
+26811	Vlna, potni, strizni
+26819	Vlna, potni, ostatni
+2682	Ostatní vlna, nemykaná, nečesaná
+26821	Ostatni vlna, odmastena, nekarbonizovana
+26829	Ostatni vlna, karbonizovana
+2683	Jemná živočišná vlákna, nemykaná, nečesaná
+2685	Žíně a další hrubá živoč. vlákna, nemykaná, nečesaná
+2686	Odpad z vlny, z jemných, hrubých živočišných vláken
+26862	Rozvlaknena vlna, jemna zivocisna vlakna
+26863	Vycesky z vlny, z jemnych zivocisnych vlaken
+26869	Ostatni odpad z vlny, jemnych, hrubych zivocis.vlaken
+2687	Vlna a ost. živočišná vlákna, mykaná nebo česaná
+26871	Mykana vlna, cesana vlna ve zlomcich
+26873	Vlnene cesance, ostatni cesana vlna
+26877	Jemna, hruba zivocisna vlakna, mykana, cesana
+269	Oděvy staré a ostatní textilie staré; hadry
+2690	Staré oděvy, ostatní staré textílie, hadry
+26901	Odevy, pokryvky, puncochove zbozi apod. obnosene
+26902	Pouzite, nove hadry, stare motouzy, lana, provazy ap.
+27	Surová strojená hnojiva, jiná než v oddíle 56 a surové užitkové nerosty (mimo uhlí, ropy a drahokamů)
+272	Hnojiva strojená surová (ne hnojiva umělá)
+2721	Hnojiva, živočišná, rostlinná, chemicky zpracovaná
+2722	Dusičnan sodný
+2723	Přírodní fosfáty vápenaté; hlinito-vápenaté
+27231	Prirodni fosfaty vapenate, hlinito-vapenate, nemlete
+27232	Prirodni fosfaty vapenate, hlinito-vapenate, mlete
+273	Kámen, písek, štěrk
+2731	Stavební, pomníkový kámen, hrubě štípaný, řezaný ap.
+27311	Bridlice, pr. hrube stipana, rozrezana pilou a jinak
+27312	Mramor, travertin, ecaussin a jiny vapencovy kamen
+27313	Zula, porfyr, cedic, ost. kameny pomnikove, stavebni
+2732	Sádrovec, sádry, vápencové tavidlo, vápenec
+27322	Vapencove tavidlo, vapenec k vyrobe vapna, cementu
+27323	Sadrovec, anhydrit (bezvody sadrovec)
+27324	Paleny sadrovec a sadry, pr. zbarvene, s primesi
+2733	Písky, přírodní, všech druhů, případně zbarvené
+27331	Kremicite, kremenne pisky
+27339	Ostatni pisky
+2734	Oblázky, štěrk, štěrkopísek, struska, pazourek apod.
+274	Síra a kyz železný nepražený (pyrit)
+2741	Síra (nikoli sublimovaná, srážená, koloidní)
+2742	Pyrit, nepražený
+277	Brusiva přírodní jn. (vč. diamantů průmyslových)
+2771	Průmyslové diamanty, vytříděné, př. opracované
+27711	Neopracovane, rezane, stipane, brousene
+27719	Jinak opracovane
+2772	Přírodní brusiva, j.n.
+27721	Prach, prasek z prirodnich, syntetickych drahokamu
+27722	Smirek, přírodní korund, přírodní granát aj. přírodní brusiva, surové
+27723	Pemza
+278	Minerály surové ost. (jíl, grafit, kaolin, křemen ap.)
+2782	Jíl a ostatní žáruvzdorné materiály
+27822	Grafit, prirodni
+27823	Dolomit, pr. paleny, hrube stipany, aglomerovany ap.
+27824	Uhlicitan horecnaty, prirodni (magnezit)
+27825	Kyslicnik horecnaty, paleny, slinuty, ostatni
+27826	Kaolin, ostatni kaolinove jily, pr. palene
+27827	Bentonit
+27829	Ostatni jily, andalusit, kyanit, samot, mullit apod.
+2783	Chlorid sodný, čistý, sůl obecná, mořská voda
+2784	Osinek
+2785	Křemen, slída, živec, kazivec, kryolit, chiolit
+27851	Kremen, kremenec, pr. hrube stipany, rozrezany ap.
+27852	Slida (vc. odstepku), slidovy odpad
+27853	Zivec, leucit, nefelin, nefelinsyenit
+27854	Kazivec
+2786	Struska, stěr, okuje apod. odpad, j.n.
+27861	Granulovana struska z vyroby zeleza, oceli
+27862	Struska, okuje, ostatni odpad z vyroby zeleza, oceli
+27869	Struska, popel, j.n., vc. popela z chaluh
+2789	Minerály, surové, j.n.
+27891	Krida
+27892	Siran barnaty, uhlicitan barnaty, prirodni
+27893	Prirodni steatit, pr. hrube stipany, rezany, klouzek
+27894	Surove prirodni boritany, prirodni kyselina borita
+27895	Kremicite drte infuzoriove apod. kremicite hlinky
+27896	Zivicna bridlice, asfaltove pisky
+27897	Zivice, asfalt, prirodni, asfaltity apod.
+27898	Vermikulit, perlit, chlority, nelehcene
+27899	Mineralni latky, j.n.
+28	Rudy kovu a kovový odpad
+281	Ruda železná a koncentráty
+2814	Pražené kyzy železné, př. aglomerované
+2815	Železná ruda a koncentráty, neaglomerované
+2816	Aglomeráty železné rudy
+282	Odpad, šrot železný, ocelový, ingoty ze železa, oceli
+2821	Odpad a šrot z litiny
+2822	Odpad a šrot ze slitinové oceli
+28221	Odpad a srot ze slitinove nerezavejici oceli
+28229	Odpad a srot z jine slitinove oceli
+2823	Jiný železný odpad a šrot
+28231	Odpad a srot z pocinovaneho zeleza, oceli
+28232	Trisky, hobliny, stepiny, piliny ap., pr. paketovane
+28233	Pretavene ingoty zeleza, oceli
+28239	Zelezny odpad a srot, j.n.
+283	Rudy, koncentráty mědi, kamínek měděný, měď cementová
+2831	Rudy a koncentráty mědi
+2832	Měděný kamínek, cementová měď (sražená měď)
+284	Rudy, koncentráty niklu, kamínek niklový ap.
+2841	Rudy a koncentráty niklu
+2842	Niklový kamínek, kysličník, sintry, ost. meziprodukty
+28421	Niklovy kaminek
+28422	Kyslicnik, sintry, ostatni meziprodukty vyroby niklu
+285	Rudy, koncentráty hliníku (vč. přir. kysl. hlinitého)
+2851	Rudy a koncentráty hliníku
+2852	Alumina (přirozený kysličník hlinitý)
+286	Rudy, koncentráty uranu, thoria
+2861	Rudy a koncentráty uranu
+2862	Rudy a koncentráty thoria
+287	Rudy, koncentráty olova, zinku, cínu aj. kovů obec. jn.
+2874	Rudy a koncentráty olova
+2875	Rudy a koncentráty zinku
+2876	Rudy a koncentráty cínu
+2877	Rudy a koncentráty manganu
+2878	Rudy a koncentráty molybdenu, niobu, tantalu, titanu
+28781	Rudy a koncentraty molybdenu, prazene
+28782	Rudy a koncentraty molybdenu, ne prazene
+28783	Rudy a koncentraty titanu
+28784	Rudy a koncentraty zirkonu
+28785	Rudy a koncentraty niobu, tantalu, vanadu
+2879	Rudy a koncentráty ostatních neželezných kovů
+28791	Rudy a koncentraty chromu
+28792	Rudy a koncentraty wolframu
+28793	Rudy a koncentraty kobaltu
+28799	Rudy a koncentraty obecnych kovu, j.n.
+288	Odpad, šrot mědi, niklu, hliníku, olova, zinku, cínu
+2881	Popel, zbytky obsahujicí kovy, kovové sloučeniny,j.n.
+2882	Odpad a šrot ost. neželezných obecných kovů, j.n.
+28821	Odpad a srot medi
+28822	Odpad a srot niklu
+28823	Odpad a srot hliniku
+28824	Odpad a srot olova
+28825	Odpad a srot zinku (ne prach)
+28826	Odpad a srot cinu
+289	Rudy, koncentráty kovů drahých, odpad, šrot, smetky
+2891	Rudy a koncentráty drahých kovů
+28911	Rudy a koncentraty stribra
+28919	Rudy a koncentraty ostatnich drahych kovu
+2892	Odpad, šrot drahých kovů, kovů plátovaných drah. kovy
+28921	Odpad, srot platiny, vc. kovu platovanych platinou
+28929	Odpad, srot drahych kovu, j.n., kovu platovanych
+29	Suroviny živočišného a rostlinného původu, j.n.
+291	Suroviny živočišného původu jn. (kosti, vlasy ap.)
+2911	Kosti, rohy, slonovina, kopyta, drápy, korály,lastury
+29111	Kosti, rohove kosti, nezpracovane, zbavene tuku apod.
+29115	Koraly, lastury, sepiove kosti ap. nezpracovane
+29116	Slonovina, zelvovina, kostice, parohy, kopyta ap.
+2919	Suroviny živočišného původu, j.n.
+29191	Lidske vlasy, nezpracovane, pr. prane, odpad
+29192	Stetiny a chlupy k vyrobe stetcu a kartacu
+29193	Streva, mechyre a zaludky zvirat
+29194	Sperma skotu
+29195	Kuze aj. casti ptaku, s perim, peri, casti per, apod.
+29196	Produkty z ryb, korysu apod., mrtva zvirata, nejedla
+29198	Ambra prava, kastoreum, pizmo cibety, kabara apod.
+29199	Zivocisne produkty, j.n.
+292	Suroviny rostlinného původu jn. (bambus, semena ap.)
+2922	Šelak, přír. klovatiny, pryskyřice, klejopryskyřice
+29222	Arabska guma
+29229	Ost. prir. klovatiny, pryskyrice, klejopryskyrice ap.
+2923	Rostlinně suroviny ke splétání
+29231	Bambus
+29232	Rotan (spanelsky rakos)
+29239	Rostlinne suroviny ostatni uzivane ke spletani
+2924	Rostliny k výrobě voňavek a léčiv
+29242	Koreny zen-senu
+29249	Ostatni rostliny k vyrobe vonavek, leciv
+2925	Semena, plody a spóry, j.n., užívané k setí
+29251	Semeno cukrovky
+29252	Semena krmnych plodin (ne cukrovka)
+29253	Semena bylin pestovanych predevsim pro jejich kvet
+29254	Ostatni semena rostlin
+29259	Semena, plody, spory, j.n.
+2926	Cibulky, hlízy, oddenky, rouby, živé stromy, ap.
+29261	Cibule, hlizy, hlizovite koreny, odnoze, ap., cikorka
+29269	Ostatni zive rostliny, rizky, rouby, podhoubi hub
+2927	Řezané květy, listy
+29271	Rezane kvetiny, poupata, cerstve, susene aj. upravene
+29272	Listy, vetve, travy, mechy aj., cerstve, susene ap.
+2929	Suroviny rostlinného původu, j.n.
+29294	Rostlinne mizy, vytazky
+29295	Pektinove latky, pektinaty, pektaty
+29296	Lepidla, zahustovadla z rostlinnych produktu
+29297	Morske a jine rasy
+29299	Rostlinne suroviny, rostlinne produkty, j.n.
+3	Minerální paliva, maziva a příbuzné materiály
+32	Uhlí, koks a brikety
+321	Uhlí, případně mleté, ne však aglomerované
+3211	Antracit, př. mletý, ne aglomerovaný
+3212	Ostatní uhlí, případně mleté
+32121	Zivicne uhli, neaglomerovane
+32122	Ostatni uhli, neaglomerovane
+322	Brikety, uhlí hnědé, rašelina
+3221	Brikety, bulety apod. pevná paliva vyráběná z uhli
+3222	Hnědé uhlí, př. mleté
+32221	Hnede uhli, neaglomerovane
+32222	Hnede uhli, aglomerovane
+3223	Rašelina (vč. rašelinového humusu), př. aglomerovaná
+325	Koks, polokoks (vč. dřevěného) z uhlí, rašeliny
+33	Ropa, ropné výrobky a příbuzné materiály
+333	Oleje ropné, oleje z nerostů živičných surové (ropa)
+334	Oleje ropné, oleje z nerostů živičných (ne surové), přípravky z nich j.n.; odpadní oleje
+3346	Oleje ropné, oleje z nerostů živičných (ne surové), přípravky z nich j.n. min. 70% čisté
+3347	Odpadní oleje
+335	Produkty zbytkové z ropy jn. a příbuzné materiály
+3351	Ropná vazelína, parafínový gac, vosky ap. produkty
+33511	Ropna vazelina (petrolatum)
+33512	Parafínový gáč, mikrokrystalický vosk, zemní vosk
+3352	Mineralní dehty, produkty jejich destilace
+33521	Dehet z destilace uhli, raseliny, ost. nerostne dehty
+33522	Benzen
+33523	Toluen
+33524	Xylen
+33525	Oleje, dalsi produkty j.n. z destilace uhelneho dehtu
+3353	Smola, smolný koks z uhelného aj. nerostných dehtů
+33531	Smola z uhelneho a jinych nerostnych dehtu
+33532	Smolny koks
+3354	Ropný asfalt, ropný koks, živičné směsi, j.n.
+33541	Ropny asfalt a ostatni zbytky oleju
+33542	Ropny koks
+33543	Zivicne smesi na bazi asfaltu, zivic, dehtu, smoly
+34	Topný plyn, zemní i průmyslově vyráběný
+342	Propan a butan zkapalněný
+3421	Propan, zkapalněný
+3425	Butan, zkapalněný
+343	Plyn zemní, případně zkapalněný
+3431	Zemní plyn, zkapalněný
+3432	Zemní plyn, v plynném stavu
+344	Plyny z ropy a ostatní plynné uhlovodíky jn.
+3441	Etylen, propylen, butylen, butadien, zkapalněné
+3442	Plynné uhlovodíky, zkapalněné, j.n.
+3449	Plynné uhlovodíky, v plynném stavu, j.n.
+345	Svítiplyn z uhlí, plyn vodní, generátorový ap. plyny
+35	Elektrický proud
+351	Energie elektrická
+4	Živočišné a rostlinné oleje, tuky a vosky
+41	Živočišné oleje a tuky
+411	Oleje a tuky živočišné
+4111	Tuky a oleje z ryb nebo z mořských savců
+41111	Olej z rybich jater, jeho frakce
+41112	Tuky, oleje, jejich frakce z ryb, ne oleje z jater
+41113	Tuky, oleje, jejich frakce z morskych savcu
+4112	Vepřové sádlo, jiný tuk vepřový, drůbeží, škvařený
+4113	Živočišné oleje, tuky, j.n.
+41131	Veprovy tuk neprorostly, drubezi tuk, ne skvareny
+41132	Luj z hoveziho dobytka, ovci, koz, surovy, skvareny
+41133	Stearin ze sadla, oleje, loje, oleostearin, apod.
+41135	Tuk z vlny, tukové látky z tuku z vlny (vč. lanolinu)
+41139	Zivocisne oleje, tuky, jejich frakce, j.n.
+42	Nevysychavé rostlinné tuky a oleje, surové, rafinované nebo přerušeně destilované
+421	Tuky, oleje nevysychavé rostlinné "vláčné" surové ap.
+4211	Sojový olej, jeho frakce
+42111	Sojovy olej surovy, pr. zbaveny pryskyrice
+42119	Sojovy olej rafinovany, jeho frakce
+4212	Bavlníkový olej, jeho frakce
+42121	Bavlnikovy olej surovy, pr. po odstraneni gossypolu
+42129	Bavlnikovy olej rafinovany, jeho frakce
+4213	Podzemnicový olej, jeho frakce
+42131	Podzemnicovy olej surovy
+42139	Podzemnicovy olej rafinovany, jeho frakce
+4214	Olivový olej, ostatní oleje získávané z oliv
+42141	Olivovy olej z prvniho lisovani za studena
+42142	Ostatni olivovy olej, jeho frakce
+42149	Oleje, jejich frakce ziskane z oliv, smesi oleju
+4215	Slunečnicový, saflorový (světlicový) olej, frakce
+42151	Slunecnicovy, saflorovy olej surovy
+42159	Slunecnicovy, saflorovy olej rafinovany, jeho frakce
+4216	Kukuřičný olej, jeho frakce
+42161	Kukuricny olej surovy
+42169	Kukuricny olej rafinovany, jeho frakce
+4217	Řepkový, kolzový, hořčičný olej, jejich frakce
+42171	Repkovy, kolzovy, horcicny olej surovy
+42179	Repkovy, kolzovy, horcicny olej rafinovany, frakce
+4218	Sezamový olej, jeho frakce
+422	Tuky, oleje nevysychavé rostlin. surové (ne "vláčné")
+4221	Lněný olej, jeho frakce
+42211	Lneny olej surovy
+42219	Lneny olej rafinovany, frakce
+4222	Palmový olej, jeho frakce
+42221	Palmovy olej surovy
+42229	Palmovy olej rafinovany, frakce
+4223	Kokosový olej (z kopry), jeho frakce
+42231	Kokosovy olej surovy
+42239	Kokosovy olej rafinovany, frakce
+4224	Palmojádrový, babassový olej, jejich frakce
+42241	Palmojadrovy, babassovy olej surovy
+42249	Palmojadrovy, babassovy rafinovany olej, jeho frakce
+4225	Ricinový olej, jeho frakce
+4229	Ostatní nevysychavé rostlinné tuky, surové, rafinované apod., jiné než "vláčné"
+43	Živočišné a rostlinné tuky a oleje, zušlechtěné; vosky živočišného nebo rostlinného původu; nepoživatelné směsi nebo výrobky z živočišných a rostlinných olejů, j.n.
+431	Tuky, oleje rostlinné a živočišné zušlechtěné, vosky
+4311	Tuky a oleje, vařené, oxidované, dehydrované, sířené
+4312	Živočišné, rostlinné tuky, oleje, frakce, neupravené
+43121	Zivocisne tuky, oleje, jejich frakce
+43122	Rostlinne tuky, oleje, jejich frakce
+4313	Degras, zbytky z úpravy mastných látek, živočišných nebo rostlinných vosků
+4314	Vosky živočišného, rostlinného původu
+43141	Rostlinne vosky (ne triglyceridy), pr. rafinovane ap.
+43142	Vceli vosk, vosky, spermaceta hmyzu, pr. rafinovane
+5	Chemikálie a příbuzné výrobky, j.n.
+51	Organické chemikálie
+511	Uhlovodíky jn. a jejich deriváty
+5111	Acyklické uhlovodíky
+51111	Etylen
+51112	Propen (propylen)
+51113	Butyleny, butadieny a methylbutadieny
+51114	Nasycene acyklicke uhlovodiky
+51119	Acyklicke uhlovodiky, j.n.
+5112	Cyklické uhlovodíky
+51121	Cyklohexan
+51122	Benzen, cisty
+51123	Toluen, cisty
+51124	Xyleny, ciste
+51125	Styren
+51126	Etylbenzen
+51127	Kumen
+51129	Cyklicke uhlovodiky, j.n.
+5113	Halogenové deriváty uhlovodíku
+51131	Vinylchlorid (chloretylen)
+51132	Trichloretylen
+51133	Tetrachloretylen (perchloretylen)
+51134	Ost. nenasycene chlorovane derivaty acykl. uhlovodiku
+51135	1,2-dichloretan (etylendischlorid)
+51136	Ost. nasycene chlorovane derivaty acyklic. uhlovodiku
+51137	Derivaty acykl. uhlovodiku fluorovane, bromovane ap.
+51138	Halogenove derivaty acyklickych uhlovodiku
+51139	Halogenovane derivaty uhlovodiku, j.n.
+5114	Deriváty uhlovodíku sulfonované, nitrozované apod.
+512	Alkoholy, fenoly, fenolalkoholy a jejich deriváty
+5121	Acyklické jednosytné alkoholy
+51211	Metanol (metylalkohol)
+51212	Propylalkohol, izopropylalkohol (propanoly)
+51213	Butanoly
+51214	Oktanol (oktylalkohol), jeho izomery
+51215	Nedenaturovaný etylalkohol o jakosti 80 % nebo silnější
+51216	Etylalkohol a ostatní lihy, denaturované, jakékoli jakosti
+51217	Mastné alkoholy, průmyslové
+51218	Monokarboxylové mastné kyseliny, průmyslové; olejové kyseliny z rafinace
+51219	Ostatní jenosytné alkoholy
+5122	Ostatní acyklické alkoholy
+51221	Etylenglykol (etanediol)
+51222	Glycerol (glycerin)
+51223	Pentaerytriol
+51224	Mannit
+51225	D-glucit (sorbit)
+51229	Ostatni acyklicke alkoholy
+5123	Cyklické alkoholy a jejich deriváty
+51231	Cyklanove, cyklenove, cykloterpenove alkoholy
+51235	Aromaticke cyklicke alkoholy a jejich derivaty
+5124	Fenoly a fenolalkoholy a jejich deriváty
+51241	Fenol (hydroxybenzen), cisty, jeho soli
+51242	Kresoly, j.n., jejich soli
+51243	Ostatni fenoly a fenolalkoholy
+51244	Halogenove, sulfonovane aj. derivaty fenolu ap.
+513	Kyseliny karbonové, jejich anhydridy, halogenidy ap.
+5137	Kyseliny monokarbonové a jejich deriváty
+51371	Kyselina octova, jeji soli
+51372	Estery kyseliny octove
+51373	Kyselina metakrylova, jeji soli, estery
+51374	Kyselina mravenci, jeji soli, estery
+51375	Kyseliny maselne, valerove, jejich soli, estery
+51376	Kyselina palmitova, stearova, jejich soli, estery
+51377	Nasycene acyklicke monokarbonove kyseliny, j.n., ap.
+51378	Kyselina olejova, linolova, linolenova, soli, estery
+51379	Ost. nenasycene acyklicke monokarbonove kyseliny, ap.
+5138	Polykarbonové kyseliny a jejich deriváty
+51381	Anhydrid kyseliny maleinove
+51382	Anhydrid kyseliny ftalove
+51383	Dioktylortoftalaty
+51384	Dimetyltereftalat
+51385	Cyklanove, cyklenove aj. polykarbonove kyseliny, ap.
+51389	Kyseliny polykarbonove, j.n., derivaty, anhydridy ap.
+5139	Kyseliny karbonové s kyslíkovou funkční skupinou
+51391	Kyselina mlecna, vinna, citronova, soli, estery
+51392	Ost. karbonove kyseliny s alkoholovou funkci skupinou
+51393	Salicylova kyselina, jeji soli, estery
+51394	Ost. karbonove kyseliny s fenolovou funkcni skupinou
+51395	Karbon. kyseliny s aldehydovou, ketonovou funkcni sk.
+51396	Karbonove kyseliny s kyslikovou funkcni skupinou,j.n.
+514	Sloučeniny s dusíkovou funkční skupinou
+5145	Sloučeniny s aminovou funkční skupinou
+51451	Acyklicke jednoduche aminoslouceniny, derivaty, soli
+51452	Acyklicke slozite aminoslouceniny, derivaty, soli
+51453	Cyklanove, cyklenove ap. aminoslouceniny, derivaty
+51454	Aromaticke jednoduche aminoslouceniny, derivaty, soli
+51455	Aromaticke slozite aminoslouceniny, derivaty, soli
+5146	Aminosloučeniny s kyslíkovou funkční skupinou
+51461	Aminoalkoholy, etery, estery, soli
+51462	Aminonaftoly, ost. aminofenoly, etery, estery, soli
+51463	Aminoaldehydy, aminoketony, aminochinany, soli
+51464	Lyzin, estery, soli, kyselina glutamova, soli
+51465	Aminokyseliny, estery, j.n., soli
+51467	Aminoalkoholfenoly ap. s kyslikovou funkcni skupinou
+5147	Sloučeniny s karboxyamidovou, amidovou funkční skup.
+51471	Acyklicke amidy, derivaty, soli
+51473	Ureiny, derivaty, soli
+51479	Ostatni cyklicke amidy, derivaty, soli
+5148	Ostatní sloučeniny s dusíkovou funkční skupinou
+51481	Kvarterni amonne soli, hydroxidy, fosfoaminolipidy
+51482	Slouceniny s karboxyimidovou, aminovou funkcni skup.
+51483	Akrylonitril
+51484	Ostatni slouceniny s nitrilovou funkcni skupinou
+51485	Diazoslouceniny, azoslouceniny, azoxyslouceniny
+51486	Organicke derivaty hydrazinu, hydroxylaminu
+51489	Slouceniny s jinymi dusikatymi funkcnimi skupinami
+515	Sloučeniny organicko-anorganické, heterocyklické
+5154	Organické sloučeniny síry
+51542	Thiokarbonaty, dithiokarbonaty
+51543	Thiurammonosulfidy, thiuramdisulfidy apod.
+51544	Methionin
+51549	Ostatni organicke slouceniny siry
+5155	Ostatní organicko-anorganicke sloučeniny
+5156	Laktamy; heterocyklické sloučeniny
+51561	Laktamy
+51562	Kumarin, metylkumariny, etylkumariny
+51563	Ostatni laktony
+51569	Heterocyklicke slouceniny s kyslikovym heteroatomem
+5157	Ostatní heterocyklické sloučeniny; kyseliny nukleové
+51571	Heterocyklicke slouceniny s dusikovym heteroatomem
+51572	Hydantoin, derivaty
+51573	Ostatni heterocylicke slouceniny
+51574	Slouceniny s dusik. heteroatomem, s pyridin. kruhem
+51575	Slouceniny s dusik. heteroatomem s chinolinovym syst.
+51576	Slouceniny s dusik. heteroatomem, s pyrimidin. kruhem
+51577	Ost. heterocyklicke slouceniny s dusikovym heteroat.
+51578	Heterocykl. slouceniny s fenotiazovym kruhovym syst.
+51579	Heterocyklicke slouceniny, j.n.
+5158	Sulfonamidy
+516	Chemikálie organické ostatní
+5161	Etery, alkoholperoxidy, eterperoxidy, epoxidy apod.
+51612	Acetaly, polyacetaly, derivaty
+51613	Oxiran (etylenoxid)
+51614	Metyloxiran (propylenoxid)
+51615	Ostatni epoxidy, epoxyalkoholy, epoxyfenoly apod.
+51616	Acyklicke, cyklanove, cyklenove, aromaticke aj. etery
+51617	Eteralkoholy, eterfenoly, eteralkoholfenoly apod.
+5162	Sloučeniny s aldehydovou, ketonovou aj. funkční skup.
+51621	Acyklicke aldehydy bez dalsi kyslikove funkcni sk.
+51622	Ost. aldehydy, cyklicke polymery, paraformaldehyd
+51623	Aceton
+51624	Butanon (etylmetylketon)
+51625	Ost. acyklicke ketony bez dalsi kyslikove funkcni sk.
+51626	Halogenovane aj. derivaty produktu 516.21, 516.22
+51627	Kafr
+51628	Ostatni cyklanove, cyklenove, cykloterpenove ketony
+51629	Aromaticke ketony, chinany, derivaty
+5163	Estery, anorganické kyseliny, soli, deriváty
+51631	Fosforecne estery, soli, halogenovane aj. derivaty
+51639	Estery, jine anorganicke kyseliny, soli, derivaty
+5169	Organické chemikálie, j.n.
+51691	Enzymy, pripravene enzymy, j.n.
+51692	Cukry chemicky ciste, etery, estery cukru, soli
+51699	Ostatni organicke slouceniny
+52	Anorganické chemikálie
+522	Prvky, kysličníky anorganické chemické, soli halové
+5221	Uhlík (vč. sazí), j.n.
+5222	Ostatní chemické prvky
+52221	Vodik, vzacne plyny, dusik, kyslik
+52222	Selen, telur, fosfor, arsen, bor
+52223	Kremik
+52224	Chlor
+52225	Fluor, brom, jod
+52226	Sira, sublimovana, precipitovana, koloidni sira
+52227	Rtut
+52228	Sodik, ostatni alkalicke kovy
+52229	Vapnik, stroncium, baryum, skandium, yttrium apod.
+5223	Anorg. kyseliny a anorg. sloučeniny kysličníku nekovů
+52231	Chlorovodik, kyselina chlorsulfonova
+52232	Kyselina sirova, oleum
+52233	Kyselina dusicna, kyseliny sulfodusicne
+52234	Kyslicnik fosforecny; kyselina fosforecna
+52235	Kyslicnik boru, kyselina borita
+52236	Ostatni anorganicke kyseliny
+52237	Kyslicnik kremicity
+52239	Ostatni anorganicke slouceniny kyslicniku nekovu
+5224	Halové nebo sirné sloučeniny nekovů
+52241	Halogenidy, halogenid-oxidy nekovu
+52242	Sirniky nekovu, komercni sulfid fosfority
+5225	Kysličníky zinku, chromu, manganu, železa, olova ap.
+52251	Kyslicnik zinecnaty, peroxid zinecnaty
+52252	Kyslicniky, hydroxidy chromu
+52253	Kyslicnik manganu
+52254	Kyslicniky, hydroxidy zeleza, barevne hlinky nad 70 %
+52255	Kyslicniky, hydroxidy kobaltu
+52256	Kyslicniky titanu
+52257	Kyslicniky olova, surik cerveny, oranzovy
+5226	Ost.anorg. zásady a kysličníky, hydroxidy a peroxidy
+52261	Cpavek, bezvody, ve vodnem roztoku
+52262	Hydroxid sodny (kausticka soda), v tuhem stavu
+52263	Hydroxid sodny ve vodnem roztoku
+52264	Hydroxid draselny, peroxidy sodiku, drasliku
+52265	Oxid, hydroxid, peroxid stroncia, barya
+52266	Hydroxid hlinity
+52267	Umely korund
+52268	Hydrazin, hydroxylamin, organicke soli
+52269	Ostatni anorganicke zasady, ost. kyslicniky ap. kovu
+523	Soli kovové, peroxosoli kyselin anorganických
+5231	Fluoridy, fluorohlinitany, ost. komplexní soli flóru
+5232	Kysličníky chlóru, bromu, jódu, bromidy, jodidy ap.
+52321	Chlorid amonny
+52322	Chlorid vapenaty
+52329	Ost. kyslicniky chloru, bromu, jodu, bromidy, jodidy
+5233	Chlornany, bromnany, jodičnany, bromaty, chloritany
+52331	Chlornany, chloritany, bromnany
+52332	Chlorecnan sodny
+52339	Ostatni chloraty, bromaty, jodicnany, perbromaty ap.
+5234	Sirníky, polysulfidy, hydrosiricitany, siřičitany atd
+52341	Sirnik sodny
+52342	Ostatni sirniky, polysulfidy
+52343	Hydrosiricitany, sulfoxylaty
+52344	Siricitany, sirnatany
+52345	Siran sodny
+52349	Ostatni sirany
+5235	Dusitany, dusičnany
+52351	Dusitany
+52352	Dusicnan draselny
+52359	Ostatni dusicnany
+5236	Fosforitany, fosfornany, fosforečnany a polyfosfáty
+52361	Fosforitany, fosfornany
+52363	Ostatni fosforecnany
+52364	Trifosforecnan sodny
+52365	Ostatni polyfosfaty
+5237	Uhličitany, perkarbonáty
+52372	Uhlicitan sodny neutralni
+52373	Bikarbonit sodny
+52374	Uhlicitan draselny
+52379	Ostatni uhlicitany
+5238	Ost. metalické soli, peroxysoli anorganických kyselin
+52381	Kyanidy, kyanidoxidy a komplexni kyanidy
+52383	Kremicitany, technicke kremicitany alkalickych kovu
+52384	Boritany, perboritany
+52389	Soli, peroxysoli anorganickych kyselin, j.n.
+524	Chemikálie anorganické ost., sloučeniny kovů drahých
+5243	Soli kyselin kovů; sloučeniny drahých kovů
+52431	Soli oxometalickych, peroxometalickych kyselin
+52432	Koloidni drahe kovy, amalgamy drahych kovu aj.
+5249	Anorganické chemické látky, j.n.
+52491	Peroxid vodiku, vc. tuheho s mocovinou
+52492	Fosfidy, pr. chemicky definovane (ne ferofosfor)
+52493	Karbid vapniku, pr. chemicky definovany
+52494	Karbidy (ne karbid vapniku), pr. chemicky definovane
+52495	Hydridy, nitridy, azidy, silicidy, boridy
+52496	Sloučeniny rtuti, anorganické i organické, kromě amalgamů
+52499	Anorgan. slouceniny, j.n., zkapalneny, stlac. vzduch
+525	Materiály radioaktivní a příbuzné
+5251	Radioaktivní chemické prvky, izotopy, sloučeniny
+52511	Prirodni uran, slouceniny, slitiny, disperze apod.
+52513	Uran obohaceny o U235, plutonium, slouceniny, slitiny
+52515	Uran ochuzeny o U235, thorium, slouceniny, slitiny
+52517	Vyhorele palivove clanky (kazety) jadernych reaktoru
+52519	Radioaktivni prvky, izotopy, slouceniny, j.n.
+5259	Neaktivní izotopy, sloučeniny
+52591	Izotopy (ne 525.1), slouceniny, pr. chem. definovane
+52595	Anorganicke, organicke slouceniny kovu vzacnych zemin
+53	Barviva, třisloviny a pigmenty
+531	Barviva organická syntetická, mořidla barvící
+5311	Syntetická organická barviva
+53111	Disperzni barviva, vyrobky na nich zalozene
+53112	Kysela, moridlova barviva, vyrobky na nich zalozene
+53113	Zasadita barviva, vyrobky na nich zalozene
+53114	Prima barviva, vyrobky na nich zalozene
+53115	Kypova barviva, vyrobky na nich zalozene
+53116	Reaktivni barviva, vyrobky na nich zalozene
+53117	Pigmenty, vyrobky na nich zalozene
+53119	Ostatni synteticka organicka barviva
+5312	Zjasňující prostředky, luminofory, barvící mořidla
+53121	Zjasnujici prostredky, luminofory, pr. chem. definov.
+53122	Prirodni moridla, vyrobky na nich zalozene
+532	Výtažky barvířské a tříslicí, třísloviny syntetické
+5322	Tříslící výtažky rostlinného původu; taniny
+53221	Trislici vytazky rostlinneho puvodu, taniny, soli ap.
+53222	Barviva rostlinneho, zivocisneho puvodu, vyrobky
+5323	Třísloviny, tříslící, enzymatické přípravky
+53231	Synteticke organicke trislici latky
+53232	Anorganicke trislici latky, enzymaticke pripravky
+533	Pigmenty, hmoty, laky nátěrové a příbuzné materiály
+5331	Ost. barviva; anorg. produkty jako luminofory apod.
+53311	Pigmenty, vyrobky na bazi kyslicniku titaniciteho
+53312	Pigmenty, vyrobky na bazi sloucenin chromu
+53314	Ultramarin, vyrobky na jeho bazi
+53315	Lithopon, ost. pigmenty, vyr. na bazi sirniku zinku
+53317	Barviva, ostatni vyrobky, j.n.
+53318	Anorganicke produkty uzivane jako luminofory
+5332	Tisková barva
+53321	Tiskova barva cerna
+53329	Tiskova barva jina
+5334	Nátěrové hmoty a laky
+53341	Naterove hmoty, laky na bazi polymeru
+53342	Naterove hmoty, laky na bazi polymeru
+53343	Ostatni naterove hmoty, laky, vodni pigmenty
+53344	Pigmenty, disperze v nevodnem mediu,folie obtiskovaci
+5335	Barvicí přípravky v průmyslu skla a keramiky
+53351	Hotove pigmenty, kalidla, barvy, vypalovaci emaily ap
+53352	Barvy pro umelecke, skolni, reklamni ucely, zabavu ap
+53353	Hotove sikativy
+53354	Tmel sklarsky, pryskyricny, tesnici, mastixy apod.
+53355	Organicka kompozitni rozpoustedla, redidla, j.n.
+54	Léčiva a farmaceutické výrobky
+541	Léčiva, výr. farmaceut. (ne antibiotika, hormony ap.)
+5411	Provitaminy a vitaminy
+54112	Vitaminy A, jejich derivaty, nemichane
+54113	Vitaminy B, jejich derivaty, nemichane
+54114	Vitamin C, jeho derivaty, nemichane
+54115	Vitamin E, jeho derivaty, nemichane
+54116	Ostatni vitaminy, jejich derivaty, nemichane
+54117	Vzajemne kombinace provitaminu a vitaminu
+5413	Antibiotika, nemajicí charakter léčiv
+54131	Peniciliny, jejich derivaty
+54132	Streptomyciny, jejich derivaty, soli
+54133	Tetracykliny, jejich derivaty, soli
+54139	Ostatni antibiotika
+5414	Rostlinné alkaloidy, jejich soli, etery, estery apod.
+54141	Alkaloidy opia, jejich derivaty, soli
+54142	Alkaloidy chinovniku, jejich derivaty, soli
+54143	Kofein, jeho soli
+54144	Efedriny, jejich soli
+54145	Theofylin, aminofylin, jejich derivaty, soli
+54146	Alkaloidy zitneho namelu, jejich derivaty, soli
+54149	Ostatni rostlinne alkaloidy, soli, derivaty j.n.
+5415	Hormony, deriváty a steroidy užívané jako hormony
+54153	Steroidní hormony, jejich deriváty a strukturní analoga
+54154	Polypeptidové, proteinové a glykoproteinové hormony, jejich deriváty a strukturní analoga
+54155	Katecholamenové hormony, jejich deriváty a strukturní analoga
+54156	Prostaglandiny, tromboxany a leukotrieny, jejich deriváty a strukturní analoga
+54159	Ostatní hormony, deriváty, analoga, ostatní steroidy užívané jako hormony
+5416	Glykosidy; léčebné žlázy nebo jiné orgány
+54161	Glykosidy, soli, etery, estery, ostatni derivaty
+54162	Lecebne zlazy, ost. organy pro organoterapeut. ucely
+54163	Antisera, ostatni slozky krve, vakciny
+54164	Krev lidska, zvireci, toxiny, mikroorganismy
+5419	Farmaceutické výrobky, jiné než léčiva
+54191	Vata, gaza, obvazove ap. materialy, j.n.
+54192	Cinidla na zjistovani krevni skupiny
+54193	Zakalujici pripravky k rtg vysetreni, diagnost. cidla
+54199	Ostatni farmaceuticke vyrobky
+542	Léčiva (vč. léčiv veterinárních)
+5421	Léčiva obsahující antibiotika, deriváty z nich
+54211	Leciva obsahujici peniciliny, streptomyciny, derivaty
+54212	Leciva obsahujici ostatni antibiotika
+54213	Leciva obsahujici peniciliny, streptomyciny v davkach
+54219	Leciva obsahujici ostatni antibiotika v davkach
+5422	Léčiva obsahující hormony a deriváty, ne antibiotika
+54221	Leciva obsahujici inzulin, ne v davkach
+54222	Leciva obsahujici ost. hormony, theofylin, aminofylin
+54223	Leciva obsahujici inzulin, v davkach
+54224	Leciva obsahujici adrenokortihormony, v davkach
+54229	Leciva obsahujici ostatni hormony, derivaty, steroidy
+5423	Léčiva obsahující alkaloidy, deriváty z nich
+54231	Leciva obsahujici alkaloidy, ne v merenych davkach
+54232	Leciva obsahujici alkaloidy, v merenych davkach
+5429	Léčiva, j.n.
+54291	Leciva, j.n., ne v davkach
+54292	Leciva obsahujici vitaminy, provitaminy, v davkach
+54293	Leciva, j.n., v davkach
+55	Silice a vonné látky; toaletní, leštící a čistící přípravky
+551	Silice, parfémy a látky chuťové aromatické
+5513	Silice, surové, čisté, termosety, koncentráty silic
+55131	Silice citrusoveho ovoce
+55132	Ostatni silice
+55133	Termosety - vonne latky
+55135	Koncentraty silic v tucich, olejich, voscich apod.
+5514	Směsi vonných látek
+55141	Smesi vonnych latek uziv. v prumyslu potravin, napoju
+55149	Smesi vonnych latek ostatni
+553	Voňavky, přípravky kosmetické a toaletní (bez mýdel)
+5531	Voňavky a toaletní vody
+5532	Přípravky pro pěči o pleť (bez léčebných)
+5533	Přípravky pro péči o vlasy
+5534	Přípravky pro ústní, zubní hygienu
+5535	Holicí přípravky, kosmetické a toaletní potřeby
+55351	Pripravky uzivane pred holenim, pri holeni a po nem
+55352	Osobni deodoranty, antiperspiranty
+55353	Vonne koupelove soli, dalsi koupelove pripravky
+55354	Prostredky k navoneni, deodorizaci mistnosti
+55359	Depilatory, pripravky toaletni, kosmeticke ap. j.n.
+554	Mýdla, přípravky čistící a leštící
+5541	Mýdlo, papír, vata, plsť ap. napuštěné mýdlem
+55411	Mydlo, papir, vata aj. napustene, k toaletnim ucelum
+55415	Mydlo, papir, vata aj. napustene, k jinym ucelum
+55419	Mydlo v jine forme
+5542	Organické detergenty s aktivním povrchem
+55421	Organicke detergenty s aktivnim povrchem
+55422	Praci, cistici prostredky, j.n., pro maloobchod
+55423	Praci, cistici prostredky, j.n., ne pro maloobchod
+5543	Lešticí prostředky, nezahrnující položky 598.3
+55431	Lestidla, kremy ap. vyrobky na osetrovani obuvi, kuze
+55432	Lestidla, kremy ap. na dreveny nabytek, podlahy apod.
+55433	Lestidla ap. vyrobky na osetrovani vozu, ne na kov
+55434	Pasty, prasky na drhnuti a ostatni podobne vyrobky
+55435	Lestidla, kremy ap. vyrobky na osetrovani skla, kovu
+56	Hnojiva umělá (jiná než ze skupiny 272)
+562	Hnojiva umělá (ne hnojiva strojená surová)
+5621	Hnojiva dusíkatá, mineralní nebo chemická
+56211	Dusicnan amonny, pr. ve vodnem roztoku
+56212	Kombinovane soli a smesi siranu, dusicnanu amonneho
+56213	Siran amonny
+56214	Kombinovane soli smesi dusicnanu vapenateho, amonneho
+56216	Mocovina, pr. ve vodnem roztoku
+56217	Smesi mocoviny a dusicnanu amonneho v roztoku
+56219	Ostatni dusikata hnojiva (vc. smesi, j.n.)
+5622	Hnojiva fosforečná
+56222	Superfosfaty
+56229	Hnojiva fosforecna, mineralni nebo chemicka, j.n.
+5623	Hnojiva draselná, minerální nebo chemická
+56231	Chlorid draselny
+56232	Siran draselny
+56239	Hnojiva draselna, mineralni, chemicka, j.n.
+5629	Umělá hnojiva, j.n.
+56291	Umela hnojiva, j.n.,obsahujici dusik, fosfor, draslik
+56292	Mineralni, chemicka hnojiva obsahujici fosfor,draslik
+56293	Stredni fosforecnan amonny (diamoniumfosfat)
+56294	Kysely fosforecnan amonny, smesi
+56295	Umela hnojiva, j.n., obsahujici dusik, fosfor
+56296	Vyrobky 272.1, 272.2, 272.4, 562 v baleni do 10 kg
+56299	Ostatni
+57	Plasty v prvotní formě
+571	Polymery etylénu v prvotní formě
+5711	Polyetylen
+57111	Polyetylen o specificke hmotnosti mene nez 0,94
+57112	Polyetylen o specificke hmotnosti 0,94 a vice
+5712	Kopolymery etylenvinylacetátu
+5719	Ostatní polymery etylénu, v prvotní formě
+572	Polymery styrénu v prvotní formě
+5721	Polystyrén
+57211	Polystyren roztazitelny
+57219	Polystyren jiny
+5729	Ostatní polyméry styrénu
+57291	Kopolymery styrenakrylonitrilu (san)
+57292	Kopolymery akrylonitrilbutadienstyrenu (abs)
+57299	Ostatni polymery styrenu
+573	Polymery vinylchloridu aj. olefínů halogenovaných
+5731	Polyvinylchlorid
+57311	Polyvinylchlorid, nesmichany s jinymi substancemi
+57312	Polyvinylchlorid, jiny, nezmekceny
+57313	Polyvinylchlorid, jiny, zmekceny
+5739	Ost. kopolyméry vinychloridu, polyméry halog. olefinu
+57391	Kopolymery vinylchloridu-vinylacetatu
+57392	Ostatni kopolymery vinylchloridu
+57393	Polymery vinyldenchloridu
+57394	Fluorpolymery
+57399	Ost. polymery vinylchloridu, halogenovanych olefinu
+574	Polyacetáty, polyetery a pryskyřice epoxidové
+5741	Polyacetáty, ostatní polyetery
+57411	Polyacetaty
+57419	Ostatni polyetery
+5742	Epoxidové pryskyřice
+5743	Polykarbonáty, alkydové pryskyřice a ost. polyestery
+57431	Polykarbonaty
+57432	Alkydove pryskyrice
+57433	Polyetylentereftalat
+57434	Ostatni polyestery, nenasycene
+57439	Polyestery v prvotni forme, j.n.
+575	Hmoty plastické ostatní v prvotních formách
+5751	Polymery propylenu nebo ostatních olefinu
+57511	Polypropylen
+57512	Polyisobutylen
+57513	Kopolymery propylenu
+57519	Ostatni olefiny
+5752	Akrylové polymery
+57521	Polymetylmetakrylat
+57529	Ostatni akrylove polymery
+5753	Polyamidy
+57531	Polyamid-6, -11, -12, -6,6, -6,9, -6,10, -6,12
+57539	Ostatni polyamidy
+5754	Aminopryskyřice, fenolové pryskyřice, polyuretany
+57541	Mocovinove pryskyrice, thiomocovinova pryskyrice
+57542	Melaminove pryskyrice
+57543	Ostatni pryskyrice
+57544	Fenolove pryskyrice
+57545	Polyuretany
+5755	Celulóza a její chemické deriváty, j.n.
+57551	Acetatceluloza, nemekcena
+57552	Acetatceluloza, mekcena
+57553	Nitraty celulozy (vc. kolodii)
+57554	Etery celulozy
+57559	Ostatni celuloza a derivaty
+5759	Plastické hmoty, j.n.
+57591	Polymery vinylacetatu
+57592	Polymery ostatnich vinylesteru, ost. polymery vinylu
+57593	Silikony v prvotnich formach
+57594	Kyselina algova, jeji soli, estery
+57595	Prirodni polymery, modifikovane prir. polymery, j.n.
+57596	Pryskyrice ropne, kumaronoindenove, polyterpeny, ap.
+57597	Iontomenice na bazi polymeru etylenu, styrenu, PVC aj
+579	Odpad, zbytky a šrot z hmot plastických
+5791	Odpad, zbytky, šrot polymerů etylénu
+5792	Odpad, zbytky, šrot polymerů styrénu
+5793	Odpad, zbytky, šrot polyméru vinylchloridu
+5799	Odpad, zbytky, šrot z plastických hmot ostatní
+58	Plastické hmoty v neprvotních formách
+581	Trubky, potrubí a hadice z hmot plastických
+5811	Umělá střeva
+5812	Trubky, potrubí, hadice, tvrdé
+5813	Pružné trubky ap. s min. tlakem prasknutí 27,6 MPa
+5814	Ost., nezpevněné, kombinované s materiály, ne fitinky
+5815	Trubky, potrubí, hadice, nezpevněné, nekombinované
+5816	Ostatní trubky, potrubí, hadice
+5817	Fitinky pro trubky, hadice aj. z plastických hmot
+582	Pláty, desky, blány, fólie a pásy z hmot plastických
+5821	Pláty, desky, fólie aj. samolepící z plastických hmot
+58211	Platy, desky aj. z plast. hmot, role, sirka do 20 cm
+58219	Platy, desky aj. samolepici z plast. hmot, ostatni
+5822	Ost.pláty,desky,fólie z plastických hmot,nelehčených
+58221	Ost. platy, desky, blany, folie z polymeru etylenu
+58222	Ost. platy, desky, blany, folie z polymeru propylenu
+58223	Ost. platy, desky, blany, folie z polymeru styrenu
+58224	Ost. platy, desky, blany ap. z polymeru vinylchloridu
+58225	Ost. platy, desky, blany, folie z akrylovych polymeru
+58226	Ost. desky aj. z polykarbonatu, alkalyd. pryskyrice
+58228	Ost. platy, desky, blany z celulozy a derivatu, j.n.
+58229	Ost. platy, desky, blany z ostatnich plastickych hmot
+5829	Ost.pláty,desky, fólie, pásy z plast.hmot, lehčených
+58291	Ost. platy, blany, pasy z plastickych hmot lehcenych
+58299	Ost. platy, pasy, blany z ostatnich plastickych hmot
+583	Monofily nad 1 mm, tyče, pruty, profily plastové
+5831	Monofily, tyče, pruty, profily z polyméru etylénu
+5832	Monofily, tyče, pruty ap. z polyméru vinylchloridu
+5839	Monofily, tyče, pruty z ostatních plastických hmot
+59	Chemické prostředky a výrobky, j.n.
+591	Insekticidy, fungicidy, herbicidy ap. přípravky, pro maloobchod
+5911	Insekticidy, pro maloobchod
+5912	Fungicidy, pro maloobchod
+5913	Herbicidy, prostředky k potlačení klíčení, regulaci růstu rostlin, pro maloobchod
+5914	Dezinfekční prostředky, pro maloobchod
+5919	Rodenticidy; mucholapky, sírou napuštěné pásky, knoty, svíčky aj., pro maloobchod
+592	Škroby, inulin, lepek; látky albuminové; klihy
+5921	Škroby, inulin, pšeničný lepek
+59211	Psenicny skrob
+59212	Kukuricny skrob
+59213	Bramborovy skrob
+59214	Maniokovy skrob
+59215	Ostatni skroby
+59216	Inulin
+59217	Psenicny lepek, pr. suseny
+5922	Albuminové látky, modifikované škroby, klihy
+59221	Kasein
+59222	Kaseinaty, ost. kaseinove derivaty, kaseinove klihy
+59223	Albuminy, albuminaty, ostatni albuminove derivaty
+59224	Zelatina a derivaty, vyzi klih, ostatni lepidla, j.n.
+59225	Peptony, ost. proteinove latky, derivaty, j.n.
+59226	Dextriny, ostatni modifikovane skroby
+59227	Lepidla na bazi skrobu, dextrinu, ost. modif. skrobu
+59229	Hotova lepidla a jine vyrobky, j.n., do 1 kg
+593	Výbušniny a výrobky pyrotechnické
+5931	Střeliviny, ostatní upravené výbušniny
+59311	Streliviny
+59312	Upravene vybusniny (ne streliviny)
+5932	Bezpečnostní zápalnice, rozbušky, zapalovače apod.
+5933	Ohňostroje, signalní světlice, dešťové rakety apod.
+59331	Ohnostroje
+59333	Signalni svetlice, destove rakety, mlhove signaly aj.
+597	Přísady do olejů minerálních, mazadla ap. přípravky
+5972	Látky proti klepaní motoru, korozi, okysličování ap.
+59721	Latky proti klepani motoru
+59725	Prisady do mazacich oleju
+59729	Hotove prisady do ostatnich kapalin, j.n.
+5973	Upravené kapaliny pro hydraulické převody apod.
+59731	Kapaliny do hydralickych brzd, ostatni kapaliny
+59733	Pripravky proti zamrzani, kapaliny k rozmrazovani
+5977	Mazadla
+59771	Pripravky k uprave materialu s ropnym aj. olejem
+59772	Mazadla s ropnymi oleji, s oleji z zivicnych nerostu
+59773	Pripravky k uprave materialu s oleji, tuky ne ropnymi
+59774	Mazadla s oleji, tuky ne z ropy a zivicnych nerostu
+598	Výrobky chemické různé jn.
+5981	Chemické výrobky na bázi dřeva a pryskyřice
+59811	Talovy olej, pr. rafinovany
+59812	Zbytkove louhy ze zpracovani buniciny
+59813	Klejopryskyrice, klovatina, borovicovy olej
+59814	Kalafuna, kyseliny, silice pryskyricove, oleje
+59818	Drevny dehet, kreosot, drevny lih, smoly apod.
+5983	Umělé vosky, hotové vosky
+59835	Vosky umele, hotove, z polyetylenglykolu
+59839	Ostatni umele vosky, dalsi hotove vosky
+5984	Směsi alkylbenzénu, směsi alkylnaftalénu, j.n.
+5985	Chemické prvky, sloučeniny pro užití v elektronice
+5986	Výrobky organické chemie
+59861	Grafit umely, koloidni, polokoloidni, pripravky
+59863	Hotove gumarenske urychlovace
+59864	Aktivni uhli
+59865	Aktivovane vyrobky z prirodnich nerostnych materialu
+59867	Hotove zivne pudy ke kultivaci mikroorganismu
+59869	Kompozitni diagnosticka nebo laboratorni cinidla,j.n.
+5988	Katalyzátory a katalytické sloučeniny, j.n.
+59881	Sdruzene katalyzatory s niklem, slouceninami
+59883	Sdruzene katalyzatory s drahymi kovy, slouceninami
+59885	Ostatni sdruzene katalyzatory
+59889	Ostatni katalyzatory, katalyticke slouceniny
+5989	Chemické výrobky a přípravky, j.n.
+59891	Apretacni cinidla, cinidla k barveni textilii, papiru
+59893	Sdruzene slouceniny zmekcovadel kaucuku a plast.hmot
+59894	Pripravky, naplne do hasicich pristroju, granaty
+59895	Modelovaci hmoty; pripravky pro zubni lekarstvi
+59896	Moridla pro povrchovou upravu kovu
+59897	Hotove prisady do cementu, malty, betonu
+59898	Nezaruvzdorne malty, betony
+59899	Ostatni chemicke vyrobky a pripravky
+599	Zbytkové produkty chemického prům., j.n.; komunální odpad; kanalizační kaly; ost. odpady
+5991	Komunální odpad; kanalizační kaly
+5992	Zdravotnické odpady
+5993	Odpadní organická rozpouštědla
+5994	Odpadní kapaliny z moření kovu, hydraulické, brzdové, odmrazovací
+5999	Ostatní odpad z chemického průmyslu a přidružených odvětví
+6	Tržní výrobky tříděné hlavně podle materiálu
+61	Kůže, kožené výrobky, j.n. a vydělané kožky
+611	Kůže
+6112	Imitace kůže se základem z kůže, kožešinového vlákna
+6114	Ostatní kůže z hovězího dobytka, koní, bez srsti
+61143	Kůže ze skotu, koní, vyčiněné, dále nezpracovné, mokré
+61144	Kůže ze skotu, koní, vyčiněné, dále nezpracované, suché
+61145	Kůže ze skotu, koní, vyčiněné, dále zpracované
+6115	Ovčí, jehněčí kůže, zbavené srsti
+61151	Ovci ap. kuze vycinene, precinene, dale neupravene
+61152	Ovci ap. kuze vycinene na vzhled pergamenu, upravene
+6116	Kozí, kozlečí kůže
+61161	Kozi ap. kuze vycinene, precinene, dale neupravene
+61162	Kozi ap. kuze vycinene na vzhled pergamenu, upravene
+6117	Kůže ostatních zvířat, zbavené srsti
+61171	Kuze z vepru
+61172	Kuze z plazu
+61179	Kuze z jinych zvirat
+6118	Kůže specialně vyčiněné, dokončené, j.n.
+61181	Semisove (vc. kombinaci semise) kuze
+61183	Kuze lakovane, laminovane, metalizovane
+612	Výrobky z kůže nebo imitace jn., výrobky sedlářské ap.
+6122	Sedlářské a řemenářské výrobky pro zvířata
+6129	Ostatní výrobky z kůže a imitace kůže
+613	Kožky tříslené, vyčiněné (vč. hlav, ohonů, tlap ap.)
+6131	Celé kožky, př. bez hlavy, ohonu, tlap, nesestavené
+61311	Cele kozky z norka, pr. bez hlav, ohonu, tlap
+61319	Ostatni kozky, cele, pr. bez hlav, ohonu, tlap
+6132	Hlavy, ohony, tlapy, další kousky, odřezky
+6133	Celé kožky, kousky, odřezky, sestavené
+62	Výrobky z pryže, j.n.
+621	Výrobky pryžové (lepidla, desky, pláty, tyče aj.)
+6211	Kaučukové směsi, nevulkanizované, v prvotních formách
+62111	Kaucuk smichany se sazemi, silikou
+62112	Roztoky, disperze z kaucuku
+62119	Ostatni kaucukove smesi
+6212	Ostatní formy, výrobky z nevulkanizovaného kaučuku
+62121	Protektory v pasech
+62129	Zbyle ost. formy, vyrobky z nevulkanizovaneho kaucuku
+6213	Nitě a kordy z vulkanizovaného kaučuku
+62131	Nite, kord z vulkanizovaneho kaucuku
+62132	Desky ap. z netvrzeneho vulkaniz. lehceneho kaucuku
+62133	Desky ap. z netvrzeneho vulkaniz. nelehceneho kaucuku
+6214	Hadice, trubky a potrubí z netvrzeného vulkan.kaučuku
+62141	Hadice ap. kaucukove nevyztuzene, nekomb. s materialy
+62142	Hadice ap. kaucukove, vyztuzene, kombinovane s kovy
+62143	Hadice ap. kaucukove, vyztuzene, komb. s text. mater.
+62144	Hadice ap. kaucukove, vyztuzene, komb. s ost. mater.
+62145	Hadice, trubky, potrubi kaucukove, s fitinky
+625	Pneumatiky pryžové a duše
+6251	Pneumatiky pro osobní vozy
+6252	Pneumatiky pro autobusy a nákladní automobily
+6253	Pneumatiky, nové, pro letadla
+6254	Pneumatiky pro motocykly a jízdní kola
+62541	Pneumatiky, nove, pro motocykly
+62542	Pneumatiky, nove, pro jizdni kola
+6255	Ostatní pneumatiky
+62551	Pneumatiky s diagonalnim behounem
+62559	Pneumatiky ostatni
+6259	Ostatní pneumatiky a duše do pneu
+62591	Duse do pneumatik
+62592	Protektorovane pneumatiky
+62593	Pouzite pneumatiky
+62594	Plne, nizkotlake obruce, vymenitelne behouny plaste
+629	Výrobky kaučukové jn. (zdravotn. aj., kaučuk tvrdý ap.)
+6291	Zdravotnické a lekárenské výrobky z kaučuku
+62911	Prezervativy
+62919	Ostatni zdravotnicke a lekarenske vyrobky
+6292	Pásy pro dopravníky, převody, z vulkanizovaného kaučuku
+62921	Pásy převodové, z vulkanizovaného kaučuku
+62922	Pásy pro dopravníky, z vulkanizovaného kaučuku
+6299	Tvrdý kaučuk, vyr. z tvrzeného a netvrzeného kaučuku
+62991	Tvrdy kaucuk (ebonit) ve vsech formach, vyrobky
+62992	Vyrobky z netvrzeneho lehceneho vulkaniz. kaucuku
+62999	Vyrobky z netvrzeneho nelehceneho vulkaniz. kaucuku
+63	Výrobky z korku a dřeva (kromě nábytku)
+633	Výrobky z korku
+6331	Výrobky z přírodního korku
+63311	Zatky
+63319	Ostatni vyrobky z prirodniho korku
+6332	Korek aglomerovaný (př. s pojivem), výrobky
+63321	Kostky, desky, pruhy, pasy, dlazdice, pevne valce
+63329	Ostatni vyrobky z aglomerovaneho korku
+634	Dýhy, překližky, desky třískové aj. dřevo opracované
+6341	Dýhové listy, fólie aj. dřevo řezané apod. do 6 mm
+63411	Jehlicnate dyhove listy aj. drevo rezane ap. do 6 mm
+63412	Nejehlicnate dyhove listy aj., drevo rezane do 6 mm
+6342	Dřevo zušlechtšné a rekonstituované
+63421	Zuslechtene drevo, kostky, desky, pasy, profily
+63422	Triskove ap. desky ze dreva pr. aglomerovane
+63423	Triskove ap. desky z drevnateho materialu, ne dreva
+6343	Překližky,desky dýhované a podobné vrstvené dřevo
+63431	Překližky pouze ze dřeva (ne bambus), tloušťka dýhy <= 6 mm
+63432	Překližky,desky dýhované a podobné vrstvené dřevo z bambusu
+63433	Ostatní laťovky,vrstvené desky a podlahové laťovky
+63439	Překližky s vrstvou z dřeva ostatní
+6345	Dřevovláknité desky
+63454	Dřevovláknité desky polotvrdé (MDF)
+63459	Dřevovláknité desky ze dřeva nebo jiného dřevnatého materiálu, j.n.
+6349	Dřevo jednoduše tvarované, j.n.
+63491	Prirezy na sudy, tyce, kuly, trisky, late ap. drevene
+63493	Drevita vlna, drevita moucka
+635	Výrobky ze dřeva jn. (obaly, okna, dveře, nádobí ap.)
+6351	Obaly a lanové bubny ze dřeva; skříňové pelety apod.
+63511	Lateni, bedny, krabice, bubny ap. obaly ze dreva
+63512	Palety, skrinove palety apod. dopravni obaly
+6352	Soudky, sudy, kádě, aj. bednářské výrobky ze dřeva
+6353	Dřevo stavební tesařské a truhlářské
+63531	Okna, francouzska okna, ramy
+63532	Dvere, ramy, prahy
+63533	Sindele
+63534	Podlahové desky sestavené
+63539	Ostatni stavebni, tesarske, truhlarske drevo
+6354	Výrobky ze dřeva pro bytové, dekorativní učely
+63541	Drevene ramy na obrazy, fotografie, zrcadla apod.
+63542	Stolni, kuchynske nadobi ze dreva
+63549	Intarzovane drevo, kazety, krabice, sosky, ozdoby ap.
+6359	Výrobky ze dřeva, j.n.
+63591	Drevene naradi, drzaky, nasady, rukojeti, kopyta ap.
+63599	Ostatni vyrobky ze dreva
+64	Papír, lepenka a výrobky z nich
+641	Papír a lepenka
+6411	Novinový papír, role, archy
+6412	Papír a lepenka, nenatírané, k psaní, tisku apod.
+64121	Rucni papir, lepenka
+64122	Papír, lepenka jako základ k výrobě papíru a lepenky citlivých na světlo, teplo, elektřinu
+64124	Tapetovy papir
+64126	Ostatní papír a lepenka, obsah mechan. či chem.-mechan. získaných vláken <= 10 %
+64129	Ostatní papír a lepenka, obsah mechan. či chem.-mechan. získaných vláken > 10 %
+6413	Papír, lepenka k psaní, tisku ap. napouštěné, barvené
+64131	Papir karbonovy, samokopirovaci aj. nad 36 cm
+64132	Papír,lepenka užívané k psaní,tisku aj.,obsah mechan.či chem.-mechan.získaných vláken <= 10%
+64134	Papír,lepenka užívané k psaní,tisku aj.,obsah mechan.či chem.-mechan.získaných vláken > 10%
+6414	Kraftový papír, lepenka, nenatírané, j.n.
+64141	Kraftovy papir, nenatirany, v rolich, arsich
+64142	Kraftovy papir na pytle, nenatirany, v rolich, arsich
+64146	Kraftovy papir, lepenka, nenatirane, pod 150 g/m2
+64147	Kraftovy papir, lepenka, nenatirane, 150 az 225 g/m2
+64148	Kraftovy papir, lepenka, nenatirane, nad 225 g/m2
+6415	Papír, lepenka, nenatírané, v rolích, arších, j.n.
+64151	Polochemicky papir na zvlnenou vrstvu lepenky
+64152	Grafitovy balici papir, nenatirany
+64153	Pergamen, pergamin, papir nepromastitelny, pauzovaci
+64154	Vicevrstvy papir, nenatirany
+64155	Cigaretovy papir, j.n.
+64156	Filtracni papir, hadrovy papir, lepenka, nenatirane
+64159	Ostatní papír a lepenka,nenatírané
+6416	Papír, lepenka, vlnité, krepované, vrásněné, ražené
+64161	Kraftovy papir na pytle, krepovany, vrasneny, razeny
+64162	Ostatni kraftovy papir, krepovany, vrasneny, razeny
+64163	Papir toaletni, hedvabny, odlicovaci ap. nad 36 cm
+64164	Papir, lepenka, vlnite, derovane
+64169	Papir, krepovany, vrasneny, razeny, derovany, j.n.
+6417	Papír, lepenka, povrch. zbarvené, vzorov., potištěné
+64171	Papir, lepenka, natirane ap. belene, nad 150 g/m2
+64172	Ostatni papir, lepenka, natirane, napoustene
+64173	Papir, lepenka, dehtovane, bituminove, asfaltovane
+64174	Kraftovy papir, lepenka, natirane apod., do 150 g/m2
+64175	Kraftovy papir, lepenka, natirane apod., nad 150 g/m2
+64176	Ostatni kraftovy papir, lepenka, natirane apod.
+64177	Ostatni papir, lepenka, natirane apod.
+64178	Lepici papir, lepenka
+64179	Ostatni papir, lepenka, bunicita vata, natirane apod.
+6419	Zušlechtěný papír, lepenka, j.n.
+64192	Ostatni vicevrstvy papir, lepenka, nenatirane apod.
+64193	Filtracni bloky, desky z papirenske buniciny
+64194	Tapety ap. krytiny zdi, papirove okenni transparenty
+642	Papír, lepenka řezané na určitý rozměr, tvar, výrobky
+6421	Kartony, bedny, krabice aj. z papíru, lepenky apod.
+64211	Kartony, bedny, krabice z vlniteho papiru, lepenky
+64212	Skladaci kartony, bedny aj. z nevlniteho papiru ap.
+64213	Sacky, pytle se zakladnou nad 40 cm
+64214	Ostatni sacky, pytle (vc. kornoutu)
+64215	Ostatni obaly (vc. obalu na gramofonove desky)
+64216	Listkovnice, podnosy na dopisy, ukladaci krabice ap.
+6422	Obálky, dopisnice, bedny, vaky, brašny, papirové
+64221	Obalky
+64222	Dopisnice zalepovaci, listky obycejne, korespondencni
+64223	Bedny, vaky, brasny, psaci soupravy z papiru, lepenky
+6423	Rejstříky, účetní knihy, bloky, sešity, pijáky, alba
+64231	Rejstriky, ucetni knihy, bloky, deniky, podlozky ap.
+64232	Skolni sesity
+64233	Rychlovazace, desky, obaly na spisy
+64234	Ruzne obchodni formulare ap. s karbonovym papirem
+64235	Alba na vzorky, sbirky
+64239	Obaly na knihy, pijaky, dalsi papirnicke zbozi, j.n.
+6424	Papír, lepenky, řezané na určitý rozměr, tvar, j.n.
+64241	Cigaretovy papir rezany na urcity rozmer
+64242	Papir karbonovy, samokopirovaci aj., ofsetove listy
+64243	Toaletni papir, rezany na urcity rozmer, v rolich ap.
+64245	Filtrační papír a lepenka,řezané na určitý rozměr
+6429	Výrobky z buničiny, papíru, lepenky, buničité vaty
+64291	Kostry civek, civky apod. z buniciny, papiru, lepenky
+64293	Podnosy, misky, talire, salky apod. z papiru, lepenky
+64294	Kapesniky, rucniky, ubrusy, prosteradla ap. z papiru
+64295	Zdravotnicke rucniky, tampony aj. z buniciny, papiru
+64299	Ostatni vyrobky z buniciny, papiru, bunicite vaty
+65	Textilní příze, tkaniny, tržní výrobky z nich, j.n., a příbuzné výrobky
+651	Příze textilní
+6511	Příze z vlny či zvířecí srsti (bez vlněných česanců)
+65112	Prize z mykane vlny, nad 85 % vlny
+65113	Prize z cesane vlny, nad 85 % vlny
+65114	Prize z jemne zvireci srsti (mykane, cesane)
+65115	Prize z hrube zvireci srsti, konskych zini
+65116	Prize, nad 85 % vlny, jemne zvireci srsti, pro prodej
+65117	Prize z mykane vlny, do 85 % vlny
+65118	Prize z cesane vlny, do 85 % vlny
+65119	Prize z vlny, jemne zvireci srsti, do 85 %
+6512	Bavlněné šicí nitě, případně určené pro maloobchod
+65121	Bavlnene sici nite
+65122	Bavlnene sici nite, pro prodej
+6513	Bavlněná příze, jiná než šicí nitě
+65131	Bavlnena prize, pro prodej, nad 85 % bavlny
+65132	Ostatni bavlnena prize, pro prodej
+65133	Bavlnena prize, nad 85 % bavlny
+65134	Bavlnena prize, do 85 % bavlny
+6514	Šicí nitě z umělých vláken, určené pro maloobchod
+65141	Sici nite, ze syntetickeho nekonecneho vlakna
+65142	Sici nite, z umeleho nekonecneho vlakna
+65143	Sici nite, ze syntetickych staplovych vlaken
+65144	Sici nite, z umelych staplovych vlaken
+6515	Příze ze syntetického nekonečného vlákna, do 67 dtex
+65151	Prize z nekonecneho vlakna z nylonu aj. polyamidu
+65152	Prize z nekonecneho vlakna z polyesteru
+65159	Prize z ostatnich syntetickych nekonecnych vlaken
+6516	Příze z ost. syntet. nekonečných vláken, do 67 dtex
+65162	Prize s vysokou houzevnatosti nylonu, ost. polyamidu
+65163	Ostatni prize, neskane, nezakroucene, do 50 zakrutu
+65164	Ostatni prize neskane, nad 50 zakrutu
+65169	Ostatni prize, sdruzovane, kablovane
+6517	Umělá příze z nekonečných vláken, umělý monofil, j.n.
+65173	Vysoce houzevnata prize z viskozoveho hedvabi
+65174	Ostatni prize, jednoduche, z viskozoveho hedvabi
+65175	Ostatni prize, jednoduche
+65176	Ostatni umele nekonecne prize
+65177	Umele monofily nad 67 decitex, prurez do 1 mm
+65178	Příze z hedvábí chemického, k maloobch. prodeji
+6518	Příze ze staplových vláken, syntetický monofil, j.n.
+65181	Prize nad 85 % synteticka staplova vlakna, pro prodej
+65182	Prize, nad 85 % synteticka staplova vlakna
+65183	Prize, do 85 % synteticka staplova vlakna, pro prodej
+65184	Prize, do 85 % synteticka staplova vlakna
+65185	Prize z umelych staplovych vlaken, pro prodej
+65186	Prize, nad 85 % umela staplova vlakna
+65187	Prize, do 85 % umela staplova vlakna
+65188	Synteticky monofil, nad 67 decitex, prurez do 1 mm
+6519	Příze z textilních vláken, j.n.
+65191	Metalizovana prize
+65192	Hedvabna prize (ne z hedvabneho odpadu)
+65193	Prize spradena z hedvabneho odpadu
+65194	Prize hedvabna a z hedvabneho odpadu, pro prodej
+65195	Prameny, prasty, prize apod. ze sklenenych vlaken
+65196	Lnena prize
+65197	Prize z juty aj. textilnich lykovych vlaken
+65199	Prize z jinych rostlinnych textilnich vlaken, papiru
+652	Tkaniny bavlněné tkané (ne úzké a speciální)
+6521	Bavlněná gáza, tkaniny s vlasem, žinylkové, tkané
+65212	Smyckove rucnikove ap. tkane tkaniny z bavlny
+65213	Ostatni smyckove rucnikove ap. tkane tkaniny z bavlny
+65214	Tkaniny s vlasem, tkane, z bavlny, nestrihane
+65215	Jine tkaniny s vlasem, zinylkove, tkane, z bavlny
+6522	Bavlněné tkaniny, tkané, nebělené
+65221	Tkaniny nad 85 % bavlny, nebelene, do 200 g/m2
+65222	Tkaniny nad 85 % bavlny, nebelene, nad 200 g/m2
+65223	Tkaniny do 85 % bavlny, s umelymi vlakny, do 200 g/m2
+65224	Tkaniny do 85 % bavlny, s umelymi vlakny, nad 200g/m2
+65225	Ostatni tkaniny z bavlny, nebelene, do 200 g/m2
+65226	Ostatni tkaniny z bavlny, nebelene, nad 200 g/m2
+6523	Ostatní tkaniny, nad 85 % bavlny, do 200 g/m2
+65231	Ost. tkaniny nad 85 % bavlny, do 200 g/m2, belene
+65232	Ost. tkaniny nad 85 % bavlny, do 200 g/m2, barvene
+65233	Ost. tk. nad 85 % bavlny do 200 g/m2, z ruznob. prize
+65234	Ost. tkaniny nad 85 % bavlny, do 200 g/m2, potistene
+6524	Ostatní tkaniny, nad 85 % bavlny, nad 200 g/m2
+65241	Ost. tkaniny nad 85 % bavlny, nad 200 g/m2, belene
+65242	Ost. tkaniny nad 85 % bavlny, nad 200 g/m2, barvene
+65243	Denim, nad 85 % bavlny, nad 200 g/m2
+65244	Ost. tk. nad 85 % bavlny nad 200 g/m2 z ruznob. prize
+65245	Ost. tkaniny nad 85 % bavlny, nad 200 g/m2, potistene
+6525	Ost.tkaniny do 85 % bavlny, s um. vlákny, do 200 g/m2
+65251	Tkaniny s um. vlakny a bavlnou, do 200 g/m2, belene
+65252	Tkaniny s um. vlakny a bavlnou, do 200 g/m2, barvene
+65253	Tkaniny s um. vl. a bavlnou do 200 g/m2 z ruznob. pr.
+65254	Tkaniny s um. vlakny a bavlnou do 200 g/m2 potistene
+6526	Ost. tkaniny do 85 % bavlny, s um. vlákny,nad 200g/m2
+65261	Tkaniny s um. vlakny a bavlnou nad 200 g/m2, belene
+65262	Tkaniny s um. vlakny a bavlnou, do 200 g/m2, barvene
+65263	Denim, bavlna do 85 %, umela vlakna, nad 200 g/m2
+65264	Tkaniny s um. vl. a bavlnou nad 200 g/m2 z ruznob. pr
+65265	Tkaniny s um. vl. a bavlnou, nad 200 g/m2, potistene
+6529	Ostatní bavlněné tkaniny
+65291	Ostatni tkaniny z bavlny, belene, do 200 g/m2
+65292	Ostatni tkaniny z bavlny, zbarvene, do 200 g/m2
+65293	Ost. tkaniny z bavlny, z ruznobar. prize, do 200 g/m2
+65294	Ostatni tkaniny z bavlny, potistene, do 200 g/m2
+65295	Ostatni tkaniny z bavlny, belene, nad 200 g/m2
+65296	Ostatni tkaniny z bavlny, barvene, nad 200 g/m2
+65297	Ostatni tkaniny z bavlny, ruznobarevne, nad 200 g/m2
+65298	Ostatni tkaniny z bavlny, potistene, nad 200 g/m2
+653	Tkaniny z vláken textil. umělých (ne úzké, speciální)
+6531	Tkaniny z nekonečných syntetických vláken
+65311	Tkaniny z vysoce houzevnate prize nylonu, polyamidu
+65312	Tkaniny z vycesku apod.
+65313	Tkaniny z paralelnich vrstev syntetickych vlaken
+65314	Ostatni tkaniny, nad 85 % nekonecnych vlaken nylonu
+65315	Ostatni tkaniny nad 85 % tvarovanych polyestr. vlaken
+65316	Ost. tkaniny nad 85 % netvarovanych polyest. vlaken
+65317	Ostatni tkaniny nad 85 % syntetickych vlaken, j.n.
+65318	Ost. tkaniny, do 85 % syntetickych vlaken, s bavlnou
+65319	Tkaniny ze syntetickych nekonecnych vlaken, j.n.
+6532	Tkaniny ze syntetických vláken, > 85% syntet.vláken
+65321	Tkaniny, nad 85 %  polysterova staplova vlakna
+65325	Tkaniny, nad 85 % akrylova, modakryl. staplova vlakna
+65329	Tkaniny, nad 85 % jina synteticka staplova vlakna
+6533	Tkaniny, do 85 % syntet. staplová vlákna, s bavlnou
+65331	Tkaniny,do 85% syntet.staplová vlákna,s bavlnou,polyest.vl.,do 170g/m2
+65332	Tkaniny,do 85% syntet.stapl. vlákna,s bavlnou,ost.synt.vl.,do 170g/m2
+65333	Tkaniny,do 85% syntet.stapl.vlákna,s bavlnou,polyes.vl. nad 170g/m2
+65334	Tkaniny,do 85% syntet.stapl.vlákna,s bavlnou,ost.synt.vl.,nad 170g/m2
+65335	Tkaniny,do 85% syntet.stapl.vlákna,s bavlnou,různobarev.vl.,nad 170g/m2
+6534	Tkaniny, do 85 % syntet. staplová vlákna, s vlákny
+65341	Tkaniny,do 85%syntet.stapl.vlákna,míchaných s vlnou,jemnou žvíř.srstí
+65342	Tkaniny,do 85%syntet.stapl.vlákna,míchaných s umělými nekonečnými vl.
+65343	Tkaniny,do 85%syntet.stapl.vlákna,míchaných ne s bavlnou,vlnou,srstí
+6535	Tkaniny z umělé nekonečné příze
+65351	Tkaniny z vysoce houzevnate prize z viskoz. hedvabi
+65352	Ostatni tkaniny, nad 85 % umelych nekonecnych vlaken
+65359	Tkaniny z umele nekonecne prize, j.n.
+6536	Tkaniny, nad 85 % umělých staplových vláken
+6538	Tkaniny, do 85 % umělých staplových vláken
+65381	Tkaniny z umělých stapl.vláken,do 85%,míchaných s bavlnou
+65382	Tkaniny z umělých stapl.vláken,do 85%,míchaných s vlnou,zvířecí srstí
+65383	Tkaniny z umělých stapl.vláken,do 85%,míchaných s uměl.nekon.vlákny
+65389	Tkaniny z umělých stapl.vláklen,do 85%,míchaných ne bavlna,vlny,srst
+6539	Vlasové, žinylkové tkaniny z um. nekonečných vláken
+65391	Vlasove tkaniny, nestrihane
+65393	Ostatni vlasove, zinylkove tkaniny
+654	Tkaniny textilní jiné (ne bavlněné, z vláken umělých)
+6541	Hedvabné tkaniny
+65411	Tkaniny z hedvabnych vycesku
+65413	Ostatni hedvabne tkaniny, nad 85 % hedvabi, odpadu
+65419	Ostatni hedvabne tkaniny
+6542	Tkaniny, nad 85 % vlny, jemné zvířecí srsti
+65421	Tkaniny, nad 85 % mykane vlny, jemne zvireci srsti
+65422	Tkaniny, nad 85 % cesane vlny, jemne zvireci srsti
+6543	Tkaniny z vlny, jemné zvířecí srsti, j.n.
+65431	Tkaniny s umelymi vlakny, do 85 % mykana vlna, srst
+65432	Tkaniny s umelymi vlakny, do 85 % cesana vlna, srst
+65433	Tkaniny s jinymi vlakny, do 85 % mykana vlna, srst
+65434	Tkaniny s jinymi vlakny, do 85 % cesana vlna, srst
+65435	Vlasove, zinylkove tkaniny z vlny, jemne zvir. srsti
+6544	Lněné tkaniny
+65441	Lnene tkaniny, nad 85 % lnu
+65442	Lnene tkaniny, do 85 % lnu
+6545	Tkaniny z juty nebo jiných lýkových vláken
+6546	Tkaniny ze skleněného vlákna
+6549	Tkaniny, j.n.
+65491	Tkaniny z kovovych niti, metalizovane prize, j.n.
+65492	Tkaniny z hrube zvireci srsti, konskych zini
+65493	Tkaniny z rostlinnych textilnich vlaken, papir. prize
+65494	Gaza (ne uzka) z textilnich materialu (ne bavlna)
+65495	Vlasove, zinylkove tkaniny, j.n., z textil. materialu
+65496	Smyckova tkanina na rucniky ap. tkaniny z text. mat.
+65497	Tkaniny se vsitym vlasem
+655	Látky pletené a háčkované jn.
+6551	Vlasové látky, pletené, híčkované, př. napouštěné ap.
+65511	Latky s dlouhym vlasem
+65512	Retizkove latky
+65519	Ostatni vlasove latky, pletene, hackovane
+6552	Ost. pletené a háčkované látky, ne napouštěné
+65521	Ostatni pletene, hackovane latky, sirka do 30 cm
+65522	Ost. pletene latky, sirka do 30 cm, nad 5 % elast.vl.
+65523	Ostatni latky, osnovne pletene
+65529	Pletene, hackovane latky, j.n.
+656	Tyl, krajky, výšivky, stužky, lemovky ap. zboží
+6561	Úzké tkaniny
+65611	Vlasove tkaniny, zinylkove latky
+65612	Ost. tkaniny nad 5 % elastickeho, pogumovaneho vlakna
+65613	Ostatni uzke tkaniny
+65614	Tkaniny tvorene osnovou bez utku, vazanou pojivem
+6562	Nálepky, odznaky ap. výrobky z textilního materiálu
+65621	Nalepky, odznaky ap. vyrobky, tkane
+65629	Nalepky, odznaky ap. vyrobky, ostatni
+6563	Česaná příze, pásky, příze žinylková ap. střapce aj.
+65631	Cesana prize, pasky z monofilu, prize zinylkova aj.
+65632	Prymky, ozdobne lemovky, bez vysivek, trapce apod.
+6564	Tyl, ostatní síťové látky, krajka
+65641	Tyl, ostatni sitove latky
+65642	Krajka vyrobena strojove
+65643	Krajka vyrobena rucne
+6565	Výšivky v kuse, pruzích, motivech
+65651	Vysivky bez viditelneho podkladu
+65659	Ostatni vysivky
+657	Příze speciální, textilní materiály speciální ap. výr.
+6571	Plsť, přip. napouštěná, natíraná, potažená
+65711	Prosivana plst, prosivane textilie
+65712	Ostatni plst, ne napoustena, natirana, potazena ap.
+65719	Plst napoustena, natirana, potazena, laminovana, j.n.
+6572	Netkaný textil, př. napouštěný, natíraný, potažený
+6573	Textilie natírané nebo napouštěné a výrobky z nich
+65731	Textilie s naterem klovatiny ap. na desky knih aj.
+65732	Textilie napoustene, natirane, potazene, laminovane
+65733	Pogumovane textilie, ne 657.93
+65734	Textilie jinak napoustene, natirane, potazene apod.
+65735	Textilni stenove krytiny
+6574	Prošívané textilní výrobky
+6575	Motouzy, provazce, šňůry a lana a výrobky z nich
+65751	Motouzy, provazce, snury, lana, pr. opletene ap.
+65752	Site, sitoviny z motouzu, provazu aj., site rybarske
+65759	Vyrobky z prize, pasku, motouzu, snur, lan aj., j.n.
+6576	Polotovary klobouků, sisaky, kapeliny
+65761	Polotovary klobouku, sisaky ap. z plsti, nezpracovane
+65762	Kloboukove formy, pletene, spletane, nezpracovane
+6577	Vatelín, knoty, textil. materiál pro stroje, zařízení
+65771	Vatelin z textil. materialu, textil. vlakna do 5 mm
+65772	Knoty z textil. materialu, puncosky do plyn. lamp ap.
+65773	Textilni vyrobky, zbozi pro technicke ucely
+6578	Pogumované nitě, textilní příze, pásky napouštěné ap.
+65781	Pogumovane nite, kord potazeny textilem
+65789	Ostatni pogumovane nite, textilni prize, pasky
+6579	Speciální výrobky z textilního materiálu
+65791	Textilni hadice ap., pr. s vlozkou, vyztuzi
+65792	Pasy k prenosu krouticiho momentu, dopravni pasy
+65793	Kordy pro pneumatiky z prize s vysokou houzevnatosti
+658	Výrobky hotové z materiálů textilních jn.
+6581	Sáčky a pytle z textilního materiálu
+65811	Sacky, pytle z juty aj. textilnich lykovych vlaken
+65812	Sacky, pytle z bavlny
+65813	Sacky, pytle z umelych textilnich materialu
+65819	Sacky, pytle z jinych textilnich materialu
+6582	Nepromokavá plachtovina, stínidla vykladních skříní
+65821	Nepromokava plachtovina, stinidla vykladnich skrini
+65822	Stany
+65823	Plachty
+65824	Nafukovaci matrace
+65829	Oplachtena prkna, pozemni vozidla, kempinkove potreby
+6583	Pokrývky, cestovní přikrývky (ne elektrické)
+65831	Pokryvky, cest. prikryvky z vlny, jemne zvireci srsti
+65832	Pokryvky, cestovni prikryvky z bavlny
+65833	Pokryvky, cestovni prikryvky ze syntetickych vlaken
+65839	Pokryvky, cest. prikryvky z ost. textilnich materialu
+6584	Prádlo ložní, stolní, kuchyňské a do sociálních zař.
+65841	Lozni pradlo, pletene, hackovane
+65842	Lozni pradlo, bavlnene, ne pletene, hackovane
+65843	Lozni pradlo, z jinych textil. materialu, ne pletene
+65844	Stolni pradlo, pletene, hackovane
+65845	Stolni pradlo, bavlnene, ne pletene, hackovane
+65846	Stolni pradlo z jinych textil. materialu, ne pletene
+65847	Pradlo do socialnich zarizeni, kuchynske, bavlnene
+65848	Pradlo do soc. zarizeni, kuchynske, z jinych textilii
+6585	Záclony a ost. textilní materiály pro vybavení bytu
+65851	Zaclony, interierova svitidla, lozni krajkove zaclony
+65852	Prehozy
+65859	Dekoracni textilie, j.n.
+6589	Ostatní hotové výrobky z textilních materiálu, j.n.
+65891	Calouny rucne tkane, vysivane, pr. hotove v ramech
+65892	Hadry na podlahu, nadobi, prachovky ap. textilie
+65893	Zachranne vesty, pasy aj. vyrobky, vc. modelu satu
+65899	Soupravy z tkanin ke zhotoveni calounu, ubrusu ap.
+659	Krytiny podlahové ap.
+6591	Linoleum, podlahové krytiny s krycí vrstvou na textilním základu
+6592	Koberce a jiné podlahové krytiny
+65921	Koberce aj. vazane, z vlny, jemne zvireci srsti
+65929	Koberce aj. vazane, z jineho textilniho materialu
+6593	Předložky typu Kelim, Schumack ap. ručně pletené
+6594	Koberce, textilní podlahové krytiny s všívaným vlasem
+65941	Koberce aj. vsivane, z vlny, jemne zvireci srsti
+65942	Koberce aj. vsivane, z nylonu, jinych polyamidu
+65943	Koberce aj. vsivane, z ost. umelych textilnich vlaken
+65949	Koberce aj. vsivane, z ostatnich textilnich materialu
+6595	Koberce, ost. textilní podlahové krytiny, tkané, j.n.
+65951	Koberce aj. tkane, z vlny, jemne zvireci srsti
+65952	Koberce aj. tkane, z umelych textilnich materialu
+65953	Koberce,ost.text.podlahové krytiny,tkané,bez vlasu,nehotové
+65959	Koberce aj. tkane, z ostatnich textilnich materialu
+6596	Koberce, ostatní textilní podlahové krytiny, j.n.
+65961	Koberce, ostatni podlahove krytiny z plsti, nevsivane
+65969	Ostatni koberce, textilni podlahove krytiny
+66	Výrobky z nekovových nerostů j.n.
+661	Vápno, cement, prefabrikáty stav. (ne skleněné, hliněné)
+6611	Vápno nehašené, hašené, hydraulické
+66111	Nehasene vapno
+66112	Hasene vapno
+66113	Hydraulicke vapno
+6612	Cement portlandský, tavený, struskový, hydraulický
+66121	Slinovany cement
+66122	Portlandsky cement
+66123	Taveny cement
+66129	Ostatni hydraulicke cementy
+6613	Pomníkový, stavební kámen, opracovaný, výrobky z něj
+66131	Dlazebni kostky, obrubniky, dlazdice z kamene
+66132	Bridlice, opracovana, vyrobky i z aglomerovane
+66133	Obkladacky, kostky ap. vyrobky z kamene, ulomky
+66134	Mramor, travertin, alabastr, vyrobky, sekane, rezane
+66135	Pomnikovy, stavebni kamen, vyrobky, j.n., sekane ap.
+66136	Mramor, travertin, alabastr, vyrobky, tvarovane ap.
+66139	Ostatni pomnikovy, stavebni kamen, vyrobky, tvarovane
+6618	Staveb. materiál z osinkocementu, vyztuženého cementu
+66181	Vyrobky z cementu apod. materialu
+66182	Panely, desky, aj. ze slamy ap. pojene cementem aj.
+66183	Vyrobky z osinkocementu, cementu vyztuzeneho vlakny
+662	Staviva z hlíny a staviva žáruvzdorná
+6623	Cihly žáruvzdorné a ostatni staviva
+66231	Cihly, tvarnice ap. z kremitych infuzoriovych hlin
+66232	Zaruvzdorne cihly, tvarnice, dlazdice ap. staviva
+66233	Zaruvzdorne cementy, malty, betony ap. hmoty, j.n.
+6624	Žáruvzdorné keramické cihly, dlaždice, trubky apod.
+66241	Keramicke stavebni cihly, podlazni bloky, dlazdice
+66242	Stresni tasky, hlavy kominu, nastavce, ost. vyrobky
+66243	Keramicke potrubi, zlaby, instalacni trubky, fitinky
+66244	Nepolevane keramicke dlazebni kostky, dlazdice ap.
+66245	Polevane keramicke dlazebni kostky, dlazdice apod.
+663	Výrobky z nerostů jn.
+6631	Mlýnské a brousící kameny, brusné kotouče apod.
+66311	Mlynske, brousici kameny k mleti, brouseni aj.
+66312	Ostatni mlynske, brousici kameny, brusne kotouce ap.
+66313	Rucni ostrici, lestici kameny
+6632	Brusivo na podložce textilní, papírové, lepenkové
+66321	Brusivo na podlozce z tkaneho textilu
+66322	Brusivo na podlozce z papiru, lepenky
+66329	Brusivo na podlozce z jineho materialu
+6633	Výrobky z nerostných materialů, j.n.(bez keramických)
+66331	Predmety ze sadry, hmot na bazi sadry
+66332	Stavebni tvarnice, cihly, dlazdice ap. vyrobky
+66333	Stavebni dily prefabrikovane
+66334	Ostatni vyrobky z cementu, betonu, umeleho kamene
+66335	Slida zpracovana, vyrobky, pr. na podlozce z papiru
+66336	Neelektricke vyrobky z grafitu a jineho uhliku
+66337	Vyrobky z raseliny
+66338	Vyrobky z jinych nerostnych latek
+66339	Vyrobky z kamene, jinych nerostnych latek, j.n.
+6635	Vlna strusková, skalní aj., štípaný vermikulit apod.
+66351	Vlna struskova, skalni ap. nerostne vlny, lozene ap.
+66352	Stipany vermikulit, lehcene hliny, penova struska ap.
+66353	Smesi, vyrobky z tepelne, zvukove izolacnich aj. mat.
+6637	Výrobky ze žáruvzdorné keramiky, a j.n.
+6638	Výrobky z osinku; třecí materiály
+66381	Zpracovana osinkova vlakna, smesi na bazi osinku ap.
+66382	Treci material, vyrobky, nesmontovane, pro brzdy ap.
+6639	Výrobky z keramických materiálů, j.n.
+66391	Laboratorni, chemicke, prumyslove zbozi z keramiky
+66399	Keramicke vyrobky, j.n.
+664	Sklo
+6641	Sklo v kuse, ve tvaru koulí, tyčí, trubek; střepy
+66411	Sklo v kuse, drcene sklo, ostatni skleneny odpad
+66412	Sklo ve tvaru kouli, tyci, trubek, nezpracovane
+6643	Sklo tažené a foukané, jinak nezpracované
+66431	Sklo, zbarvene ve hmote, opakni, podjimane ap.
+66439	Ostatni sklo
+6644	Sklo plavené, povrchové broušené, leštěné, v tabulích
+66441	Sklo bez dratene vlozky
+66442	Sklo s dratenou vlozkou
+6645	Sklo lité, válcované, v tabulích, profilech
+66451	Tabule bez dratene vlozky
+66452	Tabule s dratenou vlozkou
+66453	Profily
+6647	Bezpečnostní sklo, tj. ztužené, laminované
+66471	Ztuzene (temperovane) bezpecnostni sklo
+66472	Laminovane bezpecnostni sklo
+6648	Skleněná zrcadla, příp.rámovaná, včetně zpětných
+66481	Zpetna zrcatka pro motorova vozidla
+66489	Ostatni sklenena zrcadla, pr. ramovana
+6649	Sklo, jinde nezařazené
+66491	Sklo tazene, plavene, lite ap. ohybane aj. opracovane
+66492	Izolacni jednotky z vicevrstveho skla
+66493	Sklenene obaly, otevrene, casti, pro obrazovky, lampy
+66494	Sklo kryci na hodiny, brylove, zakrivene, ohnute ap.
+66495	Sklenena vlakna (vc. vlny), vyrobky z nich, j.n.
+66496	Sklenene dlazebni kostky, desky, cihly, dlazdice aj.
+665	Zboží skleněné
+6651	Obalové sklo; skleněné zátky a uzávěry
+6652	Skleněné zboží pro domácnost, kanceláře, k výzdobě
+66521	Vyrobky ze skla, sklokeramiky
+66522	Napojove sklo, ne sklokeramicke
+66523	Sklenene zbozi ke stolovani (ne napojove), do kuchyne
+66529	Ostatni sklenene zbozi
+6659	Výrobky ze skla, jinde nezařazené
+66591	Sklo laboratorni, zdravotnicke, lekarenske, ampulky
+66592	Sklenene ampulky
+66593	Sklenene koralky, napodobeniny perel, drahokamu apod.
+66594	Sklenene kostky aj. drobne vyrobky, pr. s podkladem
+66595	Signalni sklo, opticke prvky, opticky neopracovane
+66599	Ostatni vyrobky ze skla
+666	Zboží hrnčířské
+6661	Keramika stolní a kuchyňská
+66611	Stolni, kuchynske nadobi z porcelanu aj.
+66612	Ost. vyrobky pro domacnost, toalet. ucely z porcelanu
+66613	Keramicke stolni, kuchynske nadobi, ostatni predmety
+6662	Sošky, ostatní ozdobné předměty z keramiky
+66621	Sosky a ost. ozdobne predmety z porcelanu ci keramiky
+66629	Ostatni sosky a ostatni ozdobne predmety z keramiky
+667	Perly, drahokamy, polodrahokamy surové, opracované
+6671	Perly, příp. opracované, tříděné, netříděné
+66711	Prirodni perly
+66712	Perly ziskane chovem
+66713	Perly ziskane chovem, neopracovane
+6672	Diamanty, příp. opracované, nezasazené, nesrovnané
+66721	Diamanty v surovem stavu, netridene
+66722	Diamanty, tridene, neopracovane, jednoduse rezane ap.
+66729	Diamanty, jinak opracovane, ne zasazene, srovnane
+6673	Drahokamy, polodrahokamy, opracované, tříděné aj.
+66731	Drahokamy, polodrahok. neopracovane, jednoduse rezane
+66739	Drahokamy, polodrahokamy, jinak opracovane
+6674	Syntetické, uměle vytvořené drahokamy, polodrahokamy
+66741	Piezoelektricke krystaly
+66742	Synteticke, umele vytvorene drahokamy, polodrahokamy
+66749	Syntet., umele vytvorene drahokamy, polodrahok. j.n.
+67	Železo a ocel
+671	Železo surové, houbovité, zrcadlovina, feroslitiny ap.
+6712	Surové železo a zrcadlovina
+67121	Nelegovane surove zelezo, do 0,5 % fosfor
+67122	Nelegovane surove zelezo, nad 0,5 % fosfor
+67123	Legovane surove zelezo, zrcadlovina
+6713	Granuly, a prášek ze železa apod., železo nad 99,94%
+67131	Granuly z suroveho zeleza, zrcadloviny, zeleza, oceli
+67132	Prasek ze suroveho zeleza, zrcadloviny, zeleza, oceli
+67133	Zelezne vyrobky z prime redukce, zelezo nad 99,94 %
+6714	Feromangan
+67141	Feromangan, nad 2 % uhliku
+67149	Feromangan jiny
+6715	Ostatní feroslitiny (ne radioaktivní feroslitiny)
+67151	Ferosilicium
+67152	Ferosilikomangan
+67153	Ferochrom
+67154	Ferosilichrom
+67155	Feronikl
+67159	Feroslitiny, j.n.
+672	Ocel, železo v ingotech aj. odlitcích, polotovary
+6724	Ingoty, ostatní primární odlitky ze železa, oceli
+67241	Ingoty ze zeleza, nelegovane oceli
+67245	Ostatni primarni odlitky ze zeleza, nelegovane oceli
+67247	Ingoty, ostatni primarni odlitky z nerezavejici oceli
+67249	Ingoty, ostat. primarni odlitky z jine legovane oceli
+6726	Polotovary ze železa, oceli, s méně než 0,25 % uhlíku
+67261	Polotovary z zeleza, oceli, pravouhleho prurezu
+67262	Polotovary z zeleza, oceli, ost., pravouhleho prurezu
+67269	Polotovary z zeleza, oceli, ostatni
+6727	Polotovary ze železa, neleg. oceli, nad 0,25 % uhlíku
+6728	Polotovary z legované oceli
+67281	Polotovary z nerezavejici oceli
+67282	Polotovary z jine legovane oceli
+673	Ploché válc.výr.ze železa,neleg.oceli,ne plátované ap.
+6732	Ploché válc.výr.ze železa,neleg.oceli,ne plátované ap.,po válc.za tepla dále nezprac.
+67321	Ploché válc.výr.ze železa,neleg.oceli,pouze válc.za tepla,šíře nad 600mm,ve svitcích
+67324	Ploché válc.výr.ze železa,neleg.oceli,pouze válc.za tepla,šíře nad 600mm,ne ve svitcích
+67327	Ploché válc.výr ze železa,neleg.oceli,pouze válc.za tepla,šíře do 600mm,tloušťka nad 4,75mm
+67329	Ploché válc.výr.ze železa,neleg.oceli,pouze válc.za tepla,šíře nad 600mm,tloušťka do 4,75mm
+6734	Ploché válc.výr.ze železa,neleg.oceli,ne plátované ap.,po válc.za studena dále nezprac.
+67341	Ploché válc.výr.ze železa,neleg.oceli,pouze válc.za studena,šíře nad 600mm,ve svitcích
+67346	Ploché válc.výr.ze železa,neleg.oceli,pouze válc.za studena,šíře nad 600mm,ne ve svitcích
+67349	Ploché válc.výr.ze železa,neleg.oceli,pouze válc.za studena,šíře do 600mm
+6735	Ploché válc.výr.ze železa,neleg.oceli j.n.,ne plátované ap.
+67351	Ploché válc.výr.ze železa,neleg.oceli j.n.,nad 600mm,válc.za tepla,ne plátované ap.
+67352	Ploché válc.výr.ze železa,neleg.oceli j.n.,nad 600mm,válc.za studena,ne plátované ap.
+67353	Ploché válc.výr.ze železa,neleg.oceli j.n., šíře do 600mm,ne plátované ap.
+674	Výr. ploché válcované ze železa, oceli plátované ap.
+6741	Ploché válcované výrobky, pokovené zinkem
+67411	Ploche v. elektrol. pokovene zinkem, sire nad 600 mm
+67412	Ploche v., elektrol. pokovene zinkem, sire do 600 mm
+67413	Ploche val. v. jinak pokovene zinkem, sire nad 600 mm
+67414	Ploche valc. v. jinak pokovene zinkem, sire do 600 mm
+6742	Ploché válcované výrobky, pokovené cínem
+67421	Ploche valc. vyrobky pokovene zinkem, sire nad 600 mm
+67422	Ploche valc. vyrobky pokovene zinkem, sire do 600 mm
+6743	Ploché válcované výr. ze železa, oceli, lakované ap.
+67431	Ploche valc. vyrobky lakovane ap., sire nad 600 mm
+67432	Ploche valc. vyrobky, lakovane ap. sire do 600 mm
+6744	Ploché válcované výrobky ze železa nebo neleg. oceli
+67441	Ploche valcovane vyrobky, platovane, potazene olovem
+67442	Ploche v. v. platovane ap. kyslicniky chromu, chromem
+67443	Ploche valcovane vyrobky platovane, potazene hlinikem
+67444	Ploche valcovane vyrobky pokovene, potazene, ostatni
+6745	Ploché válcované výrobky ze železa nebo neleg. oceli
+67451	Ploche val. v., pokovene ap. jinak nez elektrolyticky
+67452	Ploche valcovane vyrobky, platovane
+675	Výrobky ploché válcované z oceli legované
+6751	Ploché válcované výrobky z křemíkové elektrooceli
+67511	Ploche val. v. z kremik. elektrooceli sire nad 600 mm
+67512	Ploche valc. v. z kremik. elektrooceli sire do 600 mm
+6752	Ploché válcované výrobky z rychlořezné oceli, šíře do 600 mm
+6753	Ploché, za tepla válcované výrobky z nerezavěj. oceli
+67531	Ploche z nerez. sire nad 600 mm, tloustka nad 4,75 mm
+67532	Ploche z nerez sire nad 600 mm, tloustka 3 az 4,75 mm
+67533	Ploche v. z nerez., sire nad 600 mm, tloustka do 3 mm
+67534	Ploche z nerez. sire nad 600 mm, tloustka nad 4,75 mm
+67535	Ploche z nerez sire nad 600 mm, tloustka 3 az 4,75 mm
+67536	Ploche v. z nerez., sire nad 600 mm, tloustka do 3 mm
+67537	Ploche z nerez., sire do 600 mm, tloustka nad 4,75 mm
+67538	Ploche z nerez., sire do 600 mm, tloustka do 4,75 mm
+6754	Ploché, za tepla válcované výrobky z jiné neleg.oceli
+67541	Ploche valc. v. z jine neleg. oceli, sire nad 600 mm
+67542	Ploche valc. v. z jine neleg. oceli, sire nad 600 mm
+67543	Ploche valc. v. z jine neleg. oceli, sire do 600 mm
+6755	Ploché, za studena válcované výrobky z nerez. oceli
+67551	Ploche z nerez. sire nad 600 mm, tloustka nad 4,75 mm
+67552	Ploche z nerez sire nad 600 mm, tloustka 3 az 4,75 mm
+67553	Ploche z nerez., sire nad 600 mm, tloustka 1 az 3 mm
+67554	Ploche z nerez sire nad 600 mm, tloustka 0,50 az 1 mm
+67555	Ploche z nerez., sire nad 600 mm, tloustka do 0,50 mm
+67556	Ploche valc. vyrobky z nerez. oceli, sire do 600 mm
+6756	Ploché, za studena válcované výrob.z jiné legov.oceli
+67561	Ploche valc. vyr. z jine leg. oceli, sire nad 600 mm
+67562	Ploche valc. vyr. z jine leg. oceli, sire do 600 mm
+6757	Ploché válcované výrobky z legované oceli, j.n.
+67571	Ploche valc. v. z nerez. oceli j.n., sire nad 600 mm
+67572	Ploche valc. vyr. z nerez. oceli j.n., sire do 600 mm
+67573	Ploche val. v. z jine leg. oceli j.n. sire nad 600 mm
+67574	Ploche valc. v. z jine leg. oceli j.n. sire do 600 mm
+676	Tyče, pruty, úhelníky, profily ap. železné, ocelové
+6761	Tyče a pruty ze železa nebo oceli, válcované za tepla
+67611	Tyce ap. z zeleza, nel. oceli s deformacemi, za tepla
+67612	Tyce, pruty z automatove oceli, za tepla
+67615	Tyce, pruty z nerezavejici oceli, za tepla
+67617	Tyce, pruty z rychlorezne oceli, za tepla
+67619	Tyce, pruty z jine legovane oceli, za tepla
+6762	Tyče a pruty ze žel.nebo oceli,válc.a protah.za tepla
+67621	Jine tyce ap. z zeleza, oceli s deformacemi, za tepla
+67622	Jine tyce, pruty z automatove oceli, za tepla
+67625	Jine tyce, pruty z nerezavejici oceli, za tepla
+67629	Jine tyce, pruty z jine legovane oceli, za tepla
+6763	Tyče a pruty ze železa, oceli, tvářené za studena
+67631	Tyče a pruty tvářené za studena, z automatové oceli
+67633	Tyče a pruty tvářené za studena, ze železa, nelegované oceli, ostatní
+67634	Tyče a pruty tvářené za studena, z nerazavějící oceli
+67639	Tyče a pruty tvářené za studena, z jiné legované oceli (ne rychlořezná, siliko-manganová)
+6764	Ostatní tyče a pruty ze železa a oceli
+67641	Ostatni tyce, pruty z rychlorezne oceli
+67642	Ostatni tyce, pruty ze silikomanganove oceli
+67643	Ost. tyce ap. z zeleza, nelegovane oceli, opracovane
+67644	Ostatni tyce, pruty z jineho zeleza, nelegovane oceli
+67645	Ostatni tyce, pruty z nerezavejici oceli
+67646	Ostatni tyce, pruty z jine legovane oceli, opracovane
+67647	Tyce, pruty z legovane oceli, j.n.
+67648	Dute vrtne tyce, pruty z legovane, nelegovane oceli
+6768	Úhelníky, tvarovky, profily (bez kolejnic),štětovnice
+67681	Profily tvaru U, I, H, L, T, za tepla, vyse do 80 mm
+67682	Profily tvaru U, I, H, L, T, za tepla, vyse nad 80 mm
+67683	Ost. uhelniky a profily, valcovane za tepla
+67684	Uhelniky, tvarovky, profily, tvarene za studena
+67685	Ostatni uhelniky, tvarovky, profily z zeleza, oceli
+67686	Stetovnice, svarovane uhelniky ap. ze zeleza, oceli
+67687	Uhelniky, tvarovky, profily z nerezavejici oceli
+67688	Uhelniky, tvarovky, profily z jine legovane oceli
+677	Kolejnice, materiál konstrukční pro železnice
+6770	Konstrukční materiál pro železniční, tramvaj. tratě
+67701	Kolejnice (ne pridrzne, ozubnicove) z zeleza, oceli
+67709	Ost. konstrukcni material pro zelezn., tramvaj. trate
+678	Dráty železné nebo ocelové
+6781	Dráty ze železa nebo nelegované oceli
+67814	Dráty ze železa, nelegované oceli, neplátované, nepokovené
+67815	Dráty ze železa, nelegované oceli, plátované či pokovené zinkem aj. obec. kovy
+67819	Dráty ze železa, nelegované oceli, ostatní
+6782	Dráty z nerezavějící nebo jiné legované oceli
+67821	Dráty z nerezavějící oceli
+67829	Dráty z jiné legované oceli
+679	Roury, trubky, profily duté, fitinky železné, ocelové
+6791	Roury, trubky a duté profily, bezešvé
+67911	Roury, trubky, dute profily litinove
+67912	Potrubi (ne litinove) pro ropovody, plynovody
+67913	Paznice, cerpaci, vrtne trubky pro vrtani ropy, plynu
+67914	Ost. roury ap. kruh. prurezu, z zeleza, neleg. oceli
+67915	Ost. roury ap. kruhoveho prurezu z nerezavejici oceli
+67916	Ost. roury ap. kruh. prurezu z jine legovane oceli
+67917	Ostatni bezesve roury, trubky, dute profily
+6793	Ost. roury a trubky, vnější průměr větší než 406,4 mm
+67931	Potrubi na ropovody, plynovody, z zeleza, oceli
+67932	Paznice pro vrtani ropy, plynu, z zeleza, oceli
+67933	Ostatni, svarovane, z zeleza, oceli
+67939	Ostatni roury, trubky, z zeleza, oceli
+6794	Ost. roury, trubky a duté profily, železné či ocelové
+67941	Potrubi pro ropovody, plynovody, z zeleza, oceli
+67942	Paznice, trubky pro vrtani ropy, plynu z zeleza, ocel
+67943	Ost. roury ap. svar. kruh. prurezu, z zeleza, oceli
+67944	Ost. roury ap. svar. nekruh. prurezu, z zeleza, oceli
+67949	Ostatni roury, trubky ap. z zeleza, oceli
+6795	Rourové, trubkové fitinky ze železa nebo oceli
+67951	Lite fitinky z netemperovane litiny
+67952	Ostatni lite fitinky z zeleza, oceli
+67953	Pribory z nerezavejici oceli
+67954	Kolena, oblouky, presuvky se zavitem z nerez. oceli
+67955	Stykove svarovane fitinky z zeleza, oceli
+67956	Ost. rourove, trubkove fitinky z nerezavejici oceli
+67959	Rourove, trubkove fitinky z zeleza, oceli, j.n.
+68	Neželezné kovy
+681	Stříbro, platina a ostatní kovy skupiny platiny
+6811	Stříbro, neválcované, nezpracov.nebo polozpracované
+68112	Zakladni kovy postribrene, nezpracovane, polozprac.
+68113	Stribro (vc. pozlaceneho), nevalcovane
+68114	Stribro, jako polotovar, prasek
+6812	Platina aj. kovy skupiny platiny, neválcované apod.
+68122	Zakladni kovy, zlato, stribro, pokovene platinou
+68123	Platina a slitiny platiny, nevalcovane
+68124	Ostatni kovy skupiny platiny, nevalcovane
+68125	Platina aj. kovy skupiny platiny, slitiny
+682	Měď
+6821	Měď,rafinovaná a nerafinovaná, anody, slitiny mědi
+68211	Nerafinovana med, medene anody
+68212	Rafinovana med
+68213	Predslitiny medi
+68214	Slitiny medi (ne predslitiny)
+6823	Měděné tyče, pruty, profily
+68231	Tyce, pruty, profily z rafinovane medi
+68232	Tyce, pruty, profily ze slitin medi
+6824	Měděný drát
+68241	Drat z rafinovane medi
+68242	Drat ze slitin medi
+6825	Měděné plechy tenké, tlusté, páskovina nad 0,15 mm
+68251	Plechy, paskovina z rafinovane medi nad 0,15 mm
+68252	Plechy, paskovina ze slitin medi nad 0,15 mm
+6826	Měděná fólie o tloušťce do 0,15 mm
+68261	Medena folie do 0,15 mm (bez podlozky)
+68262	Medeny prasek, vlocky
+6827	Měděné roury, trubky a fitinky
+68271	Medene roury, trubky
+68272	Medene fitinky pro roury, trubky
+683	Nikl
+6831	Nikl a slitiny niklu, netvářené
+68311	Nikl, bez slitin
+68312	Slitiny niklu
+6832	Nikl vč. slitin, zpracované (bez galvanických anod)
+68321	Niklove tyce, pruty, profily, drat
+68322	Niklove roury, trubky, fitinky
+68323	Niklovy prasek, vlocky
+68324	Niklove plechy tenke, tluste, paskovina, folie
+684	Hliník
+6841	Hliník a slitiny hliníku, netvářené
+68411	Hlinik, bez slitin
+68412	Slitiny hliniku
+6842	Hliník, slitiny hliníku, tvářené
+68421	Hlinikove tyce, pruty, profily
+68422	Hlinikovy drat
+68423	Hlinikove plechy tenke, tluste, paskovina 0,20 mm
+68424	Hlinikova folie do 0,20 mm (bez podlozky)
+68425	Hlinikovy prasek, vlocky
+68426	Hlinikove roury, trubky
+68427	Fitinky pro hlinikove roury, trubky
+685	Olovo
+6851	Olovo, slitiny olova, netvářené
+68511	Nerafinovane olovo, slitiny olova
+68512	Rafinovane olovo
+6852	Olověné plechy tenké i tlusté, páskovina, fólie; olověný prášek a vločky
+686	Zinek
+6861	Zinek, slitiny zinku, netvářené
+68611	Zinek, bez slitin
+68612	Slitiny zinku
+6863	Zinek, slitiny zinku, zpracované
+68631	Zinkove tyce, pruty, profily, drat
+68632	Zinkovy plech tenky, tlusty, paskovina, folie
+68633	Zinkovy prach (modry prasek), prasky, vlocky
+687	Cín
+6871	Cín a slitiny cínu, netvařené
+68711	Cin, bez slitin
+68712	Slitiny cinu
+6872	Cínové tyče, pruty, profily a drát
+689	Kovy neželezné zákl. ost. užívané v hutnictví, cermety
+6891	Wolfram, molybden, tantal a hořčík, netvářené
+68911	Wolfram, netvareny, wolframovy odpad, srot
+68912	Molybden, netvareny, molybdenovy odpad, srot
+68913	Tantal, netvareny, odpad, srot, prasek
+68914	Horcikovy odpad, srot
+68915	Horcik, netvareny
+6898	Kobalt, kadmium, titan a zirkon, netvářené
+68981	Kobalt, kobaltovy lech aj. meziprodukty, odpad, srot
+68982	Kadmium, netvarene, kadmiovy odpad, srot, prasek
+68983	Titan, netvareny, titanovy odpad, srot, prasek
+68984	Zirkon, netvareny, zirkonovy odpad, srot, prasek
+6899	Základní kovy, j.n., cermenty, výrobky, j.n.
+68991	Berylium, netvarene, beryliovy odpad, srot, prasek
+68992	Vizmut, vyrobky z nej (vc. odpadu, srotu)
+68993	Antimon, vyrobky z nej (vc. odpadu, srotu)
+68994	Mangan, vyrobky z nej, (vc. odpadu, srotu)
+68995	Chrom, vyrobky z nej (vc. odpadu, srotu)
+68998	Ostatni zakladni kovy, netvarene, odpad, srot, prasek
+68999	Cermenty, vyrobky z nich (vc. odpadu, srotu)
+69	Kovové výrobky, j.n.
+691	Konstrukce vč. částí jn. ze železa, oceli, hliníku
+6911	Konstrukce a části konstrukcí ze železa nebo oceli
+69111	Mosty, mostni dily z zeleza, oceli
+69112	Veze, prihradove sloupy z zeleza, oceli
+69113	Dvere, okna, jejich ramy, prahy dveri z zeleza, oceli
+69114	Podpery ap. zarizeni k leseni, bedneni z zeleza, ocel
+69119	Ostatni konstrukce, plechy, tyce ap. z zeleza, oceli
+6912	Hliníkové konstrukce, části, plechy, profily ap.
+69121	Dvere, okna, jejich ramy, prahy dveri z hliniku
+69129	Hlinikove konstrukce, casti j.n., plechy, profily ap.
+692	Konstrukce kovové ke skladování a přepravě
+6921	Nádrže, zásobní tanky, kádě a sudy o obsahu > 300 l
+69211	Nadrze, zasobni tanky ap.  nad 300 l ze zeleza, oceli
+69212	Nadrze, zasobni tanky, kade nad 300 l z hliniku
+6924	Zásobní tanky, sudy, plechovky, krabice apod.,železné
+69241	Zasobni tanky, sudy  ap. z zeleza, oceli  do 300 l
+69242	Hlinikove sudy, plechovky, krabice ap. do 300 l
+69243	Zelezne, ocelove nadoby na stlacene, zkapalnene plyny
+69244	Hlinikove nadoby na stlacene, zkapalnene plyny
+693	Výrobky drátěné (ne vodiče izol. elektr.), pletivo
+6931	Kroucený drát, lana, kabely, pletené bandáže aj.
+69311	Krouceny drat, lana, kabely aj. ze zeleza, oceli
+69312	Krouceny drat, kabely, pletene bandaze ap. z medi
+69313	Krouceny drat, kabely, pletene bandaze ap. z hliniku
+6932	Drát ostnatý, plochý, dvojitý ap. železný, ocelový
+6935	Tkaniny, pletivo, sítě a ploty ze železného, ocelového drátu; plechová mřížkovina ze železa, oceli
+694	Hřebíky, šrouby, matice, svorníky, nýty ap. kovové
+6941	Hřebíky, příchytky, napínáčky aj. ze železa, oceli
+6942	Šrouby, svorníky, matice, nýty ap. ze železa, oceli
+69421	Srouby, svorniky, nyty ap. zavitove z zeleza, oceli
+69422	Srouby, svorniky, nyty ap. bez zavitu z zeleza, oceli
+6943	Hřebíky, skoby, napínáčky aj. ze železa, oceli, mědi
+69431	Hrebiky, prichytky, napinacky, skoby ap. vyrobky
+69432	Podlozky ap. vyrobky z medi, bez zavitu
+69433	Srouby, svorniky, matice ap. vyrobky z medi, zavitove
+6944	Hřebíky, příchytky, skoby, nýty, šrouby ap. z hliníku
+695	Nářadí a nástroje ruční i strojní
+6951	Ruční nářadí a ost. pro  zemědělství, lesnictví ap.
+6952	Ruční pily, pilníky, rašple,kleště vč.štípacích apod.
+69521	Rucni pily
+69522	Pilniky, rasple apod. naradi
+69523	Kleste, nuzky na plech, trubkorezy, klistky ap.
+6953	Kleště k utahovaní, ruční; zaměnitelné nástrčné klíče
+6954	Ruční nářadí, j.n.; opalovací lampy, svěráky, svorky
+69541	Vrtaci, zavitove, zavitorezne nastroje
+69542	Kladiva, perliky
+69543	Hobliky, dlata ap. rezne nastroje k obrabeni dreva
+69544	Sroubovaky
+69545	Domaci naradi, j.n.
+69546	Ostatni rucni naradi, opalovaci lampy
+69547	Sveraky, svorky apod.
+69548	Kovadliny, prenosne vyhne, brusky
+69549	Sady dvou a vice vyrobku rucniho naradi, sveraku ap.
+6955	Listy pilové všech druhů
+69551	Listy pasove pily
+69552	Pilove kotouce s pracovni casti z oceli
+69553	Pilove kotouce s pracovni casti z jineho materialu
+69554	Listy retezove pily
+69555	Listy primocarych pil, k obrabeni kovu
+69559	Ostatni pilove listy
+6956	Nože a řezné nástroje pro stroje a mechanická zaříz.
+69561	Noze, rezne nastroje pro stroje, mechanicka zarizeni
+69562	Kotouce, tyce, brity ze slinutych karbidu, cermentu
+69563	Nastroje k vrtani hornin, pudy
+69564	Vymenne nastroje do naradi, pro obrabeci stroje
+6957	Nástroje v sadách pro prodej
+696	Výrobky nožířské
+6963	Břitvy a holicí čepelky
+69631	Britvy neelektricke
+69635	Cepelky do holicich strojku (vc. polotovaru)
+69638	Dily, j.n., neelektrickych britev, ne z plastu
+6964	Nůžky, i krejčovské a jejich čepele
+6965	Ost. nožířské výrobky, soupravy, vč. pilníků na nehty
+69651	Noze na papir, otevirace dopisu, orezavace tuzek ap.
+69655	Soupravy, nastroje na manikuru, pedikuru
+69659	Nozirske vyrobky, j.n.
+6966	Lžíce, nože, lopatky ap. kuchyňské, stolni potřeby
+69661	Soupravy vybranych vyrobku, pokovene drahym kovem
+69662	Ostatni soupravy vybranych vyrobku
+69663	Vyrobky mimo soupravy, pokovene drahym kovem
+69669	Ostatni vyrobky (lzice, naberacky ap.), ne soupravy
+6968	Nože s řeznou čepelí rovnou, zubovitou; čepele
+697	Potřeby pro domácnost z kovů obecných jn.
+6973	Domácí spotřebiče k vaření nebo topení, neelektrické
+69731	Domaci spotrebice k vareni ap. neelektricke
+69732	Domaci kaminka, krby ap. neelektricka topidla
+69733	Zelezne, ocelove dily spotrebicu k vareni, kaminek aj
+6974	Stolní, kuchyňské a ost. domácí potřeby, kovové
+69741	Vyrobky pro domacnost, dily, j.n., z zeleza, oceli
+69742	Vyrobky pro domacnost, dily, j.n., z medi
+69743	Vyrobky pro domacnost, dily, j.n., z hliniku
+69744	Zelezna, ocelova vlna, pomucky k cisteni nadobi
+6975	Hygienické zboží ze železa, oceli, hliníku, mědi
+69751	Hygienicke zbozi, dily, j.n., z zeleza, oceli
+69752	Hygienicke zbozi, dily, j.n., z medi
+69753	Hygienicke zbozi, dily, j.n., z hliniku
+6978	Domácí spotřebiče, dekorační předměty, zrcadla
+69781	Mechanicke pristroje, do 10 kg, k priprave potravin
+69782	Sosky, ramecky, zrcadla ap. ze zakladnich kovu
+699	Výrobky z kovů základních jn.
+6991	Zámečnické výrobky, sejfy, pancéřové schránky
+69911	Zamky, uzavrene konstrukce, klice ze zakladnich kovu
+69912	Sejfy, schranky, pancerove, ap. ze zakladnich kovu
+69913	Zavesy, ze zakladnich kovu
+69914	Kolecka, ze zakladnich kovu
+69915	Ost. prislusenstvi ap. pro motor. vozidla ze z. kovu
+69916	Ostatni prislusenstvi ap. pro stavby ze zakl. kovu
+69917	Ostatni prislusenstvi ap. pro nabytek ze zakl. kovu
+69919	Ost. prislusenstvi, vesaky, konzole ap. ze zakl. kovu
+6992	Řetězy (jiné než článkové), ze železa nebo oceli
+69921	Lyzinove retezy z zeleza, oceli
+69922	Ostatni retezy z zeleza, oceli
+6993	Špendlíky a jehly ze železa nebo oceli; ozdoby oděvů
+69931	Jehly sici, vysivaci, snerovaci; hacky, jehlice apod.
+69932	Spendliky zaviraci a ostatni, z zeleza, oceli, j.n.
+69933	Sponky, prezky, hacky, nyty ap. ze zakladnich kovu
+6994	Pružiny a pružinové listy ze železa nebo oceli
+6995	Různé výrobky ze základních kovů
+69951	Ohebne hadice ze zakladnich kovu, pr. prislusenstvi
+69952	Zvonky, gongy ap., neelektricke, ze zakladnich kovu
+69953	Zatky, vicka, uzavery sudove ap. ze zakladnich kovu
+69954	Plechove tabule, cislice ap. ze zakladnich kovu
+69955	Drat, pruty, plechy, elektrody apod. ze zaklad. kovu
+6996	Výrobky ze železa nebo oceli, j.n.
+69961	Kotvy, lodni haky, casti, z zeleza, oceli
+69962	Lite vyrobky z nekujne litiny, j.n.
+69963	Lite vyrobky z jineho druhu zeleza, oceli, j.n.
+69965	Vyrobky z zeleza, oceli, kovane, razene, j.n.
+69967	Vyrobky z zelezneho, oceloveho dratu, j.n.
+69969	Vyrobky z zeleza, oceli, j.n.
+6997	Výrobky,j.n.z mědi,niklu, hliníku, olova, zinku, cínu
+69971	Retezy z medi, dily
+69973	Vyrobky z medi, j.n.
+69975	Vyrobky z niklu, j.n.
+69976	Vyrobky z olova, j.n.
+69977	Vyrobky ze zinku, j.n.
+69978	Vyrobky z cinu, j.n.
+69979	Vyrobky z hliniku, j.n.
+6998	Polotovary a výrobky z kobaltu,kadmia,titanu,zirkonu
+69981	Kobalt, tvareny, vyrobky, j.n.
+69983	Kadmium, tvarene, vyrobky, j.n.
+69985	Titan, tvareny, vyrobky, j.n.
+69987	Zirkon, tvareny, vyrobky, j.n.
+6999	Polotovary a výrobky z wolframu, molybdenu, tantalu
+69991	Wolfram, tvareny, vyrobky, j.n.
+69992	Molybden, tvareny, vyrobky, j.n.
+69993	Tantal, tvareny, vyrobky, j.n.
+69994	Horcik, tvareny, vyrobky, j.n.
+69995	Berylium
+69999	Zakladni kovy, tvarene, j.n., vyrobky, j.n.
+7	Stroje a dopravní prostředky
+71	Stroje a zařízení k výrobě energie
+711	Kotle na výrobu páry z vody a jiných látek, díly
+7111	Kotle na výrobu páry
+71111	Kotle na vyrobu pary z vody a jinych latek
+71112	Kotle na prehratou vodu
+7112	Pomocné příslušenství u kotlů, ohříváky, kondenzátory
+71121	Pomocne prisl. kotlu na vyrobu pary, teles ust.topeni
+71122	Kondenzatory pro parni stroje, jine hnaci ustroji
+7119	Díly pro kotle a pomocné příslušenství z 7111 a 7112
+71191	Dily pro kotle na vyrobu pary z vody a jinych latek
+71192	Dily pro prislusenstvi kotlu, kondenzatoru, ustroji
+712	Turbíny na páru z vody a jiných látek a díly jn.
+7121	Turbíny na páru z vody a jiných látek
+71211	Turbiny na paru z vody a jinych latek k pohonu lodi
+71219	Turbiny na paru z vody a jinych latek ostatni
+7128	Díly k turbínám
+713	Motory pístové s vnitřním spalováním a díly jn.
+7131	Pístové motory s vnitřním spalováním pro letadla
+71311	Pistove motory zazehove vratne, rotacni pro letadla
+71319	Dily, j.n., leteckych motoru
+7132	Pístové motory s vnitřním spalováním pro vozidla
+71321	Vratne pistove motory s obsahem valcu do 1000 cm3
+71322	Vratne pistove motory s obsahem valcu nad 1000 cm3
+71323	Vznetove motory (dieslove, s zarovou hlavou)
+7133	Pístové motory s vnitřním spalováním, pro pohon lodí
+71331	Privesne motory
+71332	Ostatni zazehove motory vratne, rotacni
+71333	Vznetove motory (dieslove, se zarovou hlavou)
+7138	Pístové motory s vnitřním spalováním, j.n.
+71381	Ostatni zazehove vratne, rotacni pistove motory
+71382	Ostatni vznetove motory s vnitrnim spalovanim
+7139	Díly pro pístové motory s vnitřním spalováním
+71391	Dily pro zazehove pistove motory s vnitr. spalovanim
+71392	Dily pro vznetove pistove motory s vnitr. spalovanim
+714	Stroje, motory neelektrické (ne turbíny, motory píst.)
+7144	Reaktivní motory
+71441	Proudove motory
+71449	Jine nez proudove motory
+7148	Plynové turbíny, j.n.
+71481	Turbovrtulove pohony
+71489	Ostatni plynove turbiny
+7149	Díly proudových motorů, plynových turbín
+71491	Dily pro proudove, turbovrtulove motory
+71499	Dily pro ostatni plynove turbiny
+716	Stroje točivé elektrické a jejich díly jn.
+7161	Elektrické stroje s výkonem do 37,5 W
+7162	Stejnosměrné motory a generátory
+7163	Motory, generátory na střídavý proud, soustrojí ap.
+71631	Motory na stridavy proud
+71632	Generatory na stridavy proud
+7164	Elektrické rotační měniče
+7165	Generátorová soustrojí
+71651	Elektricka generatorova soustroji s pistovymi motory
+71652	Ostatni generatorova soustroji
+7169	Díly, j.n.,vhodné pro stroje spadající do skupiny 716
+718	Zařízení ostatní k výrobě elektrického proudu a díly
+7181	Vodní turbíny a vodní kola a jejich díly
+71811	Vodni turbiny, vodni kola
+71819	Dily, vc. regulatoru, k vodnim turbinam, kolum
+7187	Jaderné reaktory a jejich díly; palivové články, tyče
+71871	Jaderne reaktory
+71877	Palivove clanky, tyce, neozarene
+71878	Dily jadernych reaktoru
+7189	Stroje a motory, j.n.,spadající do skupiny 7144
+71891	Linearni hydraulicke stroje a motory
+71892	Linearni pneumaticke stroje, motory (valcove)
+71893	Ostatni stroje, motory j.n.
+71899	Dily pro proudove motory, linearni stroje hydraulicke
+72	Strojní zařízení pro určitá odvětví průmyslu
+721	Stroje zemědělské (ne traktory) a jejich díly
+7211	Zemědělské, zahradnické a lesnické stroje
+72111	Pluhy
+72112	Stroje seci, sazeci, presazovaci, rozmetadla hnojiv
+72113	Skarifikatory, plecky, kypridla, stroje okopavaci aj.
+72118	Ostatni zemedelske, zahradnicke a lesnicke stroje
+72119	Dily pro zemedelske, zahradnicke a lesnicke stroje
+7212	Žací stroje a mlátičky
+72121	Zaci stroje na travniky, pro parky, sportovni hriste
+72122	Kombajny (zaci, mlatici)
+72123	Ostatni zaci, mlatici stroje
+72126	Stroje na cisteni, trideni vajec, ovoce aj. produktu
+72127	Stroje na cisteni, trideni semen, obili, lustenin
+72129	Dily zacich stroju, mlaticek, stroju na trideni ap.
+7213	Dojící a mlékárenské stroje a jejich díly
+72131	Strojni dojicky
+72138	Mlekarenske stroje
+72139	Dily dojicich, mlekarenskych stroju
+7219	Zeměd.,zahrad.,lesnické,drůbež.,včelař.stroje a jiné
+72191	Lisy, drtice ap. k vyrobe vina, mostu, stav apod.
+72195	Drubeznicke stroje, inkubatory, lihne
+72196	Ost. zemed., zahrad., lesnicke nebo vcelarske stroje
+72198	Dily lisu, drticu ap. k vyrobe vina, mostu, stav aj.
+72199	Dily stroju drubeznickych, zemedelskych, lesnickych
+722	Traktory
+7223	Pásové traktory
+7224	Kolové traktory
+72241	Traktory rizene za chuze
+72249	Ostatni kolove traktory
+723	Stroje, zaříz. pro stavebnictví, stavební inženýrství
+7231	Buldozery, shrnovače, grejdry a rovnací stroje
+72311	Buldozery, bocni shrnovace
+72312	Grejdry, rovnaci stroje
+7232	Mechanické lopaty, rypadla a lopatové nakladáče
+72321	Celni lopatove nakladace
+72322	Mechanicke lopaty, rypadla, lopatove nakladace
+72329	Ostatni mechanicke lopaty aj. s vlastnim pohonem
+7233	Přemisťovací, srovnávací, vrtné apod.stroje na zem
+72331	Skrejpry
+72333	Pechovaci stroje, silnicni valce
+72335	Brazdici, razici stroje pro uhelne doly, lomy
+72337	Ostatni vrtna, hloubici zarizeni
+72339	Ost. rypaci, rovnaci aj. stroje s vlastnim pohonem
+7234	Stavební a důlní stroje, j.n.
+72341	Beranidla, vytahovace pilot
+72342	Snehove pluhy, frezy
+72343	Brazdici, razici stroje pro doly, lomy bez vl. pohonu
+72344	Ostatni vrtna, hloubici zarizeni, bez vl. pohonu
+72345	Pechovaci, zhutnovaci stroje, bez vlastniho pohonu
+72347	Ost. rypaci, rovnaci aj. stroje bez vlastniho pohonu
+72348	Stroje pro verejne prace, stavby apod., j.n.
+7239	Díly, j.n. ke strojům skupin 723 a 7443
+72391	Korecky, lopaty, drapaky, upinadla
+72392	Buldozery, bocni shrnovace
+72393	Dily ostatnich vrtnych, hloubicich stroju, zarizeni
+72399	Ost. dily stroju stavebniho inzenyrstvi, stavebnictvi
+724	Stroje textilní a kožedělné a jejich díly jn.
+7243	Šicí stroje
+72433	Sici stroje pro domacnosti
+72435	Ostatni sici stroje
+72439	Jehly, nabytek, kryty, spodky k sicim strojum, dily
+7244	Stroje k úpravě textilních vláken, spřádací apod.
+72441	Stroje k protlacovani, tazeni apod.umelych text.mat.
+72442	Stroje k uprave textilnich vlaken
+72443	Spradaci, zdvojovaci nebo skaci textilni stroje
+72449	Dily ke strojum pro upravu tex.vlaken, spradacim apod
+7245	Stroje tkalcovské, pletací, prošívací apod.
+72451	Tkalcovske stroje (stavy)
+72452	Pletaci a prosivaci stroje
+72453	Stroje k vyrobe krajky, tylu ap., k vsivani vlasu
+72454	Stroje k uprave textilni prize
+72455	Stroje k vyrobe, dokoncovani plsti, netkaneho textilu
+7246	Pomocné textilní stroje, díly a příslušenství
+72461	Pom. stroje k strojum k uprave tex. vlaken, stavu ap.
+72467	Dily, prislusenstvi tkalcovskych stroju
+72468	Dily, prislus. stroju pletacich, k vyrobe krajky ap.
+7247	Stroje k praní, čištění, ždímání, sušení, žehlení
+72471	Pracky pro domacnost a pradelny, nad 10 kg pradla
+72472	Stroje na chemicke cisteni
+72473	Stroje k suseni, nad 10 kg sucheho pradla
+72474	Stroje k prani, cisteni, mandlovani, barveni apod.
+7248	Stroje k úpravě, činění a dalšímu zpracovaní kůží
+72481	Stroje k uprave, cineni aj. zpracovani usni, kuze ap.
+72483	Stroje k vyrobe, opravovani obuvi
+72485	Stroje k vyrobe, opravovani vyrobku z usni, kuze ap.
+72488	Dily pro stroje k uprave, cineni ap. kuze, kozek ap.
+7249	Díly pro stroje k praní, čištění apod.
+72491	Dily pro pracky pro domacnost, pradelny
+72492	Dily pro stroje na chemicke cisteni, suseni, prani
+725	Stroje pro papírny, celulózky, k řezání papíru ap.
+7251	Stroje k výrobě buničiny z celulózové vlákniny
+72511	Stroje k vyrobe buniciny z celulozove vlakniny
+72512	Stroje k vyrobe nebo dokoncovani papiru nebo lepenky
+7252	Ost. stroje k výrobě buničiny, papíru nebo lepenky
+72521	Rezacky
+72523	Stroje k vyrobe pytlu, sacku, obalek
+72525	Stroje k vyrobe kartonu, krabic, beden, trubic, bubnu
+72527	Stroje k tvarovani vyrobku z buniciny, papiru ap.
+72529	Ostatni stroje k vyrobe buniciny, papiru, lepenky
+7259	Díly ke strojům pro papírny a celulózky
+72591	Dily stroju k vyrobe buniciny z celulozove vlakniny
+72599	Dily ost. stroju k vyrobe buniciny, papiru, lepenky
+726	Stroje tiskařské a knihařské a jejich díly
+7263	Stroje pro lití, sázeni, zhotovování forem, štočků
+72631	Stroje, zarizeni pro liti, sazeni aj. forem, stocku
+72635	Tiskarska sazba, formy, stocky, valce aj. komponenty
+7265	Stroje pro ofsetový tisk
+72651	Navijeni roli (u stroju pro ofsetovy tisk)
+72655	Podavace archu kancelarskeho typu
+72659	Ostatni stroje pro ofsetovy tisk
+7266	Ostatní tiskařské stroje
+72661	Knihtiskarske stroje (ne flexograficky tisk)
+72663	Stroje pro flexograficky tisk
+72665	Stroje pro hlubotisk
+72669	Ostatní tiskařské stroje, j.n.
+7268	Knihvazačské stroje (vč. šiček knih), díly
+72681	Knihvazacske stroje (vc. sicek)
+72689	Dily pro knihvazacske stroje
+7269	Díly k tiskařským strojům
+72691	Dily pro stroje pro liti, sazeni aj. forem, stocku
+72699	Dily pro stroje ost. tiskarske a pro ofsetovy tisk
+727	Stroje potravinářské (užívané jen průmyslově)
+7271	Stroje pro mlynářský průmysl a ke zpracovaní obilnin
+72711	Stroje uzivane v mlynarskem prumyslu
+72719	Dily stroju mlynarskeho prum., na cisteni ap. obili
+7272	Ostatní potravinářské stroje a jejich díly, j.n.
+72721	Stroje k extrakci, uprave tuku, oleju
+72722	Stroje, j.n. k priprave a vyrobe potravin ci napoju
+72729	Dily potravinarskych stroju
+728	Stroje, zaříz. ost. pro určitá odvětví průmyslu, díly
+7281	Obráběcí stroje zvláštního provedení
+72811	Obrabeci stroje k opracovani kamene, betonu, skla ap.
+72812	Obrabeci stroje na drevo, korek, kosti, kaucuk apod.
+72819	Dily k obrabecim strojum pro urcita prumysl. odvetvi
+7282	Stroje,přístroje pro výrobu polov.destiček,součástek,el.integr.obvodů,plochých displejů;součásti
+72821	Stroje,přístroje pro výrobu polov.destiček,součástek,el.integr.obvodů,plochých displejů
+72822	Stroje,přístroje pro výrobu,opravu,montáž,nakládání s polov.součástkami,el.integr.obvody apod.
+72829	Součásti strojů,přístrojů pro výrobu polov.destiček,součástek,el.integr.obvodů,plochých displejů
+7283	Stroje k třídění, prosévání, oddělování zeminy, apod.
+72831	Stroje k trideni, prosevani, prani zeminy, rud aj.
+72832	Stroje k drceni zeminy, kamene, rud aj. latek
+72833	Stroje k miseni, hneteni zeminy, kamene, rud aj.
+72834	Stroje k aglomeraci, lisovani, tvarovani
+72839	Dily stroju na trideni, prosevani ap. zeminy, rud aj.
+7284	Stroje speciálně řešené pro určitá průmyslová odvětví
+72841	Stroje k vyrobe elektrickych nebo elektronickych lamp
+72842	Stroje ke zpracovani kaucuku nebo plastickych hmot
+72843	Stroje k uprave, zpracovani tabaku, j.n.
+72844	Lisy k vyrobe desek, ost. stroje na zpracovani dreva
+72846	Stroje ke zpracovani kovu (vc.navijecek elektr.dratu)
+72847	Stroje k izotopicke separaci a jejich dily, j.n.
+72849	Stroje s individualni funkci, j.n.
+7285	Díly ke strojům pro určitá průmyslová odvětví
+72851	Dily stroju k vyrobe elektrickych ap. lamp, trubic aj
+72852	Dily stroju k zpracovani kaucuku, plastickych hmot
+72853	Dily stroju k uprave a zpracovani tabaku
+72855	Dily, j.n., stroju extrakce tuku ap., zpracovani kovu
+73	Kovozpracující stroje
+731	Stroje kovoobráběcí třískové
+7311	Obráběcí stroje k obrábění úběrem
+73111	Obrabeci stroje k obrabeni laserovymi aj. paprsky
+73112	Obrabeci stroje k obrabeni ultrazvukem
+73113	Obrabeci stroje k obrabeni elektrickym vybojem
+73114	Obrabeci stroje k obrabeni elektromech. postupem ap.
+7312	Obráběcí centra, jednoúčelové a kombinované stroje
+73121	Obrabeci centra
+73122	Jednoucelove stroje
+73123	Kombinovane postupove stroje
+7313	Soustruhy k úběru kovu
+73131	Horizontalni soustruhy, cislicove rizene
+73135	Ostatni soustruhy, cislicove rizene
+73137	Ostatni horizontalni soustruhy
+73139	Soustruhy, j.n.
+7314	Obráběcí stroje k vrtaní a vyvrtávání
+73141	Stroje s pohyblivou (vymennou) hlavou
+73142	Ostatni vrtacky, cislicove rizene
+73143	Vrtacky, j.n.
+73144	Ostatni vyvrtavacky-frezky, cislicove rizene
+73145	Vyvrtavacky-frezky, j.n.
+73146	Ostatni vyvrtavacky
+7315	Obráběcí stroje k frézování, řezání závitů
+73151	Konzolove frezy, cislicove rizene
+73152	Ostatni konzolove frezy
+73153	Ostatni frezy, cislicove rizene
+73154	Frezy, j.n.
+73157	Ostatni stroje k rezani zavitu, vnitrnich zavitu
+7316	Kovoobráběcí stroje k odjehlování, broušeni apod.
+73161	Obrabeci stroje na povrchove upravy, cislicove rizene
+73162	Cislicove nerizene obrabeci stroje na povrch. upravy
+73163	Ostatni brusky, cislicove rizene
+73164	Brusky, j.n.
+73165	Ostricky (ostreni nastroju, frez), cislicove rizene
+73166	Ostatni ostricky (ostreni nastroju, frez)
+73167	Honovaci, lapovaci stroje
+73169	Obrabeci stroje k odjehlovani, lesteni ap. kovu aj.
+7317	Kovoobráběcí stroje k hoblování, tváření, apod.
+73171	Tvareci, drazkovaci stroje
+73173	Protahovaci stroje
+73175	Stroje k obrabeni, brouseni ap. ozubenych kol
+73177	Rezacky
+73179	Obrabeci stroje pracujici s ubiranim kovu ap., j.n.
+733	Stroje kovoobráběcí beztřískové
+7331	Obráběcí stroje beztřískové (vč.lisů)
+73311	Stroje na kovani, liti pod tlakem (vc. lisu), buchary
+73312	Stroje na ohybani, prekladani ap., cislicove rizene
+73313	Stroje na ohybani, prekladani ap., cislicove nerizene
+73314	Strihaci stroje (vc. lisu), cislicove rizene
+73315	Strihaci stroje (vc. lisu), cislicove nerizene
+73316	Derovaci, drazkovaci stroje, cislicove rizene
+73317	Derovaci, drazkovaci stroje, j.n.
+73318	Lisy ke zpracovani kovu, karbidu kovu, j.n.
+7339	Jiné obráběcí stroje ke zpracování kovů, cermentů ap.
+73391	Tazne stolice na tyce, trubky, profily, drat apod.
+73393	Valcovacky zavitu
+73395	Stroje ke zpracovani dratu
+73399	Obrabeci stroje ke zpracovani kovu, cermentu ap. j.n.
+735	Díly jn. a příslušenství ke strojům kovoobráběcím
+7351	Pracovní držáky, samočinné závitořezné hlavy
+73511	Drzaky nastroju, samocinne zavitorezne hlavy
+73513	Pracovni drzaky
+73515	Delici hlavy, ost. specialni pridavna zarizeni
+7359	Díly,j.n. a spec. přídavná zaříz. k obráběcím strojům
+73591	Dily, spec. zarizeni pro kovoobrabeci stroje triskove
+73595	Dily, spec. zarizeni stroju kovoobrab. beztriskovych
+737	Zaříz. strojní ke zpracování kovů (ne stroje obráběcí)
+7371	Konvertory, pánve, kokily pro ingoty a licí stroje
+73711	Konvertory, kokily pro ingoty, panve
+73712	Lici stroje
+73719	Dily konvertoru, kokil, licich stroju
+7372	Válcovny kovu a válce a jejich díly
+73721	Valcovny kovu
+73729	Valce, ostatni dily valcoven kovu
+7373	Stroje a zařízení pro pájení a sváření
+73731	Pajedla, pistolova pajedla
+73732	Ostatni stroje, pristroje k tvrdemu pajeni a pajeni
+73733	Stroje, pristr. pro odporove svarovani kovu, automat.
+73734	Ostatni stroje, pristroje pro odporove svarovani kovu
+73735	Stroje, pristr. k obloukovemu svarovani kovu automat.
+73736	Ost. stroje, pristroje k obloukovemu svarovani kovu
+73737	Ostatni stroje, zarizeni pro pajeni a svarovani
+73739	Dily stroju, pristroju pro pajeni a svarovani
+7374	Stroje, přístroje pro pájení, svařování, díly, j.n.
+73741	Rucni pistaly
+73742	Ostatni stroje, zarizeni na pajeni, svarovani na plyn
+73743	Ostatni stroje, pristroje na pajeni, svarovani, j.n.
+73749	Dily pro stroje, pristroje na pajeni, svarovani
+74	Stroje a zařízení všeobecně užívané v průmyslu, j.n.
+741	Zařízení k ohřevu a chlazení a jejich díly jn.
+7412	Pecní hořáky, mechanická zauhlovací zařízení ap. j.n.
+74121	Pecni horaky na kapalna paliva
+74123	Ostatni pecni horaky (vc. kombinovanych)
+74125	Mechanicka zauhlovaci zarizeni, mechanicke rosty ap.
+74128	Dily horaku, mechanickych zauhl. zarizeni, rostu ap.
+7413	Průmyslové pece a laboratorní pícky, atd., vč. dílů
+74131	Pece, picky s odporovym ohrevem
+74132	Indukcni, dielektricke pece, picky
+74133	Ostatni pece, picky
+74134	Ostatni indukcni, dielektricka topna zarizeni
+74135	Dily peci, picek s odporovym ohrevem, indukcnich aj.
+74136	Pece, picky k prazeni, taveni ap. rud, pyritu, kovu
+74137	Pekarske pece (vc. peci na peceni sucharu)
+74138	Ostatni pece, picky (vc. spalovacich peci)
+74139	Dily k pecim, pickam k prazeni ap. rud aj., pekarskym
+7414	Chladničky, mrazničky apod. k průmyslovým účelům
+74143	Chladici, mrazici pulty, skrine, vystavni skrine ap.
+74145	Ostatni chladici, mrazici zarizeni, tepelna cerpadla
+74149	Dily k chladnickam, mraznickam ap. zarizeni
+7415	Klimatizační zařízení
+74151	Klimatizacni zarizeni okenni, nastenna s vl. pohonem
+74155	Ostatni klimatizacni zarizeni
+74159	Dily ke klimatizacnim zarizenim
+7417	Generátory plynu, výměníky tepla apod. zařízení
+74171	Prumyslove generatory plynu, vodniho plynu apod.
+74172	Dily k prumyslovym generatorum plynu, vodniho plynu
+74173	Destilacni, rektifikacni zarizeni
+74174	Vymeniky tepla
+74175	Zarizeni ke zkapalnovani vzduchu, plynu
+7418	Ost.prům. zařízení ke zprac. materialů změnou teploty
+74181	Prutokove plynove ohrivace vody
+74182	Ost. prutokove, zasobnikove ohrivace vody, neelektr.
+74183	Lekarske, chirurgicke, laboratorni sterilizatory
+74184	Susicky zemedelskych produktu
+74185	Susicky na potraviny, bunicinu, papir, lepenku
+74186	Susicky, j.n.
+74187	Stroje na vyrobu horkych napoju, vareni ap. potravin
+74189	Ost. stroje ke zpracovani materialu zmenou teploty
+7419	Díly ke strojům zařazených ve skupinách 741.7 a 741.8
+742	Čerpadla a dopravníky na kapaliny a jejich díly
+7421	Čerpadla k vybavení měřícími přístroji
+74211	Cerpadla k davkovani paliva, maziva s mericimi prist.
+74219	Ostatni cerpadla s mericimi pristroji
+7422	Čerpadla paliv, maziv pro pístové motory
+7423	Čerpadla na beton
+7424	Objemová čerpadla s vratným pohybem, j.n.
+7425	Rotační objemová čerpadla, j.n.
+7426	Odstředivá čerpadla, j.n.
+7427	Čerpadla na kapaliny, j.n., a dopravníky kapalin
+74271	Cerpadla na kapaliny, j.n.
+74275	Dopravniky kapalin
+7429	Díly k čerpadlům a dopravníkům kapalin
+74291	Dily k cerpadlum
+74295	Dily k dopravnikum kapalin
+743	Čerpadla (ne na kapaliny), kompresory, ventilátory ap.
+7431	Čerpadla na vzduch nebo vývěvy, kompresory vzduchu
+74311	Vyvevy
+74313	Cerpadla na vzduch ovladane rucne, pedalem
+74315	Kompresory uzivane v chladicim zarizeni
+74317	Kompresory na vzduch montovane na podvozek
+74319	Ostatni kompresory, digestore
+7434	Ventilace a kuchyňské digestoře
+74341	Ventilatory stolni, podlahove, okenni ap. do 125 W
+74343	Ostatni ventilatory
+74345	Digestore s horizontalni stranou do 120 cm
+7435	Odstředivky (vč. odstředivých sušiček), j.n.
+74351	Odstredivky smetany
+74355	Susicky odevu
+74359	Ostatni odstredivky
+7436	Filtrační a čistící stroje na kapaliny nebo plyny
+74361	Stroje a pristroje na filtrovani, cisteni vody
+74362	Stroje a pristroje na filtrovani, cisteni napoju
+74363	Filtry nafty, benzinu do motoru s vnitrnim spalovanim
+74364	Filtry vstupniho vzduchu do motoru s vnitrnim spalov.
+74367	Filtry, cistici stroje, pristroje na kapaliny, j.n.
+74369	Filtry, cistici stroje, pristroje na plyny, j.n.
+7438	Díly k čerpadlům, kompresorům, ventilátorům apod.
+7439	Díly k přístrojům filtračním, čistícím, odstředivkám
+74391	Dily k odstredivkam (vc. odstredivych susicek)
+74395	Dily k filtracnim, cisticim strojum, pristrojum
+744	Zařízení manipulační mechanická a díly k nim jn.
+7441	Přepravní vozíky pro továrny, sklady, přístaviště
+74411	Samohybne voziky s el. motorem zvedacim ap. zarizenim
+74412	Ostatni samohybne voziky se zvedacim ap. zarizenim
+74413	Ostatni prepravni voziky se zvadacim ap. zarizenim
+74414	Prepravni voziky elektricke samohybne bez zved. zar.
+74415	Ost. samohybne prepravni voziky bez zvedaciho zariz.
+74419	Dily voziku, traktoru samohybnych bez manip. zarizeni
+7442	Kladkostroje a zdvihadla; vrátky a navijáky
+74421	Kladkostroje, zdvihadla (ne skipove vytahy)
+74425	Ostatni vratky, navijaky
+7443	Deriky, jeřáby, mobilni zdvihací zařízení apod.
+74431	Mostove jeraby na stabilni konstrukci
+74432	Mobilni ramova zdvihaci zarizeni na pneumatikach
+74433	Ostatni jeraby, mobilni ramova zdvihaci zarizeni
+74434	Vezove jeraby
+74435	Portalove, stojanove otocne jeraby
+74437	Ostatni zdvihaci stroje s vlastnim pohonem
+74439	Ostatni zdvihaci stroje bez vlastniho pohonu
+7444	Zvedáky; zdvihadla ke zvedání vozidel
+74441	Zabudovane zvedaci systemy do garazi
+74443	Ostatni zvedaky, zdvihadla, hydraulicke
+74449	Ostatni zvedaky, zdvihadla k zvedani automobilu
+7447	Kontinuální výtahy a dopravní pásy
+74471	Pneumaticke vytahy, dopravni pasy
+74472	Ostatni kontinualni vytahy, dopravni pasy pro podzemi
+74473	Ostatni kontinualni vytahy, dopravni pasy, koreckove
+74474	Ost. kontinualni vytahy, dopravni pasy, pasoveho typu
+74479	Kontinualni vytahy, dopravni pasy na zbozi, material
+7448	Zvedací, manipulační, nakládací nebo vykládací stroje
+74481	Zdvize, skipove vytahy
+74485	Eskalatory, pohyblive chodniky
+74489	Ostatni zvedaci, manipulacni, nakladaci apod. stroje
+7449	Díly přepravních vozíků,kladkostrojů,zdvihadel, apod.
+74491	Dily kladkostroju, zdvihadel, navijaku, zvedaku
+74492	Dily voziku se zvedacim, manipulacnim zarizenim
+74493	Dily zdvizi, skipovych vytahu, eskalatoru
+74494	Dily ostatnich zvedacich, nakladacich ap. stroju
+745	Zaříz. strojní neelekt. ost., nářadí, přístroje mech.
+7451	Nástroje ruční pneumatické nebo s neelektr. motorem
+74511	Nastroje rucni pneumaticke
+74512	Nastroje rucni s neelektrickym motorem
+74519	Dily nastroju rucnich pneumatickych, s neel. motorkem
+7452	Strojní myčky nádobí (ne pro domácnost), myčky lahví
+74521	Strojni mycky nadobi, ne pro domacnost
+74523	Strojni zarizeni k cisteni, suseni lahvi aj. nadob
+74527	Ostatni balici zarizeni
+74529	Dily mycek nadobi, lahvi, zar. pro plneni lahvi ap.
+7453	Vážící zařízení vč. počítacího aj. zařízení, závaží
+74531	Vazici zarizeni vc. pocitaciho, kontrolniho zarizeni
+74532	Osobni vahy (vc. kojeneckych), vahy pro domacnost
+74539	Zavazi k vaham vseho druhu, dily vaziciho zarizeni
+7456	Mechanické přístr. k tryskání, stříkání, rozprašování
+74561	Hasici pristroje, plne, prazdne
+74562	Strikaci pistole ap. pristroje
+74563	Zarizeni k ofukovani parou, tryskani pisku apod.
+74564	Zemedelske aj. pristroje k tryskani ap. kapalin aj.
+74565	Ostatni mechanicke pristroje k rozprasovani, tryskani
+74568	Dily  mech. pristroju k rozprasovani, tryskani ap.
+7459	Ostatní neelektrické strojní zařízení, dily
+74591	Kalandry apod. stroje s valci
+74593	Valce, ostatni dily kalndru ap. stroju s valci
+74595	Prodejni automaty vc. menicu minci
+74597	Dily prodejnich automatu vc. menicu minci
+746	Ložiska kuličková a válečková
+7461	Kuličková ložiska
+7462	Kuželíková ložiska (vč. sestav kuželíku)
+7463	Soudečková ložiska
+7464	Jehlová ložiska
+7465	Ostatní válečková ložiska
+7468	Ostatní kuličková, válečková ložiska
+7469	Díly kuličkových, válečkových ložisek
+74691	Kulicky, jehly, valecky
+74699	Ostatni dily kulickovych, valeckovych lozisek
+747	Kohouty, ventily aj. armatury pro potrubí, kotle ap.
+7471	Redukční ventily
+7472	Ventily pro oleohydraulické, pneumatické převody
+7473	Zpětné ventily
+7474	Bezpečnostní, pojistné ventily
+7478	Kohouty, ventily apod. armatury, j.n.
+7479	Díly ke kohoutům, ventilům ap. pro potrubí, kotle
+748	Hřídele, kliky převodové, tělesa ložisková, spojky ap.
+7481	Převodové hřídele (vč. vačkových, klikových), kliky
+7482	Ložisková tělesa, pouzdra kluzných ložisek
+74821	Loziskova telesa, s kulickovymi, valeckovymi lozisky
+74822	Loziskova telesa bez kulickovych, valeckovych lozisek
+7483	Článkové řetezy, díly, ze železa, oceli
+74831	Valeckove retezy
+74832	Ostatni clankove retezy
+74839	Dily clankovych retezu
+7484	Ozubená soukolí, převody, kuličkové šrouby apod.
+7485	Setrvačníky, kladky (vč. kladkostrojů)
+7486	Spojky, hřídelové spojky (vč. univerzálních spojek)
+7489	Díly j.n., k převodovým hřídelím, klikám, skříním ap.
+749	Díly a příslušenství strojů neelektrické jn.
+7491	Formovací rámy slévárenské, formy trvalé, na kov ap.
+74911	Formovaci ramy slevarenske
+74912	Trvale formy
+74913	Odlevaci modely
+74914	Vstrikovaci, lisovaci formy na kovy, karbidy kovu
+74915	Ostatni formy na kovy, karbidy kovu
+74916	Formy na sklo
+74917	Formy na nerostne materialy
+74918	Vstrikovaci, lisovaci formy na kaucuk, plasty
+74919	Ostanti formy na kaucuk, plasty
+7492	Těsnění ap. spojovací materiál z plechu
+7499	Strojní části bez elektrických prvků, j.n.
+74991	Lodni kola, jejich lopatky
+74999	Ostatni strojni casti bez elektrickych prvku
+75	Kancelářské stroje a zař. k automat. zpracování dat
+751	Stroje kancelářské
+7511	Psací stroje jiné než pod záhlavím 726.5, 726.6 a 751.9; stroje pro zpracování textu
+7512	Stroje kalkulační, účtovací, kontrolní pokladny apod.
+75121	Elektronicke kalkulatory
+75122	Ostatni kalkulacni stroje
+75124	Registracni pokladny s kalkulacnim zarizenim
+75128	Účtovací stroje,poštovní frankovací stroje,automaty vydávající jízdenky apod.
+7519	Ostatní kancelářské stroje (rozmnožovací, adresovací apod.)
+75191	Rozmnožovací přístroje
+75193	Stroje na třídění,zakládání,otevírání pošty,zalepování obálek apod.
+75194	Stroje kombinující min. 2 z funkcí tisku, kopírování , fax.přenosu, připojitelné k PC
+75195	Ostatní kancelářské stroje, připojitelné k PC
+75196	Ostatní tiskárny, kopírovací a faxové přístroje
+75197	Díly a příslušenství ostatních strojů pro tisk
+75199	Kancelářské stroje, j.n.
+752	Zařízení k automat. zpracování dat, jednotky periferní
+7522	Zařízení k autom.zprac.dat přenosná,<10kg,obs.min.CPU,klávesnici,displej
+7523	Ostatní zařízení k autom.zprac.dat
+7526	Vstupní nebo výstupní jednotky
+7527	Paměťové jednotky
+7528	Ostatní jednotky zařízení k autom.zprac.dat
+7529	Zařízení ke zpracování dat, j.n.
+759	Díly ap. ke strojům kancel. a automat. zpracování dat
+7598	Díly, příslušenství vhodné současně pro 2 a více strojů podskupin 751.1, 751.2, 751.9 a skupiny 752
+7599	Díly, příslušenství strojů podskupin 751.1, 751.2, 751.9 a skupiny 752
+75991	Díly, příslušenství strojů podskupiny 751.1
+75993	Díly, příslušenství strojů podskupiny 751.9, nikoli pro tisk
+75995	Díly, příslušenství elektonických kalkulačních strojů podskupiny 751.2
+75997	Díly, příslušenství strojů skupiny 752
+76	Zařízení pro telekomunikace a pro záznam a reprodukci zvuku
+761	Monitory a projektory; televizní přijímače, i kombinované
+7613	Monitory CRT
+7614	Ostatní monitory
+7615	Projektory
+7616	Televizní přijímače, i kombinované
+762	Rozhlasové přijímače, i kombinované
+7621	Rozhlasové přijímače s vnějším zdrojem energie
+76211	Rozhlas. prist. s prist. zaznamu, reprod., bez zdroje
+76212	Rozhlas. pris. bez pris. zaznamu, reprod., bez zdroje
+7622	Rozhlasové přijímače bez vnějšího zdroje energie
+76221	Rozhlas. prist. s prist. zaznamu, reprod., se zdrojem
+76222	Rozhl. pr. bez pr. zaznamu, reprod. zvuku, se zdrojem
+7628	Ostatní rozhlasové přijímače
+76281	Ost. rozhlas. pristr. s pristr. zaznamu, reprodukce
+76282	Ost. rozhlas. pristr. bez pristr. zaznamu, reprodukce
+76289	Ost. rozhlas. pris. bez pris. zaznamu, reprod., hodin
+763	Přístroje pro záznam, reprodukci zvuku, obrazu
+7633	Přístroje pro záznam, reprodukci zvuku
+76331	Přístroje pro záznam,reprodukci zvuku,spouštěné mincemi aj.platidly
+76335	Gramofonová chassis
+76336	Přístroje odpovídající na telefonáty (telef.záznamníky)
+76339	Ostatní přístroje pro záznam, reprodukci zvuku
+7638	Přístroje pro záznam, reprodukci obrazu
+76381	Přístroje pro záznam, reprodukci obrazu, páskového typu
+76384	Ostatní přístroje pro záznam, reprodukci obrazu
+764	Zařízení telekomunikační, příslušenství přístojů pro záznam, reprodukci zvuku, obrazu
+7641	Telefonní přístroje (vč.mobilních); ostatní přístroje pro vysílání, přijímání hlasu, dat
+76411	Telefonní přístroje (vč.mobilních)
+76412	Ostatní přístroje pro vysílání, přijímání hlasu, dat
+76418	Díly,příslušenství telekomunikač.přístrojů a přístrojů pro záznam,reprodukci zvuku,obrazu
+7642	Mikrofony a jejich stojany; reproduktory apod.
+76421	Mikrofony, jejich stojany
+76422	Reproduktory namontovane ve skrinich
+76423	Reproduktory nenamontovane ve skrinich
+76424	Sluchatka, kombinovane soupravy mikrofon/reproduktor
+76425	Nizkofrekvencni elektricke zesilovace
+76426	Elektricke zesilovace zvuku
+7643	Přenosná zařízení pro radiotelefon,radiotelegraf apod
+76431	Prenosova zarizeni
+76432	Prenosova zarizeni s prijimaci aparaturou
+7648	Telekomunikační zařízení, j.n.
+76483	Zarizeni radarova, radiova navigacni ap. zarizeni
+76484	Kamery televizní,digitální,videokamery
+7649	Díly a přislušenství k telekomunikačním přístrojům
+76492	Dily mikrofonu, reproduktoru, zesilovacu zvuku ap.
+76493	Dily televiz., rozhlas. pris., zar. telekom., prenos.
+76499	Dily pristroju pro zaznam, reprodukci zvuku
+77	Elektrická zařízení, přístroje a spotřebiče, j.n., a jejich elektrické části (včetně neelektrických příbuzných spotřebičů, j.n., pro domácnost)
+771	Stroje elektrické (ne točivé) a jejich díly
+7711	Transformátory, elektrické
+77111	Transformatory s kapalnym dielektrikem
+77119	Ostatni elektricke transformatory
+7712	Ostatní elektrické stroje, díly elektrických strojů
+77121	Staticke menice
+77123	Predradniky pro vybojky, elektronky
+77125	Ostatni induktory
+77129	Dily elektrickych stroju
+772	Přístr. elek. ke spínání ap. obvodů elek., odpory aj.
+7722	Tištěné obvody
+7723	Elektrické odpory, jiné než topné odporníky
+77231	Pevne uhlikove odpory, hmotove, vrstvene
+77232	Ostatni pevne odpory
+77233	Dratove odpory o promenne hodnote
+77235	Ostatni odpory o promenne hodnote
+77238	Dily elektrickych odporu
+7724	Elektrické přístroje pro napětí nad 1000 V
+77241	Pojistky
+77242	Automaticke jistice obvodu pro napeti do 72,5 kV
+77243	Ostatni automaticke jistice obvodu
+77244	Izolacni prepinace, prepinaci kontakty
+77245	Bleskojistky, omezovace napeti, prepetove vypinace
+77249	Ostatni elektricke pristroje spinaci aj. nad 1000 V
+7725	Elektrické přístroje pro napětí menší než 1000 V
+77251	Pojistky
+77252	Automaticke jistice obvodu
+77253	Ostatni pristroje k ochrane elektrickych obvodu
+77254	Rele
+77255	Ostatni spinace, vypinace
+77256	Konektory pro opt.vlákna,jejich svazky a kabely z opt.vláken
+77257	Objimky zarovek
+77258	Zastrcky
+77259	Ostatni elektricke pristroje spinaci aj. do 1000 V
+7726	Pulty, panely k řízení nebo rozvodu elektřiny
+77261	Pulty, panely k rizeni, rozvodu elektriny do 1000 V
+77262	Pulty, panely k rizeni, rozvodu elektriny nad 1000 V
+7728	Díly vhodné pro skupiny 772.4, 772.5 a 772.6
+77281	Pulty, panely, stoly aj. pro rizeni, rozvod elektriny
+77282	Ostatni dily
+773	Prostředky k rozvodu elektrické energie jn.
+7731	Izolované dráty, kabely a ost. elektrické vodiče
+77311	Vinuty drat
+77312	Koaxialni kabel, ostatni koaxialni vodice
+77313	Sestavy zapalovani a ost. instalace pro vozidla, lode
+77316	Ostatní el. vodiče, pro napětí <= 1000 V
+77317	Ostatní el. vodiče, pro napětí > 1000 V
+77318	Kabely z optickych vlaken
+7732	Elektroizolační prostředky
+77322	Elektricke izolatory sklenene
+77323	Elektricke izolatory keramicke
+77324	Elektricke izolatory z jineho materialu
+77326	Izolacni pruchodky pro elektricke stroje z keramiky
+77328	Izolacni pruchodky pro elektricke stroje z plastu
+77329	Izolacni pruchodky pro el. stroje z jinych materialu
+774	Přístroje elektrodiagnostické pro účely medicinální
+7741	Elektrodiagnostické přístroje (ne radiologické)
+77411	Elektrokardiografy
+77412	Ostatni elektrodiagnosticke pristroje
+77413	Pristroje s ultrafialovymi, infracervenymi paprsky
+7742	Přístroje na bázi rtg aj. záření, příslušenství, díly
+77421	Pristroje na bazi rentgenoveho zareni
+77422	Pristroje na bazi zareni alfa, beta, gama
+77423	Rentgenky
+77429	Generatory, panely, pulty aj., dily, prislusenstvi
+775	Zařízení elektrická a mechanická pro domácnost jn.
+7751	Domácí pračky
+77511	Domaci pracky, do 10 kg sucheho pradla
+77512	Susicky pradla, do 10 kg sucheho pradla
+7752	Domácí chladničky a mrazničky
+77521	Domaci chladnicky, pr. s hlubokomrazicim prostorem
+77522	Domaci mraznicky
+7753	Domácí myčky nádobí
+7754	Strojky holící, na stříhání vlasů s elektr. motorkem
+77541	Holici strojky s elektrickym motorkem
+77542	Strojky na strihani vlasu s elektrickym motorkem
+77549	Dily holicich strojku, strojku na strihani vlasu
+7755	Vysavače
+77551	Vysavače s vestavěným el. motorem
+77556	Vysavače bez vestavěného el. motoru
+77557	Díly vysavačů
+7757	Elektromechanické domácí spotřebiče s elektr. motorem
+77572	Mlynky na potraviny ap. strojky, domaci, elektromech.
+77573	Ostatni elektromechanicke domaci spotrebice s motorem
+77579	Dily domacich mycek nadobi
+7758	Elektrotepelné spotřebiče
+77581	Elektricke ohrivace vody prutokove, zasobnikove aj.
+77582	Elektricke pristroje k vytapeni prostor, ohrevu pudy
+77583	Elektricke pomucky kadernicke, rucni vysousece
+77584	Elektricke zehlicky
+77585	Elektricke podusky, decky
+77586	Sporaky, varice, varne plotynky, krouzky, grily ap.
+77587	Elektrotepelne domaci spotrebice, j.n.
+77588	Topna odporova telesa (ne z uhliku)
+77589	Dily elektrotepelnych spotrebicu j.n.
+776	Elektronky, rentgenky, diody, tranzistory ap., díly
+7761	Televizní obrazovky katodové
+77611	Televizni obrazovky katodove barevne
+77612	Tel. obrazovky katodove cernobile, ost. jednobarevne
+7762	Ostatní elektronky (vč. do televizních kamer)
+77621	Elektronky do televiznich kamer, konvertory apod.
+77623	Ostatni obrazove elektronky
+77625	Mikrovlnne elektronky
+77627	Ostatni lampy, elektronky
+77629	Dily elektronek, lamp pro televizni obrazovky, kamery
+7763	Diody, tranzistory apod. polovodičové prvky
+77631	Diody, nikoli fotosenzitivni ani svetelne diody
+77632	Tranzistory se ztratovym vykonem mene nez 1 V
+77633	Tranzistory se ztratovym vykonem nad 1 W
+77635	Tyristory, diaky, triaky
+77637	Fotosenzitivni polovodicove prvky, svetelne diody
+77639	Ostatni polovodicove prvky
+7764	Elektronické integrované obvody
+77642	Procesory a řídicí jednotky
+77644	Paměti
+77646	Zesilovače
+77649	Ostatní elektronické integrované obvody
+7768	Piezoelektrické krystaly
+77681	Piezoelektricke krystaly, zabudovane
+77688	Dily diod, tranzistoru ap. prvku, piezoel. krystalu
+77689	Dily elektronickych integr. obvodu, mikrosoustav
+778	Přístroje elektrické jn. (baterie, žárovky ap.)
+7781	Články (baterie) a elektrické akumulátory, vč. dilů
+77811	Primarni clanky, primarni baterie
+77812	Elektricke akumulatory (akumulatorove baterie)
+77813	Odpad a zbytky primárních článků, baterií, akumulátorů; el.součástky přístrojů, j.n.
+77817	Dily primarnich clanku, primarnich baterii
+77819	Dily elektrickych akumulatoru
+7782	Žárovky s vláknem nebo výbojky; obloukové lampy
+77821	Zarovky s vlaknem
+77822	Vybojky
+77823	Reflektorove zarovkove jednotky
+77824	Ultrafialove lampy, infralampy, obloukove lampy
+77829	Dily obloukovych lamp, vybojek, zarovek s vlaknem
+7783	Elektrická zařízení ke spouštění a zážehu motoru
+77831	Elektricka zazehova, spousteci zarizeni motoru
+77833	Dily zarizeni el. zazehovych, spoustecich pro motory
+77834	Elektricka osvetlovaci aj. zarizeni aut, motocyklu
+77835	Dily zar. el. osvetlovaciho, signalizacniho, steracu
+7784	Elektromechanické ruční nářadí s elektrickým motorem
+77841	Vrtaky vsech druhu
+77843	Pily
+77845	Ostatni nastroje
+7786	Elektrické kondenzátory
+77861	Kondenzatory obvodu 50/60 Hz s vykonem do 0,5 kVAr
+77862	Tantalove kondenzatory o stale kapacite
+77863	Hlinikove elektrotyl. kondezatory o stale kapacite
+77864	Keramicke dielektricke kondenzatory, jednovrstve
+77865	Keramicke dielektricke kondenzatory, vicevrstve
+77866	Papirove, plastove dielektricke kondenzatory
+77867	Ostatni kondenzatory o stale kapacite
+77868	Kondenzatory o variabilni, nastavitelne kapacite
+77869	Dily elektrickych kondenzatoru
+7787	Elektrické stroje, přístroje s individuální funkcí
+77871	Urychlovace castic
+77878	Ost. elektricke stroje, pristroje s individ. funkci
+77879	Dily elektrickych stroju, pristroju s individ. funkci
+7788	Elektrické stroje a zařízení, j.n.
+77881	Elektromagnety, permanentni magnety, polotovary apod.
+77882	Elektricke signalizacni aj. zarizeni pro silnice ap.
+77883	Dily el. zarizeni pro zeleznice, silnice, letiste ap.
+77884	Elektricka signalizacni zvukova ap. zarizeni jina
+77885	Dily jineho el. signal. zariz. zvukoveho, vizualniho
+77886	Uhlikove elektrody, uhliky aj. vyrobky z uhliku
+78	Silniční vozidla (včetně vznášedel)
+781	Automobily osobní aj. vozidla pro dopravu osob
+7811	Vozidla speciální pro jízdu na sněhu, golfové vozíky
+7812	Motorová vozidla k dopravě osob
+782	Vozidla motorová k dopravě zboží a pro účely speciální
+7821	Motorová vozidla k dopravě zboží
+78211	Dampry pro pouziti v terenu
+78219	Motorova vozidla k doprave zbozi, j.n.
+7822	Speciální jednoúčelová vozidla
+78221	Pojizdne jeraby
+78223	Pojizdne vrtne veze
+78225	Pozarnicka auta
+78227	Vozy s michackou betonu
+78229	Ostatni specialni ucelova vozidla
+783	Vozidla motor. silniční (k dopr. veřejné, traktory ap.)
+7831	Osobní motorová vozidla pro veřejnou dopravu
+78311	Os. vozidla ver. dopravy s motory s vnitr. spalovanim
+78319	Osobni vozidla verejne dopravy ostatni
+7832	Silniční traktory, návěsy
+784	Díly a příslušenství vozidel motorových
+7841	Podvozky s namontovanými motory pro motorová vozidla
+7842	Karoserie (vč. kabin) motorových vozidel
+78421	Karoserie osobnich automobilu
+78425	Karoserie pro traktory, vozidla mot. silnicni, spec.
+7843	Ostatní díly a příslušenství motorových vozidel
+78431	Narazniky, jejich dily
+78432	Ostatni dily, prislusenstvi karoserii
+78433	Brzdy, servobrzdy, jejich dily
+78434	Prevodove skrine
+78435	Hnané nápravy s diferenciálem,případně s dalšími převodovými prvky,nehnané nápravy;díly
+78439	Ostatni dily, prislusenstvi
+785	Motocykly (i mopedy), kola jízdní, vozíky invalidní
+7851	Motocykly (vč. mopedů) a kola s pomocným motorem
+78511	Motocykly, kola s vratnym pist. motorem , do 50 cm3
+78513	Motocykly, kola s vratnym pist. motorem, 50-250 cm3
+78515	Motocykly, kola s vratnym pist. motorem, 250-500 cm3
+78516	Motocykly, kola s vratnym pist. motorem, 500-800 cm3
+78517	Motocykly, kola s vratnym pist. motorem, nad 800 cm3
+78519	Motocykly, kola s motorem ostatni
+7852	Jízdní kola a ost. kola, bez motoru
+7853	Vozíky pro invalidy, případně motorizované
+78531	Voziky pro invalidy, pr. motorizovane aj. pohanene
+78535	Dily, prislusenstvi motocyklu (vc. mopedu)
+78536	Dily, prislusenstvi voziku pro invalidy
+78537	Dily a prislusenstvi motocyklu, kol, invalid. voziku
+786	Přívěsy, návěsy; vozidla ost. bez pohonu mechanického
+7861	Přívěsy, návěsy karavanového typu, k ubytování ap.
+7862	Přívěsy a návěsy pro přepravu zboží
+78621	Samonakladaci ap. privesy aj. pro zemedelske ucely
+78622	Privesy, navesy cisternovych vozu
+78629	Ostatni privesy, navesy pro prepravu zbozi
+7863	Kontejnery určené pro speciální způsob dopravy
+7868	Ostatní vozidla bez mechanického pohonu, díly
+78683	Privesy, navesy, j.n.
+78685	Vozidla bez mechanickeho pohonu, j.n.
+78689	Dily navesu, privesu, vozidel bez mechanickeho pohonu
+79	Ostatní dopravní a přepravní prostředky
+791	Vozidla železniční a zařízení související
+7911	Železniční lokomotivy
+79111	Zel. lokomotivy pohanene z vnejsiho zdroje elektriny
+79115	Zelez. lokomotivy pohanene z elektrickych akumulatoru
+7912	Ostatní železniční lokomotivy; tendry
+79121	Dieselelektricke lokomotivy
+79129	Zeleznicni lokomotivy, j.n., tendry
+7916	Železniční a tramvajové osobní vozy s vlast. pohonem
+7917	Železniční, tramvajové osobní vozy, bez pohonu
+7918	Železniční, tramvajové nákladní, údržbářské vozy
+79181	Zeleznicni, tramvajove servis. aj. vozy pr. s pohonem
+79182	Zeleznicni, tramvajove nakladni vozy ap., bez pohonu
+7919	Přípravky a prísluš.pro železniční a tramvajové tratě
+79191	Prislusenstvi ap. pro zeleznicni, tramvajove trate
+79199	Dily zeleznicnich aj. lokomotiv, vozoveho parku
+792	Letadla a zařízení související, lodě kosmické, rakety
+7921	Vrtulníky
+79211	Vrtulniky o hmotnosti bez zateze do 2000 kg
+79215	Vrtulniky o hmotnosti bez zateze nad 2000 kg
+7922	Letouny, letadla s mechanickým pohonem do 2000 kg
+7923	Letouny, letadla s mechanickým pohonem, 2000-15000 kg
+7924	Letouny, letadla s mechanickym pohonem nad 15000 kg
+7925	Kosmické lodě (vč. družic), vynášecí rakety
+7928	Letadla, j.n. (vč. balonů, kluzáků ap.), zařízení
+79283	Zařízení pro vynášení letadel, palubní záchytná zařízení apod.; pozemní trenažéry; díly
+79284	Balony, vzducholodě; kluzáky, rogala apod.
+7929	Díly j.n. skupiny 792
+79291	Vrtule, rotory, jejich dily
+79293	Podvozky, jejich dily
+79295	Ostatni dily letounu, vrtulniku
+79297	Ostatni dily letadel, kosmickych lodi, raket
+793	Lodě, čluny (i vznášedla), konstrukce plovoucí
+7931	Jachty, ost. plavidla pro rekreaci, sport, kanoe ap.
+79311	Nafukovaci cluny (vc. veslic, kanoi)
+79312	Plachetni cluny, nenafukovaci, s motorem i bez
+79319	Nenafukovaci veslice, kanoe, plavidla pro sport ap.
+7932	Lodě, čluny a ostatní plavidla
+79322	Tankery vsech druhu
+79324	Rybarske cluny, plovouci tovarny na rybi produkty
+79326	Chladirenske lode (ne tankery)
+79327	Ostatni plavidla pro prepravu zbozi
+79328	Turisticke lode, vyletni cluny ap. plavidla
+79329	Ostatni plavidla (vc. lodi valecnych, zachrannych)
+7933	Plavidla, ostatní plovoucí konstrukce k uvolňování
+7935	Majákové lodě, požárnické čluny, bagry, apod.
+79351	Bagry
+79355	Plovouci, ponorne, vyrobni plosiny
+79359	Majakove lode, pozarnicke cluny, plovouci jeraby ap.
+7937	Remorkery, tlačné čluny
+7939	Ostatní plovoucí konstrukce
+79391	Pramy, nafukovaci
+79399	Plovouci konstrukce, j.n.
+8	Průmyslové spotřební zboží
+81	Prefabrikované budovy; výrobky zdravotnické, instalační, vytápěcí a osvětlovací techniky, j.n.
+811	Budovy prefabrikované
+812	Výrobky techniky zdravotnické, instalační, vytápěcí
+8121	Kotle a tělesa pro ústřední topení, ohřívače vody
+81211	Telesa ustredniho topeni, jejich dily
+81215	Ohrivace vzduchu, rozvadece horkeho vzduchu, dily
+81217	Kotle ustredniho topeni
+81219	Dily kotlu ustredniho topeni
+8122	Keramické výlevky, umyvadla, vany, bidety apod.
+81221	Vylevky, umyvadla, vany, bidety ap. vyr. z porcelanu
+81229	Vylevky, umyvadla, vany ap. vyr. jine nez z porcelanu
+813	Výrobky techniky osvětlovací jn.
+8131	Lampy, svítidla (vč. světlometů, reflektorů), j.n.
+81311	Lustry, ostatni stropni, stenova svitidla
+81312	Prenosne elektricke lampy s vlastnim zdrojem energie
+81313	Elektricke stolni, pultove, nocni, stojaci lampy
+81315	Prislusenstvi elektrickych lamp, svitidel, j.n.
+81317	Prislusenstvi neelektrickych lamp, svitidel
+8132	Osvětlené značky, osvětlené jmenovky apod.
+8138	Díly přenosných elektrických lamp s vlastním zdrojem
+8139	Díly, j.n.,pro výrobky skupiny 813.1 a 813.2
+81391	Dily j.n., lamp, svitidel, osvetlenych znacek ze skla
+81392	Dily j.n. lamp, svitidel, osvetlenych znacek z plastu
+81399	Dily j.n., lamp, svitidel, osvetlenych znacek ostatni
+82	Nábytek a jeho díly; žíněnky, matrace, matracová výztuž, polštáře a podobný čalouněný nábytek
+821	Nábytek a díly, žíněnky, matrace aj. nábytek čalouněný
+8211	Sedadla, případně přestavitelná na lůžka, vč. dílů
+82111	Sedadla bezne uzivana v letadlech
+82112	Sedadla bezne uzivana v motorovych vozidlech
+82113	Kresla z trtiny, vrboveho prouti, bambusu aj.
+82114	Otaceci zidle s nastavitelnou vyskou sedadla
+82115	Kresla ne zahradni, kempinkova, premenitelna na luzka
+82116	Kresla, j.n., s drevenou konstrukci
+82117	Kresla, j.n., s kovovou konstrukci
+82118	Ostatni sedadla
+82119	Dily sedadel, pr. prestavitelnych na luzka
+8212	Matracové výztuže, díly lůžek, přikrývky apod.
+82121	Matracove vyztuze
+82123	Matrace z mechove pryze, vylehcenych plastu
+82125	Matrace z jineho materialu
+82127	Spaci pytle
+82129	Ostatni druhy luzek
+8213	Nábytek, j.n., kovový
+82131	Nabytek, j.n., kovovy, uzivany v kancelarich
+82139	Nabytek, j.n., kovovy, ostatni
+8215	Nábytek, j.n., dřevěný
+82151	Nabytek, j.n., dreveny, uzivany v kancelarich
+82153	Nabytek, j.n., dreveny, uzivany v kuchyni
+82155	Nabytek, j.n., dreveny, uzivany v loznici
+82159	Nabytek, j.n., dreveny, ostatni
+8217	Nábytek, j.n., z ostatního materiálu
+82171	Nabytek z plastu
+82179	Nabytek z jinych materialu (vc. bambusu)
+8218	Díly nábytku kovového, dřevěného, z ost. materiálu
+83	Cestovní galanterie, kabelky apodobné výrobky
+831	Potřeby cestovní (kufry, aktovky, kabelky, vaky aj.)
+8311	Kabely, případně se závěsným ramenem, i bez držadel
+83111	Kabely s povrchem z kuze, imitace kuze, lakovane kuze
+83112	Kabely s povrchem z plastu, textilniho materialu
+83119	Kabely ostatni
+8312	Kufry, kufříky, aktovky, diplomatky, necesery apod.
+83121	Kufry ap. s povrchem z kuze, imitace, lakovane kuze
+83122	Kufry ap. s povrchem z plastu, textilniho materialu
+83129	Kufry, kufriky, aktovky, diplomatky ap. ostatni
+8313	Cestovní soupravy pro osobni hygienu, šití, čištění
+8319	Pouzdra,cestovní vaky,nakupní kabely aj. z kůže apod.
+83191	Predmety, jake se obvykle nosi v kapse, kabelce
+83199	Ostatni pouzdra, vaky, batohy, kabely, kazety ap.
+84	Oděvní výrobky a doplňky
+841	Oděvy a prádlo pánské, chlapecké (ne pletené, háčk.)
+8411	Pánské,chlapecké svrchníky,pláštěnky, větrovky apod.
+84111	Panske, chlap. svrchniky, plaste ap. z vlny, j. srsti
+84112	Panske, chl. svrchniky, plaste ap. z jineho tex. mat.
+84119	Ostatni panske, chlapecke bundy, vetrovky ap. vyrobky
+8412	Pánské, chlapecké obleky, komplety
+84121	Panske, chlapecke obleky z vlny, jemne zvireci srsti
+84122	Panske, chlapecke obleky z jineho textil. materialu
+84123	Panske, chlapecke komplety
+8413	Pánská, chlapecká saka, blejzry
+8414	Pánské, chlapecké kalhoty, kombinézy, šortky ap.
+8415	Pánské, chlapecké košile
+84151	Panske, chlapecke kosile z bavlny
+84159	Panske, chlapecke kosile z jineho textil. materialu
+8416	Pánská, chlapec. trička, nátělníky, slipy, župany ap.
+84161	Panske, chlapecke spodky, slipy
+84162	Panske, chlapecke nocni kosile, pyzama
+84169	Panske, chlapecke ostatni zbozi
+842	Oděvy a prádlo dámské, dívčí (ne pletené, háčkované)
+8421	Dámské, dívčí svrchní pláště, bundy, větrovky apod.
+84211	Damske, divci plaste svrchni, do deste, plastenky ap.
+84219	Damske, divci ostatni bundy, vetrovky ap.
+8422	Dámské, dívčí kostýmy, komplety
+84221	Damske, divci kostymy
+84222	Damske, divci komplety
+8423	Dámská a dívčí saka
+8424	Dámské a dívčí šaty
+8425	Dámské a dívčí sukně, kalhotové sukně
+8426	Dámské a dívčí kalhoty, kombinézy, šortky apod.
+8427	Dámské, dívčí blůzy, košile, košilové blůzy
+8428	Dámské a dívčí spodní a noční prádlo, župany, apod.
+84281	Damske, divci kombine, spodnicky
+84282	Damske, divci nocni kosile, pyzama
+84289	Damske, divci ostatni zbozi
+843	Oděvy a prádlo pánské, chlapecké pletené, háčkované
+8431	Pánské,chlapec.svrchníky,pláště,bundy,apod. pletené j
+8432	Pánské obleky,saka,kalhoty,šortky apod. pletené
+84321	Panske, chlapecke obleky pletene, hackovane
+84322	Panske, chlapecke komplety pletene, hackovane
+84323	Panske, chlapecke saka, blejzry pletene, hackovane
+84324	Panske, chlapecke kalhoty, kombinezy, sortky pletene
+8437	Pánské a chlapecké košile pletené
+84371	Panske, chlapecke kosile z bavlny, pletene
+84379	Panske, chlapecke kosile z jineho tex. mat., pletene
+8438	Pánské a chlapecké prádlo (bez košil), župany apod.
+84381	Panske, chlapecke spodky, slipy, pletene, hackovane
+84382	Panske, chlapecke nocni kosile, pyzama, pletene
+84389	Panske, chlapecke ostatni zbozi, pletene, hackovane
+844	Oděvy a prádlo dámské, dívčí pletené, háčkované
+8441	Dámské, dívčí svrchní pláště, větrovky apod.,pletené
+8442	Dámské,dívčí kabáty,šaty,sukně,kalhoty apod., pletené
+84421	Damske, divci kostymy, pletene, hackovane
+84422	Damske, divci komplety, pletene, hackovane
+84423	Damske, divci kabatky, pletene, hackovane
+84424	Damske, divci saty, pletene, hackovane
+84425	Damske, divci sukne, kalhotove sukne, pletene, hack.
+84426	Damske, divci kalhoty, kombinezy, sortky ap. pletene
+8447	Dámské, dívčí blůzy, košile, košilové blůzy, pletené
+8448	Dámská,dívčí kombiné,kalhotky,pyžama apod., pletené
+84481	Damske, divci kombine, spodnicky, pletene, hackovane
+84482	Damske, divci kalhotky, pletene, hackovane
+84483	Damske, divci nocni kosile, pyzama pletene, hackovane
+84489	Damske, divci ostatni zbozi, pletene, hackovane
+845	Součásti oděvní z materiálu textilního i pletené ap.
+8451	Dětské oděvy, oděvní doplňky
+84511	Detske odevy, odevni doplnky, ne pletene, hackovane
+84512	Detske odevy, odevni doplnky, pletene, hackovane
+8452	Oděvy zhotovené z různých materiálů,jiných než textil
+84521	Odevy z plste, netkaneho textilu, pr. natirane ap.
+84522	Panske, chlap. odevy z text. napoustenych, pogum. ap.
+84523	Damske, divci odevy z tex. napoustenych, pogumovanych
+84524	Odevy z tex. napoustenych, pogumovanych ap. pletene
+8453	Svetry, pulovry, vesty apod., pletené, háčkované
+8454	Trička tvaru T,trička a ost.nátělníky, pletené apod.
+8455	Podprsenky, podvazkové pásy, korzety, šle apod.
+84551	Podprsenky
+84552	Podvazkove pasy, korzety, sle, podvazky ap. vyrobky
+8456	Plavky
+84561	Plavky panske, chlapecke, ne pletene, hackovane
+84562	Plavky panske, chlapecke, pletene, hackovane
+84563	Plavky damske, divci, ne pletene, hackovane
+84564	Plavky damske, divci, pletene, hackovane
+8458	Ostatní oděvy, ne pletené, háčkované
+84581	Lyzarske obleky, ne pletene, hackovane
+84587	Odevni soucasti, panske, chlapecke, j.n., ne pletene
+84589	Odevni soucasti, damske, divci, j.n., ne pletene
+8459	Ostatní oděvy pletené nebo háčkované
+84591	Sportovni odevy, pletene, hackovane
+84592	Lyzarske obleky, pletene, hackovane
+84599	Odevy, pletene, hackovane, j.n.
+846	Doplňky oděvní z tkanin textilních i pletené, háčkov.
+8461	Oděvní doplňky, kromě dětských, bez pletených
+84611	Kapesniky
+84612	Prehozy, satky, saly, mantily, zavoje ap., ne pletene
+84613	Vazanky, motylky, kravaty
+84614	Rukavice, palcaky, ne pletene, hackovane
+84619	Ostatni konfekcni odevni doplnky, soucasti ne pletene
+8462	Punčochové kalhoty, punčochy, ponožky apod. (vč. svršků obuvi bez podrážek), pletené
+84623	Punčochové zboží, s postupným stlačením (na křečové žíly apod.)
+84624	Ostatní punčochové kalhoty, punčochy, nikoli s postupným stlačením
+84625	Ostatní dámské punčochy a podkolenky z vláken do 67 decitex, nikoli s postupným stlačením
+84629	Ostatni stavkove zbozi, pletene, hackovane
+8469	Ostatníi konfekční oděvní doplňky
+84691	Rukavice, pletene, hackovane, napustene aj. plasty
+84692	Ostatni rukavice, palcaky, pletene, hackovane
+84693	Prehozy, satky, saly, mantily, zavoje apod.
+84699	Konfekcni odevni doplnky, j.n., soucasti odevu
+848	Doplňky oděvní z mater. ne textilního, pokrývky hlavy
+8481	Oděvní výrobky a doplňky z kůže či z kompozitní kůže
+84811	Odevni vyrobky z kuze, kompozitni kuze
+84812	Rukavice, palcaky ne k sportovnim ucelum z kuze
+84813	Pasy, remeny z kuze, kompozitni kuze
+84819	Ostatni odevni doplnky z kuze, kompozitni kuze
+8482	Doplňky oděvů a šatů z plastů nebo vulkaniz. pryže
+84821	Doplnky satu, odevu, z plastu
+84822	Gumove rukavice
+84829	Ostatni doplnky satu, odevu z vulkanizovane pryze
+8483	Doplňky oděvů a šatů z kožešin nebo umělých kožešin
+84831	Kozesinove vyrobky
+84832	Umele kozesiny, vyrobky z nich
+8484	Pokrývky hlavy a kloboučnická galanterie, j.n.
+84842	Klobouky aj. spletane, sesite z jakehokoli materialu
+84843	Klobouky aj. pletene, hackovane, z krajky, plsti ap.
+84844	Ochranne pokryvky hlavy, pr. zdobene
+84845	Pokryvky hlavy, j.n., z pryze, plastu, pr. zdobene
+84848	Celenky, lemovky, potahy, pasky ap. k pokryvkam hlavy
+84849	Pokryvky hlavy, j.n., ne z pryze, plastu
+85	Obuv
+851	Obuv
+8511	Obuv s ochrannou kovovou špičkou, ne sportovní
+85111	Nepromokava obuv s podesvi, svrskem z pryze, plastu
+85115	Obuv s podesvi z pryze, plastu, kuze, svrskem z kuze
+8512	Sportovní obuv
+85121	Lyzarske boty s podesvi, svrskem z pryze, plastu
+85122	Lyzarske boty s podesvi s pryze, kuze, svrskem z kuze
+85123	Ost. sport. obuv s podesvi, svrskem z pryze, plastu
+85124	Ost. sport. obuv s podesvi z pryze aj. svrskem z kuze
+85125	Tenisky aj. sportovni obuv s podesvi z pryze, plastu
+8513	Obuv s podešví a svrškem z pryže nebo plastů
+85131	Obuv, j.n., svrsek neni prilepen, pripevnen sitim ap.
+85132	Ostatni obuv s podesvi, svrskem z pryze, plastu
+8514	Ostatní obuv se svrškem z kůže nebo kompozitní kůže
+85141	Obuv s podesvi z kuze, svrskem z prouzku pres nart
+85148	Obuv, j.n., s podesvi z pryze, plastu, kuze ap.
+85149	Obuv se svrskem z kuze, kompozitni kuze, j.n.
+8515	Ostatní obuv se svrškem z textilního materiálu
+85151	Obuv s podesvi z pryze, plastu
+85152	Obuv s podesvi z kuze, kompozitni kuze
+85159	Obuv se svrskem z textilniho materialu, j.n.
+8517	Obuv, j.n.
+8519	Části obuvi, vyměnitelné podpatky aj., kamaše apod.
+87	Odborné, vědecké a řídící přístroje a zařízeni, j.n.
+871	Přístroje a zařízení optické jn.
+8711	Čočkové a optické dalekohledy, stativy
+87111	Dalekohledy binokularni
+87115	Ostatni astronomicke pristroje
+87119	Dily, prislusenstvi (vc. stativu) dalekohledu ap.
+8713	Mikroskopy, difrakčni přístroje, díly, příslušenství
+87131	Mikroskopy (ne opticke), difrakcni pristroje
+87139	Dily, prislusenstvi mikroskopu, difrakcnich pristroju
+8714	Složené optické mikroskopy
+87141	Stereoskopicke mikroskopy
+87143	Ost. mikroskopy pro mikrofotografii, mikroprojekci
+87145	Mikroskopy, j.n.
+87149	Dily, prislusenstvi slozenych optickych mikroskopu
+8719	Prvky s tekutými krystaly, j.n., lasery aj. zařízení
+87191	Teleskopicka hledi ke zbranim, periskopy, teleskopy
+87192	Lasery (ne laserove diody)
+87193	Ost. prvky s tekutymi krystaly, ost. opticka zarizeni
+87199	Dily, prisl. prvku s tekutymi krystaly, laseru ap.
+872	Zařízení, přístroje pro účely lékařské, veterinární ap.
+8721	Zubolékařské zařízení a přístroje, j.n.
+87211	Motory zubnich vrtacek
+87219	Ostatni zubolekarska zarizeni, pristroje
+8722	Přístroje pro lékařské,chirurgické,veterinární účely
+87221	Strikacky, jehly, katetry, kanyly apod.
+87225	Zrizeni, pristroje pro ocni lekarstvi, j.n.
+87229	Ostatni zarizeni, pristroje pro lekarskou aj. vedu
+8723	Aparáty pro mechanoterapii, masážní přístroje apod.
+87231	Aparaty pro mechanoterapii, masazni pristroje aj.
+87233	Terapie ozonova, kyslikova aj., respiracni pristroje
+87235	Ostatni dychaci pristroje, plynove masky
+8724	Nábytek pro ordinace lékařské aj., holičská křesla
+873	Přístroje měřící a počítadla jn.
+8731	Přístroje k měření spotřeby plynu, kapalin, elektřiny
+87311	Merice plynu
+87313	Merice kapalin
+87315	Merice elektriny
+87319	Dily, prislusenstvi mericu plynu, kapalin, elektriny
+8732	Počítadla otáček, kilometrů, krokomery, tachometry
+87321	Pocitadla otacek, vyroby, taxametry, krokomery ap.
+87325	Ukazatele rychlosti, tachometry, stroboskopy
+87329	Dily, prislusenstvi pocitadel otacek, kilometru ap.
+874	Přístroje měřící, kontrolní, analyzační, řídící jn.
+8741	Kompasy a ostatní navigační přístroje
+87411	Smerove kompasy, ost. navigacni pristroje, zarizeni
+87412	Dily, prislusenstvi navigacnich pristroju, zarizeni
+87413	Pristroje, zarizeni hydrologicke, meteorologicke ap.
+87414	Dily, prislusenstvi pro zarizeni meteorologicke ap.
+8742	Rýsovací, vytyčovací či matematicko-výpočetní pomůcky
+87422	Kreslici stoly, pristroje, ost. pomucky kreslici ap.
+87423	Pristroje k mereni delky, rucni, j.n.
+87424	Dily, prislus. pristroju kreslicich, mereni delky ap.
+87425	Merici, kontrolni zarizeni, pristroje, stroje, j.n.
+87426	Dily, prislusenstvi mericich, kontrolnich zarizeni
+8743	Přístroje k měření nebo kontrole kapalin nebo plynů
+87431	Pristroje aj. k mereni, kontrole prutoku, hladiny
+87435	Pristroje, zarizeni k mereni, kontrole tlaku
+87437	Ost. pristroje, zarizeni mereni, kontroly prutoku ap.
+87439	Dily, prislus. pristroju mereni, kontroly prutoku ap.
+8744	Přístroje a zařízení k fyzikální, chemicke analýze
+87441	Analyzatory plynu, koure
+87442	Pristroje na chromatografii, elektroforezu
+87443	Spektrometry aj. uzivajici opticke radiace
+87445	Ostatni pristroje, aparaty uzivajici opticke radiace
+87446	Pristroje, aparaty pro fyzikalni, chemickou analyzu
+87449	Mikrotomy, dily pristr. k chemicke, fyzikalni analyze
+8745	Měřící, regulační a vědecké přístroje, j.n.
+87451	Vahy o citlivosti 5 cg a lepsi, pr. se zavazim
+87452	Pristroje, aparaty, modely k nazornemu predvadeni
+87453	Stroje, pristroje k testovani vlastnosti materialu
+87454	Dily, prislusenstvi pristroju k testovani materialu
+87455	Hustomery, teplomery, barometry, psychometry aj.
+87456	Dily, prislusenstvi hustomeru, teplomeru, barometru
+8746	Přístroje a zaříz. k automatické regulaci a ovládání
+87461	Termostaty
+87463	Regulatory, ovladace tlaku (manostaty)
+87465	Ostatni regulacni, ovladaci pristroje, zarizeni
+87469	Dily, prislusenstvi zarizeni k automaticke regulaci
+8747	Osciloskopy, analyzátory spektra aj. přístroje
+87471	Pristroje, zarizeni k mereni ap. ionizacniho zareni
+87473	Osciloskopy, oscilografy s obrazovkou
+87475	Ost. pristroje k mereni, kontrole napeti, odporu ap.
+87477	Ost. pristroje, zarizeni specialne pro telekomunikace
+87478	Ostatni pristroje k mereni, kontrole elektr. velicin
+87479	Dily, prislusenstvi osciloskopu, analyzatoru spektra
+8749	Díly, příslusenství strojů, spotřebičů, zařízení j.n.
+88	Fotografické přístroje, výstroj a potřeby a optické výrobky, j.n.; hodiny a hodinky
+881	Přístroje a výstroj fotografické jn.
+8811	Fotografické kamery, zařízení k bleskovému osvětlení
+88111	Fotograficke (ne filmovaci) kamery
+88113	Fotografické zařízení k bleskovému osvětlení, bleskové žárovky apod.
+88114	Dily, prislusenstvi fotografickych kamer
+88115	Dily ap. fotografickeho zariz. k bleskovemu osvetleni
+8812	Filmovací kamery, promítačky, díly, příslušenství
+88121	Filmovaci kamery
+88122	Filmove promitacky
+88123	Dily, prislusenstvi filmovacich kamer
+88124	Dily, prislusenstvi filmovych promitacek
+8813	Fotografické a filmovací přístroje a zařízení, j.n.
+88131	Cteci zarizeni na mikrofilm, mikrofise aj.
+88132	Promitacky obrazku, j.n.
+88133	Fotograficke zvetsovaci, zmensovaci zarizeni
+88134	Dily, prisl. cteciho zarizeni, promitacek obrazku ap.
+88135	Pristroje, zarizeni pro fotograficke laboratore, j.n.
+88136	Dily, prisl. pristroju pro fotograficke laboratore
+882	Potřeby fotografické a kinematografické
+8821	Chemické výrobky k fotografickým účelům
+8822	Fotografické desky, ploché filmy,citlivé,neexponované
+8823	Svitkový film, citlivý, neexponovaný
+8824	Fotografický papír,lepenka,tkaniny,citlivé,neexpon.
+8825	Fotografické filmy, papír aj. exponované, nevyvolané
+8826	Fotografické desky a filmy, exponované, vyvolané
+883	Filmy kinematografické exponované a vyvolané
+8831	Kinematografické filmy exponované,vyvolané, nad 35 mm
+8839	Kinematografické filmy exponované, vyvolané, jiné
+884	Výrobky optické jn.
+8841	Optická vlákna, svazky optic. vláken a optické kabely
+88411	Kontaktni cocky
+88415	Brylove cocky ze skla
+88417	Brylove cocky z jineho materialu
+88419	Opticka vlakna, pasy aj. z polarizacniho mater., dily
+8842	Brýle, brýlové obruby
+88421	Obruby, sestavy k brylim, skripcum apod.
+88422	Dily pro obruby, sestavy bryli, skripcu apod.
+88423	Bryle, skripce ap., korekcni, ochranne aj.
+8843	Čočky, hranoly, zrcadla, ost. optické základní díly
+88431	Objektivove cocky do kamer, promitacek aj.
+88432	Ostatni objektivove cocky
+88433	Filtry
+88439	Smontovane zakladni opticke dily, j.n.
+885	Hodiny a hodinky
+8853	Hodinky náramkové, kapesní aj. s pouzdrem z kovu
+88531	Naramkove hodinky na baterii ap., i jako stopky
+88532	Ostatni naramkove hodinky, i jako stopky
+88539	Kapesni hodinky, ostatni hodinky (ne naramkove)
+8854	Hodinky náramkové, kapesní a jiné (vč.stopek)
+88541	Naramkove hodinky na baterii ap., i jako stopky
+88542	Ostatni naramkove hodinky, i jako stopky
+88549	Kapesni hodinky, ostatni hodinky (ne naramkove)
+8855	Časoměrné přístroje, kompletní, smontované
+88551	Casomerne pristroje, na baterii, akumulator
+88552	Casomerne pristroje, ne na baterii, akumulator
+8857	Hodiny
+88571	Hodiny na pristrojove desce ap. pro letadla, auta aj.
+88572	Hodiny s casomernym pristrojem na baterii, akumulator
+88573	Ostatni hodiny s casomernym pristrojem
+88574	Budiky na baterii ap., vnejsi zdroj elektr. proudu
+88575	Ostatni budiky
+88576	Nastenne hodiny na baterii ap., vnejsi zdroj proudu
+88577	Ostatni nastenne hodiny
+88578	Ostatni hodiny, na baterii ap., vnejsi zdroj proudu
+88579	Hodiny, j.n.
+8859	Časoměrná zařízení, příslušenství, j.n., díly hodin
+88591	Hodinkova pouzdra, dily
+88592	Pasky, reminky, naramky hodinek, dily, z kovu
+88593	Pasky, reminky, naramky hodinek, dily, ne z kovu
+88594	Pristroje k zaznamenavani, mereni casu
+88595	Casove spinace se strojkem, synchronnim motorkem
+88596	Hodinove strojky, kompletni, smontovane
+88597	Pouzdra hodinova apod. typu pro jine vyrobky
+88598	Kompletni, nekompletni, hodinove, hodinkove strojky
+88599	Dily hodinek, hodin, j.n.
+89	Různé výrobky, j.n.
+891	Zbraně a munice
+8911	Obrněná bojová vozidla, válečné zbraně
+89111	Tanky, ostatni obrnena bojova vozidla, motorizovana
+89112	Vojenske zbrane
+89113	Pobocne zbrane (savle, palase, ap.), dily, pouzdra
+89114	Revolvery, pistole
+8912	Bomby, granáty, torpéda, miny apod. válečná munice
+89122	Naboje do brokovnic
+89123	Vzduchovkove broky, dily naboju do brokovnic
+89124	Ostatni naboje, dily
+89129	Valecna munice, dily, j.n.
+8913	Civilní zbraně
+89131	Strelne zbrane, j.n. ap. zarizeni na explozivni naboj
+89139	Ostatni zbrane (pruzinove, vzduchove, plynove ap.)
+8919	Díly a příslušenství výrobků skupiny 891.1 a 891.3
+89191	Dily, prislusenstvi revolveru, pistoli
+89193	Hlavne brokovnic
+89195	Ostatni dily brokovnic, pusek
+89199	Dily, prislusenstvi, j.n., vojenskych a ost. zbrani
+892	Tiskoviny
+8921	Knihy, brožury, mapy, glóbusy, tištěné
+89212	Detske knizky obrazkove, omalovanky
+89213	Mapy, plany ve forme knihy
+89214	Mapy, hydrograficke ap. plany, tistene, ne knihy
+89215	Tistene knihy, letaky ap. na jednotlivych listech
+89216	Slovniky, encyklopedie, dily, ne jednotlive listy
+89219	Ostatni knihy, brozury ap. tiskoviny, ne jedn. listy
+8922	Noviny, časopisy a periodika
+89221	Noviny, casopisy, vychazejici nejmene ctyrikrat tydne
+89229	Noviny, casopisy, periodika ostatni
+8924	Pohlednice, gratulační, oznamovací lístky aj. tištěné
+89241	Keramicke obtisky (dekalomanie)
+89242	Listky tistene, obrazkove, tistene s gratulaci ap.
+8928	Tiskoviny, j.n.
+89281	Papirove, lepenkove vinety-nalepky vseho druhu
+89282	Plany, vykresy pro stavitelske, prumyslove ap. ucely
+89283	Nepouzite postovni znamky, kolky ap., bankovky, akcie
+89284	Kalendare vseho druhu, tistene
+89285	Hudebni noty, tistene, rucne psane, pr. svazane
+89286	Obchodni propagacni material, katalogy apod.
+89287	Obrazy, vzory, fotografie
+89289	Tiskoviny, j.n.
+893	Předměty z hmot plastických jn.
+8931	Plastické předměty k dopravě či balení zboží
+89311	Sacky, pytle (vc. kornoutu)
+89319	Predmety k doprave a baleni zbozi, zatky aj. z plastu
+8932	Zboží pro stavebníky z plastů
+89321	Vany, sprchy, umyvadla ap. sanitarni vyrobky z plastu
+89329	Ostatni zbozi pro stavebniky z plastu
+8933	Podlahové krytiny, krytiny stěn apod., z plastů
+89331	Krytiny podlah, sten, stropu z plastu
+89332	Stolni, kuchynske nadobi, ost. pro domacnost z plastu
+8939	Předměty z plastů, j.n.
+89394	Kanelarske, skolni potreby z plastu
+89395	Doplnky k nabytku, vozum ap. z plastu
+89399	Ostatni predmety z plastu
+894	Kočárky dětské, hračky, hry a potřeby sportovní
+8941	Dětské kočárky, díly, j.n.
+8942	Tříkolky,koloběžky,šlapací auta apod.;kočárky pro panenky;panenky;hračky ost;modely;puzzle
+8943	Předměty pro zábavu, pokojové hry stolní apod.
+89431	Videohry pouzivane s televizorem
+89433	Vyrobky a prislusenstvi kulecniku
+89435	Ostatni hry fungujici na vhozeni mince, kotouce
+89437	Hraci karty
+89439	Predmety pro zabavu, hry pokojove stolni aj., j.n.
+8944	Výrobky pro karneval, vánoční ozdoby, betlémy apod.
+89441	Soupravy svetel uzivanych na vanocni stromky
+89445	Ostatni predmety pro vanocni oslavy
+89449	Ostatni zabavne predmety
+8946	Kolotoče, houpačky, střelnice a podobné atrakce
+8947	Sportovní potřeby
+89471	Rybarske pruty, hacky aj., podberaky, sitky na motyly
+89472	Brusle, brusle na koleckach (vc. bot s bruslemi)
+89473	Lyze na snih, lyzarska vybava
+89474	Vodni lyze, prkna surfova, oplachtena aj.
+89475	Golfove nacini
+89476	Rakety na tenis, badminton ap., pr. nevypletene
+89477	Rukavice, palcaky specialne pro sport
+89478	Telocvicne, atleticke potreby, nacini
+89479	Sportovni potreby, j.n.
+895	Potřeby kancelářské a zboží papírnické jn.
+8951	Kancelářské potřeby, papírnické zboží ze zákl. kovu
+89511	Registratury, stojany na spisy ap. ze zakladnich kovu
+89512	Vlozky do poradacu, sponky, dratky ap. ze zakl. kovu
+8952	Pera, tužky a plnící pera
+89521	Pera propisovaci, plnici aj., tuzky sroubovaci ap.
+89522	Hroty per, spicky hrotu
+89523	Tuzky, tuhy, pastelky, kridy psaci, krejcovske ap.
+8959	Ostatní kancelářské potřeby a papírnické zboží
+89591	Kreslici tus, inkoust psaci aj., pr. koncentrovane
+89592	Bridlicove tabulky aj. tabule s povrchem k psani ap.
+89593	Razitka, raznice dat, cislic ap. ovladane rucne
+89594	Pasky do psacich stroju ap., barvene aj. upravene
+896	Díla umělecká, předměty sběratelské a starožitnosti
+8961	Olejomalby, kresby, pastely, ruční práce, koláže ap.
+89611	Olejomalby, kresby, pastely
+89612	Kolaze ap. dekorativni plakety
+8962	Původní rytiny, tisky, litografie
+8963	Původní plastiky, sošky, z jakéhokoli materiálu
+8964	Poštovní známky, kolky, razítka, obálky
+8965	Zoologické, botanické, historické a jiné sbírky
+8966	Starožitnosti starší než 100 let
+897	Šperky, výrobky zlatnické a stříbrnické ap. předměty
+8972	Nepravé šperky (bižuterie)
+89721	Neprave sperky ze zakl. kovu, pr. pokovene dr. kovem
+89729	Neprave sperky z ostatnich nedrahych kovu
+8973	Šperky ze zlata a stříbra, bez hodinek
+89731	Klenotnicke vyrobky, dily, z drahych kovu, pokovene
+89732	Zlatnicke, stribrnicke vyrobky, z drahych kovu
+89733	Vyrobky z perel, drahokamu, polodrahokamu
+8974	Ostatní výrobky z drahých kovů, kovů pokovených
+89741	Katalyzatory z platiny, kovu skupiny platiny
+89749	Vyrobky z drahych kovu, kovu pokovenych, j.n.
+898	Nástroje hudební, díly, příslušenství, desky, pásky ap.
+8981	Klavíry a ostatní strunné hudební nástroje
+89813	Klaviry, harpsichordy aj. klavesove strunne nastroje
+89815	Ostatni strunne nastroje (kytary, housle, harfy)
+8982	Hudební nástroje (bez klavíru a ost.strunných nástr.)
+89823	Ostatni dechove hudebni nastroje (klarinety ap.)
+89824	Bici hudebni nastroje (bubny, xylofony, cimbaly ap.)
+89825	Klavesove nastroje, zvuk produkovan ap. elektricky
+89826	Hudebni nastroje j.n., zvuk produkovan ap. elektricky
+89829	Hudebni skrine ap., ost. nastroje j.n., vabnicky aj.
+8984	Disky, pásky aj. média pro záznam zvuku, obrazu apod. (vč. nahraných), kromě výrobků skupiny 882
+89842	Magnetická média pro záznam (vč. nahraných)
+89844	Optická média pro záznam (vč. nahraných)
+89846	Polovodičová média pro záznam (vč. nahraných)
+89849	Ostatní média pro záznam (vč. nahraných)
+8989	Díly, příslusenství hudebních nástrojů, metronomy aj.
+899	Výrobky ost. jn. (květiny umělé, svíčky, deštníky ap.)
+8991	Předměty z materiálu pro řezbářskou a jinou techniku
+89911	Opracovana slonovina, koral, perly, rohovina ap.
+89919	Opracovany rostlinny, nerostny rezbarsky material
+8992	Umělé květiny, listy, ovocné plody, předměty z nich
+89921	Umele kvetiny, listy, ovocne plody, predmety z plastu
+89929	Umele kvetiny, listy, plody z jinych mat. nez plastu
+8993	Svíčky, zápalky, pyroforické slitiny, kuřácké potřeby
+89931	Svicky, svice apod.
+89932	Zapalky, ne pyrotechnicke
+89933	Zapalovace cigaretove a ost., mechanicke, elektricke
+89934	Kapalina, zkapalneny plyn v obalech do 300 cm3
+89935	Dily, prislusenstvi zapalovacu, j.n., ne kaminky ap.
+89937	Kuracke dymky, naustky doutniku, cigaret, dily
+89939	Ferocer, ost. pyroforicke sliny, metaldehyd ap. latky
+8994	Deštníky, slunečníky, vycházkové hole a části
+89941	Destniky, slunecniky
+89942	Hole vychazkove, sedatkove, bice, jezdecke biciky ap.
+89949	Dily, ozdoby, prislus. destniku, slunecniku, holi ap.
+8996	Přístroje ortopedické, pro nedoslýchavé, dlahy apod.
+89961	Pomucky pro nedoslychave (ne dily, prislusenstvi)
+89963	Ortopedicke pristroje, pomucky k fixaci fraktur
+89965	Umele chrupy, zubolekarske pripravky
+89966	Ostatni umele casti tela
+89967	Kardiostimulatory (ne dily, prislusenstvi)
+89969	Pristroje j.n. ke kompenzaci telesne vady, invalidity
+8997	Košíkářské výrobky z proutí
+89971	Kosikarske vyrobky z prouti aj. vyrobky
+89972	Kostata, kartace rucne ovladane, nemotorizovane, mopy
+89974	Rohozky, rohoze, sita z rostlinnych materialu
+89979	Materialy ke spletani, svazky ap. produkty, j.n.
+8998	Drobné zboží a toaletní potřeby,síta,krejčovské panny
+89981	Rucni sita, rucni reseta
+89982	Labutenky ap. k nanaseni kosmetickych aj. pripravku
+89983	Stiskaci knofliky a spony, dily, knofliky
+89984	Bucny, ostatni casti knofliku
+89985	Zdrhovadla
+89986	Dily zdrhovadel
+89987	Rozprasovace parfemu aj. pripravku, hlavice, nadobky
+89988	Krejcovske panny aj. figuriny, reklamni automaty ap.
+89989	Hrebeny, vlasnicky, natacky, perka do vlasu ap., dily
+8999	Výrobky, j.n.
+89991	Vyrobky ze strev, zlatotepecke mazdry, mechyru, slach
+89992	Kuze aj. casti ptaku s perim, pera, prachove peri
+89994	Lidske vlasy, vlna aj. zvireci srst ap. pro paruky
+89995	Paruky, umele vousy ap. z lidskych vlasu, srsti aj.
+89996	Padaky (vc. riditelnych, rotorovych), prislusenstvi
+89997	Termosove lahve ap. nadoby, kompletni, s pouzdry
+9	Komodity a předměty obchodu jinde nezatříděné
+91	Poštovní zásilky nezatříděné podle druhu
+911	Zásilky poštovní nezatříděné dle druhu
+93	Zvláštní předměty obchodu
+931	Předměty obchodu zvláštní
+96	Mince (kromě zlatých), mimo zákonných platidel
+961	Mince (ne zlaté) mimo zákonných platidel
+97	Zlato, bez mincovního (kromě rud a koncentrátu zlata)
+971	Zlato (ne mincovní, ne rudy a koncentráty zlata)
+9710	Zlato, ne mincovní (ne rudy, koncentráty zlata)
+97101	Zlato (vc. pokov. platinou), ne mincovni, netvarene
+97102	Zakladni kovy, stribro pokovene zlatem, polotovar
+97103	Odpad, srot zlata (vc. kovu pozlacenych)
+972	Zlato mincovní, mince zlaté, mince běžné
+99	Nezařazeno
+998	Nezatříděno dle druhu
