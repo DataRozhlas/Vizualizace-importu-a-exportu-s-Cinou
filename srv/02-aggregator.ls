@@ -15,7 +15,7 @@ aggregateFor = (prefix, cb) ->
   something = no
   for line in lines
     line .= replace "\r" ""
-    [obdobi, id, nazev, cena] = line.split "\t"
+    [obdobi, id, cena] = line.split "\t"
     continue unless id
     continue unless prefix is id.substr 0, prefixLength
     something = yes

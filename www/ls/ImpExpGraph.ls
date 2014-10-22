@@ -30,7 +30,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
       layers_assoc[kod] ?= []
       layers_assoc[kod].push datum
     layers = for kod, layerPoints of layers_assoc
-      layerPoints = smooth extrapolate layerPoints, dateRange
+      layerPoints = extrapolate layerPoints, dateRange
       {kod, layerPoints}
 
     stacked = @stack layers

@@ -12,6 +12,7 @@ ig.tsvTransform = (row) ->
   row
 
 init = ->
+  new Tooltip!watchElements!
   exp = d3.tsv.parse ig.data.import, ig.tsvTransform
   new ig.ImpExpGraph d3.select ig.containers.base
     ..draw exp
