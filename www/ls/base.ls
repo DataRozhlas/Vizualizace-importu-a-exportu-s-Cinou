@@ -8,6 +8,7 @@ ig.tsvTransform = (row) ->
     ..setTime 0
     ..setMonth month - 1
     ..setFullYear year
+  row.time = row.date.getTime!
   row
 
 init = ->
