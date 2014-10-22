@@ -5,6 +5,11 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @margin = [10 0 30 60]
     @height = height - @margin.0 - @margin.2
     @width = width - @margin.1 - @margin.3
+    @lastDomains = []
+    @lastActiveLayer = []
+    @lastLayers = []
+    @lastKody = []
+    @currentLayers = null
     @svg = @parentElement.append \svg
       ..attr \class \impExpGraph
       ..attr \width width
@@ -32,7 +37,32 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @direction = 'export'
     @draw data
 
+  back: ->
+    d = @lastDomains.pop!
+    @yScale.domain d
+    targetArea = @lastActiveLayer.pop!
+    area = d3.svg.area!
+      ..x ~> @xScale it.date
+      ..y0 (it, i) ~> @yScale it.y0 + targetArea.layerPoints[i].y0
+      ..y1 (it, i) ~> @yScale it.y + it.y0 + targetArea.layerPoints[i].y0
+    @currentAreas.transition!
+      ..duration 800
+      ..attr \d ~> area it.layerPoints
+    currentKod = @lastKody.pop!toString!
+    @drawCurrentArea @lastLayers.pop!
+      ..attr \opacity 0
+      ..transition!
+        ..delay (d, i) -> 1200 + i * 50
+        ..duration 600
+        ..attr \opacity 1
+      ..filter (.kod == currentKod)
+        ..transition!
+          ..delay 800
+          ..duration 800
+          ..attr \opacity 1
+
   drawSubset: (kod) ->
+    @lastKody.push kod
     @expand kod
     drawSubset = ~>
       layers = @stackData data
@@ -52,6 +82,8 @@ window.ig.ImpExpGraph = class ImpExpGraph
           ..attr \stroke-opacity 0
           ..attr \stroke-width 0
           ..attr \fill-opacity 1
+      <~ setTimeout _, 1200 + layers.length * 100
+      @tempPath.remove!
     startImmediately = no
     data = null
     setTimeout do
@@ -76,6 +108,8 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @drawCurrentArea layers
 
   drawCurrentArea: (layers) ->
+    @lastLayers.push @currentLayers if @currentLayers
+    @currentLayers = layers
     @currentAreas = @drawing.selectAll \path.new .data layers .enter!append \path
       ..attr \d ~> @stdAreaGenerator it.layerPoints
       ..attr \fill ~>
@@ -100,6 +134,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
     layer = @displayedLayersAssoc[kod]
     return unless layer
     max = d3.max layer.map -> it.y
+    @lastDomains.push @yScale.domain!
     @yScale.domain [0, max]
     @yAxisG
       ..transition!
@@ -116,8 +151,8 @@ window.ig.ImpExpGraph = class ImpExpGraph
         ..duration 800
         ..attr \opacity 0
         ..remove!
-
-    @drawing.append \path
+    @lastActiveLayer.push fadingAreaElm.datum!
+    @tempPath = @drawing.append \path
       ..attr \d fadingAreaElm.attr \d
       ..attr \fill fadingAreaElm.attr \fill
       ..datum fadingAreaElm.datum!
@@ -125,7 +160,6 @@ window.ig.ImpExpGraph = class ImpExpGraph
         ..delay 800
         ..duration 800
         ..attr \d -> area it.layerPoints
-    return
 
 
   drawXAxis: ->

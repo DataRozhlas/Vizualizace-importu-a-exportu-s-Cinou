@@ -7,6 +7,8 @@ init = ->
     ..drawImport!
   <~ setTimeout _, 100
   impExpGraph.drawSubset 7
+  <~ setTimeout _, 5000
+  impExpGraph.back!
 if d3?
   init!
 else
