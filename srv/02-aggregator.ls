@@ -3,7 +3,7 @@
 require! fs
 require! async
 
-expImp = "import"
+expImp = "export"
 outDir = "#__dirname/../data/#expImp"
 codeLen = 4
 lines = fs.readFileSync "#__dirname/../data/#expImp.tsv" .toString!split "\n"
@@ -22,6 +22,8 @@ aggregateFor = (prefix, cb) ->
     aggr = id.substr 0, prefixLength + 1
     summId = aggr + "-" + obdobi
     cena = parseInt cena, 10
+    if isNaN cena
+      continue
     summ[summId] ?= 0
     summ[summId] += cena
   if not something
