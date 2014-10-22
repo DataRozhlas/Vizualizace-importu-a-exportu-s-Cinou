@@ -126,10 +126,18 @@ generateDateRange = (min, max) ->
 
 extrapolate = (input, range) ->
   currentIndex = 0
-  out = range.map (rangeItem) ->
+  lastCena = null
+  rangeLength = range.length
+  out = range.map (rangeItem, index) ->
     if input[currentIndex]?obdobi == rangeItem.obdobi
+      lastCena := input[currentIndex].cena
       ++currentIndex
       input[currentIndex - 1]
+    else if lastCena and (rangeLength - index) < 5
+      date         : rangeItem.date
+      obdobi       : rangeItem.obdobi
+      cena         : lastCena
+      extrapolated : yes
     else
       rangeItem
   out
