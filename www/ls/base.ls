@@ -12,7 +12,7 @@ ig.tsvTransform = (row) ->
   row
 
 init = ->
-  exp = d3.tsv.parse ig.data.export, ig.tsvTransform
+  exp = d3.tsv.parse ig.data.import, ig.tsvTransform
   new ig.ImpExpGraph d3.select ig.containers.base
     ..draw exp
 if d3?

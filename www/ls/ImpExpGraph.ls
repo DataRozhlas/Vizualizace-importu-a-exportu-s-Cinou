@@ -23,7 +23,6 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..range <[#e41a1c #377eb8 #4daf4a #984ea3 #ff7f00 #ffff33 #a65628 #f781bf #999999]>
 
   draw: (data) ->
-    @yAxisG.call @yAxis
     data.sort (a, b) -> a.time - b.time
     dateRange = generateDateRange data.0, data[*-1]
     layers_assoc = {}
@@ -37,6 +36,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
     stacked = @stack layers
     max = d3.max layers[*-1].layerPoints.map -> it.y0 + it.y
     @yScale.domain [0, max]
+    @yAxisG.call @yAxis
     area = d3.svg.area!
       ..x ~> @xScale it.date
       ..y0 ~> @yScale it.y0
@@ -82,9 +82,9 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..tickSize 5, 1
       ..tickFormat ->
         | it == 0 => "0 Kč"
-        | it < 1e3 => it + " mil."
-        | it < 1e6 => it / 1e3 + " mld."
-        | otherwise => it / 1e6 + " bil."
+        | it < 1e3 => it + " tis."
+        | it < 1e6 => it / 1e3 + " mil."
+        | otherwise => it / 1e6 + " mld."
 
     @yAxisG = @svg.append \g
       ..attr \class "axis y"
