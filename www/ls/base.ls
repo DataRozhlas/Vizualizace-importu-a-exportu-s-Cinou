@@ -10,6 +10,7 @@ init = ->
   container = d3.select ig.containers.base
   impExpGraph = new ig.ImpExpGraph container, ciselnik
     ..drawImport!
+  header = new ig.Header container, impExpGraph, ciselnik
 
 if d3?
   init!

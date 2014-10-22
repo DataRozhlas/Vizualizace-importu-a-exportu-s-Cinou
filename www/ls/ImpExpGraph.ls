@@ -1,5 +1,6 @@
 window.ig.ImpExpGraph = class ImpExpGraph
   (@parentElement, @ciselnik) ->
+    window.ig.Events @
     width = 1000px
     height = 700px
     @margin = [10 0 30 60]
@@ -48,14 +49,16 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @currentAreas.transition!
       ..duration 800
       ..attr \d ~> area it.layerPoints
-    currentKod = @lastKody.pop!toString!
+    fadingKod = @lastKody.pop!toString!
+    @currentKod = @lastKody[*-1]
+    @emit 'drawing' @currentKod
     @drawCurrentArea @lastLayers.pop!
       ..attr \opacity 0
       ..transition!
         ..delay (d, i) -> 1200 + i * 50
         ..duration 600
         ..attr \opacity 1
-      ..filter (.kod == currentKod)
+      ..filter (.kod == fadingKod)
         ..transition!
           ..delay 800
           ..duration 800
@@ -63,7 +66,9 @@ window.ig.ImpExpGraph = class ImpExpGraph
 
   drawSubset: (kod) ->
     @lastKody.push kod
+    @currentKod = kod
     @expand kod
+    @emit 'drawing' kod
     drawSubset = ~>
       layers = @stackData data
       lastAreas = @currentAreas
