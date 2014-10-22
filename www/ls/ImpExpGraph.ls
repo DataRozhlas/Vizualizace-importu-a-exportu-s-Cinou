@@ -20,32 +20,112 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..x (.date)
       ..y (.cena)
     @color = d3.scale.ordinal!
-      ..range <[#e41a1c #377eb8 #4daf4a #984ea3 #ff7f00 #ffff33 #a65628 #f781bf #999999]>
+      ..range ['rgb(228,26,28)','rgb(55,126,184)','rgb(77,175,74)','rgb(152,78,163)','rgb(255,127,0)','rgb(255,255,51)','rgb(166,86,40)','rgb(247,129,191)'] ++ ['rgb(141,211,199)','rgb(255,255,179)','rgb(190,186,218)','rgb(251,128,114)','rgb(128,177,211)','rgb(253,180,98)','rgb(179,222,105)','rgb(252,205,229)']
+
+  drawImport: ->
+    data = d3.tsv.parse ig.data.import, tsvTransform
+    @direction = 'import'
+    @draw data
+
+  drawExport: ->
+    data = d3.tsv.parse ig.data.export, tsvTransform
+    @direction = 'export'
+    @draw data
+
+  drawSubset: (kod) ->
+    @expand kod
+    drawSubset = ~>
+      layers = @stackData data
+      lastAreas = @currentAreas
+      @drawCurrentArea layers
+        ..attr \fill-opacity 0
+        ..attr \stroke-opacity 0
+        ..attr \stroke-width 1
+        ..attr \stroke \black
+        ..transition!
+          ..delay (d, i) -> i * 50
+          ..duration 400
+          ..attr \stroke-opacity 1
+        ..transition!
+          ..delay (d, i) -> 400 + i * 100
+          ..duration 800
+          ..attr \stroke-opacity 0
+          ..attr \stroke-width 0
+          ..attr \fill-opacity 1
+    startImmediately = no
+    data = null
+    setTimeout do
+      -> if data then drawSubset! else startImmediately = yes
+      1600
+
+    (err, d) <~ d3.tsv "../data/#{@direction}/#{kod}.tsv", tsvTransform
+    data := d
+    if startImmediately then drawSubset!
 
   draw: (data) ->
     data.sort (a, b) -> a.time - b.time
-    dateRange = generateDateRange data.0, data[*-1]
-    layers_assoc = {}
+    @dateRange = generateDateRange data.0, data[*-1]
+    layers = @stackData data
+    max = d3.max layers[*-1].layerPoints.map -> it.y0 + it.y
+    @yScale.domain [0, max]
+    @yAxisG.call @yAxis
+    @stdAreaGenerator = d3.svg.area!
+      ..x ~> @xScale it.date
+      ..y0 ~> @yScale it.y0
+      ..y1 ~> @yScale it.y0 + it.y
+    @drawCurrentArea layers
+
+  drawCurrentArea: (layers) ->
+    @currentAreas = @drawing.selectAll \path.new .data layers .enter!append \path
+      ..attr \d ~> @stdAreaGenerator it.layerPoints
+      ..attr \fill ~>
+        @color it.kod
+      ..attr \data-tooltip -> it.kod
+      ..attr \opacity 1
+      ..on \click ~> @drawSubset it.kod
+
+  stackData: (data) ->
+    @displayedLayersAssoc = layers_assoc = {}
     for {kod}:datum in data
       layers_assoc[kod] ?= []
       layers_assoc[kod].push datum
     layers = for kod, layerPoints of layers_assoc
-      layerPoints = extrapolate layerPoints, dateRange
+      layerPoints = extrapolate layerPoints, @dateRange
       {kod, layerPoints}
 
-    stacked = @stack layers
-    max = d3.max layers[*-1].layerPoints.map -> it.y0 + it.y
+    @stack layers
+    layers
+
+  expand: (kod) ->
+    layer = @displayedLayersAssoc[kod]
+    return unless layer
+    max = d3.max layer.map -> it.y
     @yScale.domain [0, max]
-    @yAxisG.call @yAxis
+    @yAxisG
+      ..transition!
+        ..delay 800
+        ..duration 800
+        ..call @yAxis
     area = d3.svg.area!
       ..x ~> @xScale it.date
-      ..y0 ~> @yScale it.y0
-      ..y1 ~> @yScale it.y0 + it.y
-    @drawing.selectAll \path.new .data layers .enter!append \path
-      ..attr \d -> area it.layerPoints
-      ..attr \fill ~>
-        @color it.kod
-      ..attr \data-tooltip -> it.kod
+      ..y0 ~> @yScale 0
+      ..y1 ~> @yScale it.y
+    fadingAreaElm = @currentAreas.filter -> it.kod == kod.toString!
+    @currentAreas
+      ..transition!
+        ..duration 800
+        ..attr \opacity 0
+        ..remove!
+
+    @drawing.append \path
+      ..attr \d fadingAreaElm.attr \d
+      ..attr \fill fadingAreaElm.attr \fill
+      ..datum fadingAreaElm.datum!
+      ..transition!
+        ..delay 800
+        ..duration 800
+        ..attr \d -> area it.layerPoints
+    return
 
 
   drawXAxis: ->
@@ -122,6 +202,7 @@ generateDateRange = (min, max) ->
   out.push new RangeItem currentDate
   out
 
+
 smooth = (input) ->
   accu = []
   avg = ->
@@ -136,6 +217,7 @@ smooth = (input) ->
       if index >= 3 then accu.shift!
       item.cena = avg!
   input
+
 
 extrapolate = (input, range) ->
   currentIndex = 0
@@ -155,3 +237,15 @@ extrapolate = (input, range) ->
       rangeItem
   out
 
+
+tsvTransform = (row) ->
+  row.cena = parseInt row.cena, 10
+  [month, year] = row.obdobi.split "/"
+  month = parseInt month, 10
+  year = parseInt year, 10
+  row.date = new Date!
+    ..setTime 0
+    ..setMonth month - 1
+    ..setFullYear year
+  row.time = row.date.getTime!
+  row
