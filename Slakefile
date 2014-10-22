@@ -15,6 +15,7 @@ externalStyles =
 externalData =
   "export": "#__dirname/data/export/all.tsv"
   "import": "#__dirname/data/import/all.tsv"
+  "ciselnik": "#__dirname/data/ciselnik.tsv"
 
 preferScripts = <[ postInit.js _loadData.js ../data.js init.js _loadExternal.js]>
 deferScripts = <[ kandidatka.js base.js ]>

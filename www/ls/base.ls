@@ -1,14 +1,16 @@
 ig = window.ig
 
 init = ->
+  ciselnik = {}
+  for line in ig.data.ciselnik.split "\n"
+    [kod, nazev] = line.split "\t"
+    continue if kod == "kod"
+    ciselnik[kod] = nazev
   new Tooltip!watchElements!
-
-  impExpGraph = new ig.ImpExpGraph d3.select ig.containers.base
+  container = d3.select ig.containers.base
+  impExpGraph = new ig.ImpExpGraph container, ciselnik
     ..drawImport!
-  <~ setTimeout _, 100
-  impExpGraph.drawSubset 7
-  <~ setTimeout _, 5000
-  impExpGraph.back!
+
 if d3?
   init!
 else

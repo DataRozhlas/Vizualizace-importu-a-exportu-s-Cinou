@@ -1,5 +1,5 @@
 window.ig.ImpExpGraph = class ImpExpGraph
-  (@parentElement) ->
+  (@parentElement, @ciselnik) ->
     width = 1000px
     height = 700px
     @margin = [10 0 30 60]
@@ -114,7 +114,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..attr \d ~> @stdAreaGenerator it.layerPoints
       ..attr \fill ~>
         @color it.kod
-      ..attr \data-tooltip -> it.kod
+      ..attr \data-tooltip ~> @ciselnik[it.kod]
       ..attr \opacity 1
       ..on \click ~> @drawSubset it.kod
 
