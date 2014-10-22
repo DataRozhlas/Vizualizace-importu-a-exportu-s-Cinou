@@ -23,7 +23,6 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..range <[#e41a1c #377eb8 #4daf4a #984ea3 #ff7f00 #ffff33 #a65628 #f781bf #999999]>
 
   draw: (data) ->
-
     @yAxisG.call @yAxis
     data.sort (a, b) -> a.time - b.time
     dateRange = generateDateRange data.0, data[*-1]
@@ -32,7 +31,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
       layers_assoc[kod] ?= []
       layers_assoc[kod].push datum
     layers = for kod, layerPoints of layers_assoc
-      layerPoints = extrapolate layerPoints, dateRange
+      layerPoints = smooth extrapolate layerPoints, dateRange
       {kod, layerPoints}
 
     stacked = @stack layers
@@ -123,6 +122,20 @@ generateDateRange = (min, max) ->
   out.push new RangeItem currentDate
   out
 
+smooth = (input) ->
+  accu = []
+  avg = ->
+    sum = 0
+    for val in accu
+      sum += val
+    sum / accu.length
+  input
+    .filter (.extrapolated != yes)
+    .forEach (item, index) ->
+      accu.push item.cena
+      if index >= 3 then accu.shift!
+      item.cena = avg!
+  input
 
 extrapolate = (input, range) ->
   currentIndex = 0
