@@ -99,7 +99,7 @@ window.ig.Header = class Header
     time = date.getTime!
     lastValidIndex = null
     for datapoint, index in @impExpGraph.currentLayers.0.layerPoints
-      if datapoint.time < time
+      if datapoint.time <= time
         lastValidIndex := index
       else
         break

@@ -284,6 +284,7 @@ class RangeItem
     @obdobi = "#{obdobiMesic}/#{@date.getFullYear!}"
     @cena = 0
     @extrapolated = yes
+    @time = @date.getTime!
 
 
 generateDateRange = (min, max) ->
@@ -334,6 +335,7 @@ extrapolate = (input, range) ->
       input[currentIndex - 1]
     else if lastInput and (rangeLength - index) < 5
       date         : rangeItem.date
+      time         : rangeItem.time
       obdobi       : rangeItem.obdobi
       cena         : lastInput.cena
       lastInput    : lastInput
