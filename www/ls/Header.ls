@@ -12,7 +12,7 @@ window.ig.Header = class Header
     console.log 'foo', @impExpGraph.currentKod
     if @impExpGraph.currentKod
       @backbutton.classed \disabled no
-      @heading.html ""
+      @heading.html @ciselnik[@impExpGraph.currentKod]
     else
       @backbutton.classed \disabled yes
       verb = if @impExpGraph.direction == "import" then "dovážíme z" else "vyvážíme do"
