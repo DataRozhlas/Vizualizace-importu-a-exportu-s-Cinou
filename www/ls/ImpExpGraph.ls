@@ -44,24 +44,29 @@ window.ig.ImpExpGraph = class ImpExpGraph
     d = @lastDomains.pop!
     @yScale.domain d
     targetArea = @lastActiveLayer.pop!
-    area = d3.svg.area!
-      ..x ~> @xScale it.date
-      ..y0 (it, i) ~> @yScale it.y0 + targetArea.layerPoints[i].y0
-      ..y1 (it, i) ~> @yScale it.y + it.y0 + targetArea.layerPoints[i].y0
-    @currentAreas
-      ..transition!
-        ..duration 800
-        ..attr \d ~> area it.layerPoints
-      ..transition!
-        ..delay 1600
-        ..remove!
-
+    baseDuration = 0
+    if targetArea
+      area = d3.svg.area!
+        ..x ~> @xScale it.date
+        ..y0 (it, i) ~> @yScale it.y0 + targetArea.layerPoints[i].y0
+        ..y1 (it, i) ~> @yScale it.y + it.y0 + targetArea.layerPoints[i].y0
+      @currentAreas
+        ..transition!
+          ..duration 800
+          ..attr \d ~> area it.layerPoints
+        ..transition!
+          ..delay 1600
+          ..remove!
+      baseDuration = 1200
+    else
+      baseDuration = 0
+      @currentAreas.remove!
     fadingKod = @lastKody.pop!toString!
     @currentKod = @lastKody[*-1]
     @drawCurrentArea @lastLayers.pop!
       ..attr \opacity 0
       ..transition!
-        ..delay (d, i) -> 1200 + i * 50
+        ..delay (d, i) -> baseDuration + i * 50
         ..duration 600
         ..attr \opacity 1
         ..attr \class \drawed
@@ -73,6 +78,10 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @lastLayerAssoc.pop!
     @emit 'drawing' @currentKod
 
+  goTo: (kod) ->
+    @currentAreas.remove!
+    @drawSubset kod
+
   drawSubset: (kod) ->
     @emit \focusing kod
     @lastKody.push kod
@@ -81,6 +90,10 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @lastLayers.push @currentLayers
     drawSubset = ~>
       layers = @stackData data
+      if not tempPath
+        max = d3.max layers[*-1].layerPoints.map -> it.y0 + it.y
+        @yScale.domain [0, max]
+        @yAxisG.call @yAxis
       lastAreas = @currentAreas
       @highlightOff!
       currentArea = @drawCurrentArea layers
@@ -101,15 +114,20 @@ window.ig.ImpExpGraph = class ImpExpGraph
       @emit 'drawing' kod
       <~ setTimeout _, 800 + layers.length * 100
       currentArea.attr \class \drawed
-      tempPath.remove!
+      if tempPath
+        tempPath.remove!
     startImmediately = no
     data = null
-    setTimeout do
-      -> if data then drawSubset! else startImmediately = yes
-      1600
+    if tempPath
+      setTimeout do
+        -> if data then drawSubset! else startImmediately = yes
+        1600
+    else
+      startImmediately = yes
 
     (err, d) <~ d3.tsv "../data/#{@direction}/#{kod}.tsv", tsvTransform
     data := d
+
     if startImmediately then drawSubset!
 
   draw: (data) ->
@@ -170,9 +188,9 @@ window.ig.ImpExpGraph = class ImpExpGraph
 
   expand: (kod) ->
     layer = @lastLayerAssoc[*-1][kod]
+    @lastDomains.push @yScale.domain!
     return unless layer
     max = d3.max layer.map -> it.y
-    @lastDomains.push @yScale.domain!
     @yScale.domain [0, max]
     @yAxisG
       ..transition!

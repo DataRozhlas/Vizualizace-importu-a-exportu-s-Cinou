@@ -1,0 +1,62 @@
+.suggester-container
+  position absolute
+  right 10px
+  top 10px
+  opacity 0.4
+  transition opacity 0.4s
+  &:hover
+    opacity 1
+  b
+    float right
+    clear both
+    width 100%
+    text-align right
+  i
+    display block
+    float right
+    text-align right
+    clear both
+    width 350px
+
+.subsetSelector-container
+  width 300px
+  float right
+  clear both
+  margin-bottom 5px
+  padding-top 5px
+  position relative
+  z-index 999
+  input
+  ul.suggestionList
+    border 1px solid #aaa
+    border-radius 3px
+    width @width
+  ul.suggestionList
+    &:empty
+      display none
+    position absolute
+    top 30px
+    left 0px
+    list-style-type none
+    max-height 160px
+    overflow auto
+    margin 0px
+    padding 0px
+    background white
+    li
+      padding 8px 18px
+      position relative
+      .okres
+        color #666
+      &.active
+        background ColorHeadingLink
+        color white
+        cursor pointer
+        .okres
+          color #eee
+
+
+  input
+    margin 0px
+    padding 5px 10px
+    height 30px

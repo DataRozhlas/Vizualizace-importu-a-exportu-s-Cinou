@@ -26,11 +26,17 @@ window.ig.Header = class Header
     @drawLegend!
     if @impExpGraph.currentKod
       @backbutton.classed \disabled no
-      @heading.html @ciselnik[@impExpGraph.currentKod]
+      @heading
+        ..html @ciselnik[@impExpGraph.currentKod]
+        ..attr \title @ciselnik[@impExpGraph.currentKod]
+
     else
       @backbutton.classed \disabled yes
       verb = if @impExpGraph.direction == "import" then "dovážíme z" else "vyvážíme do"
-      @heading.html "Co všechno #verb Číny"
+      @heading
+        ..html "Co všechno #verb Číny"
+        ..attr \title "Co všechno #verb Číny"
+
 
   drawLegend: ->
     if @legend
