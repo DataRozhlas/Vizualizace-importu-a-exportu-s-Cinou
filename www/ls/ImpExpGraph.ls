@@ -72,7 +72,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
   drawSubset: (kod) ->
     @lastKody.push kod
     @currentKod = kod
-    @expand kod
+    tempPath = @expand kod
     @emit 'drawing' kod
     @lastLayers.push @currentLayers
     drawSubset = ~>
@@ -88,13 +88,13 @@ window.ig.ImpExpGraph = class ImpExpGraph
           ..duration 400
           ..attr \stroke-opacity 1
         ..transition!
-          ..delay (d, i) -> 400 + i * 100
-          ..duration 800
+          ..delay (d, i) -> 200 + i * 100
+          ..duration 600
           ..attr \stroke-opacity 0
           ..attr \stroke-width 0
           ..attr \fill-opacity 1
-      <~ setTimeout _, 1200 + layers.length * 100
-      @tempPath.remove!
+      <~ setTimeout _, 800 + layers.length * 100
+      tempPath.remove!
     startImmediately = no
     data = null
     setTimeout do
@@ -148,7 +148,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @yScale.domain [0, max]
     @yAxisG
       ..transition!
-        ..delay 800
+        ..delay 600
         ..duration 800
         ..call @yAxis
     area = d3.svg.area!
@@ -158,7 +158,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
     fadingAreaElm = @currentAreas.filter -> it.kod == kod.toString!
     @currentAreas
       ..transition!
-        ..duration 800
+        ..duration 600
         ..attr \opacity 0
         ..remove!
     @lastActiveLayer.push fadingAreaElm.datum!
@@ -167,7 +167,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..attr \fill fadingAreaElm.attr \fill
       ..datum fadingAreaElm.datum!
       ..transition!
-        ..delay 800
+        ..delay 600
         ..duration 800
         ..attr \d -> area it.layerPoints
 
