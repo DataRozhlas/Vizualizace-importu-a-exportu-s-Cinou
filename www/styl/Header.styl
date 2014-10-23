@@ -12,10 +12,13 @@
   h1
     position absolute
     font-size 24px
-    left 75px
+    left 90px
     color ColorHeadingLink
     opacity 1
     transition left 0.4s, opacity 0.4s
+    overflow hidden
+    white-space nowrap
+    text-overflow ellipsis
     &.old
       left 0px
       opacity 0
@@ -25,7 +28,7 @@
     padding 0px
     left 75px
     position absolute
-    top 45px
+    top 65px
     width 550px
     opacity 1
     transition left 0.4s, opacity 0.4s
@@ -76,7 +79,7 @@
           text-align right
   .valueHeader
     position absolute
-    top 25px
+    top 45px
     font-variant small-caps
     left 390px
     font-weight bold
