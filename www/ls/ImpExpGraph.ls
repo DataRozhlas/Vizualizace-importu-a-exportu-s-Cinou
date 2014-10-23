@@ -70,7 +70,6 @@ window.ig.ImpExpGraph = class ImpExpGraph
         ..delay (d, i) -> baseDuration + i * 50
         ..duration 600
         ..attr \opacity 1
-        ..classed \drawed yes
       ..filter (.kod == fadingKod)
         ..transition!
           ..delay 800
@@ -115,7 +114,6 @@ window.ig.ImpExpGraph = class ImpExpGraph
           ..attr \fill-opacity 1
       @emit 'drawing' kod
       <~ setTimeout _, 800 + layers.length * 100
-      currentArea.classed \drawed yes
       if tempPath
         tempPath.remove!
     startImmediately = no
@@ -149,7 +147,6 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..y0 ~> @yScale it.y0
       ..y1 ~> @yScale it.y0 + it.y
     @drawCurrentArea layers
-      ..classed \drawed yes
 
   drawCurrentArea: (layers) ->
     @currentLayers = layers
