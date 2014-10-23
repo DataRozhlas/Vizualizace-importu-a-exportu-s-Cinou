@@ -70,7 +70,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
         ..delay (d, i) -> baseDuration + i * 50
         ..duration 600
         ..attr \opacity 1
-        ..attr \class \drawed
+        ..classed \drawed yes
       ..filter (.kod == fadingKod)
         ..transition!
           ..delay 800
@@ -115,7 +115,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
           ..attr \fill-opacity 1
       @emit 'drawing' kod
       <~ setTimeout _, 800 + layers.length * 100
-      currentArea.attr \class \drawed
+      currentArea.classed \drawed yes
       if tempPath
         tempPath.remove!
     startImmediately = no
@@ -149,7 +149,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..y0 ~> @yScale it.y0
       ..y1 ~> @yScale it.y0 + it.y
     @drawCurrentArea layers
-      ..attr \class \drawed
+      ..classed \drawed yes
 
   drawCurrentArea: (layers) ->
     @currentLayers = layers
@@ -159,7 +159,15 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..attr \fill ~>
         @color it.kod
       ..attr \opacity 1
-      ..on \click ~> @drawSubset it.kod
+      ..classed \noClick ~> !it.hasDescendats || it.kod == @currentKod
+      ..attr \data-tooltip ~>
+        if !it.hasDescendats || it.kod == @currentKod
+          "Již neobsahuje podkategorie"
+        else
+          void
+      ..on \click ~>
+        unless !it.hasDescendats || it.kod == @currentKod
+          @drawSubset it.kod
       ..on \mouseover ~> @highlight it.kod
       ..on \mouseout ~> @highlightOff!
       ..on \mousemove ~>
@@ -188,7 +196,8 @@ window.ig.ImpExpGraph = class ImpExpGraph
       layers_assoc[kod].push datum
     layers = for kod, layerPoints of layers_assoc
       layerPoints = extrapolate layerPoints, @dateRange
-      {kod, layerPoints}
+      hasDescendats = ig.existing[@direction + "Assoc"][kod]
+      {kod, hasDescendats, layerPoints}
 
     @stack layers
     layers

@@ -54,9 +54,6 @@ window.ig.Header = class Header
     len = items.length
     @legendItems = @legend.selectAll \li .data items .enter!append \li
       ..attr \class \new
-      ..transition!
-        ..delay 100
-        ..attr \class ''
       ..append \span
         ..attr \class \title
         ..html ~> if it.kod then @ciselnik[it.kod] else "V této kategorii nebylo dovezeno žádné zboží"
@@ -66,7 +63,18 @@ window.ig.Header = class Header
         ..attr \class \kost
         ..style \background-color ~> if it.kod then @impExpGraph.color it.kod else '#fff'
       ..on \mouseover ~> @impExpGraph.highlight it.kod if it.kod
-      ..on \click ~> @impExpGraph.drawSubset it.kod if it.kod
+      ..classed \noClick ~> !it.hasDescendats || it.kod == @impExpGraph.currentKod
+      ..attr \data-tooltip ~>
+        if !it.hasDescendats || it.kod == @impExpGraph.currentKod
+          "Již neobsahuje podkategorie"
+        else
+          void
+      ..on \click ~>
+        if it.kod and it.kod != @impExpGraph.currentKod and it.hasDescendats
+          @impExpGraph.drawSubset it.kod
+    setTimeout do
+      ~> @legendItems.classed \new no
+      100
     @sumItem = @legend.append \li
       .attr \class \sum
       .append \span
