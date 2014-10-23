@@ -45,7 +45,10 @@ window.ig.Header = class Header
         ..transition!
           ..delay 800
           ..remove!
-    items = @impExpGraph.currentLayers.slice!reverse!
+    if !@impExpGraph.unDisplayed
+      items = @impExpGraph.currentLayers.slice!reverse!
+    else
+      items = [{kod: ''}]
     @legend = @element.append \ul
       ..on \mouseout ~> @impExpGraph.highlightOff!
     len = items.length
@@ -56,14 +59,14 @@ window.ig.Header = class Header
         ..attr \class ''
       ..append \span
         ..attr \class \title
-        ..html ~> @ciselnik[it.kod]
+        ..html ~> if it.kod then @ciselnik[it.kod] else "V této kategorii nebylo dovezeno žádné zboží"
       ..append \span
         ..attr \class \value
       ..append \div
         ..attr \class \kost
-        ..style \background-color ~> @impExpGraph.color it.kod
-      ..on \mouseover ~> @impExpGraph.highlight it.kod
-      ..on \click ~> @impExpGraph.drawSubset it.kod
+        ..style \background-color ~> if it.kod then @impExpGraph.color it.kod else '#fff'
+      ..on \mouseover ~> @impExpGraph.highlight it.kod if it.kod
+      ..on \click ~> @impExpGraph.drawSubset it.kod if it.kod
     @sumItem = @legend.append \li
       .attr \class \sum
       .append \span
@@ -105,6 +108,7 @@ window.ig.Header = class Header
         else
           ""
     @sumItem.html "#{ig.utils.formatNumber sum} 000 Kč"
+
   hideValues: ->
     @element.classed \valuesDisplayed no
     @valueHeader.html ""

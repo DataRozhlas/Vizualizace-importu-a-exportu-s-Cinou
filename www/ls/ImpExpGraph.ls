@@ -128,9 +128,14 @@ window.ig.ImpExpGraph = class ImpExpGraph
       startImmediately = yes
 
     (err, d) <~ d3.tsv "../data/#{@direction}/#{kod}.tsv", tsvTransform
-    data := d
+    if err
+      @unDisplayed = true
+      @emit \drawing kod
+    else
+      @unDisplayed = false
+      data := d
 
-    if startImmediately then drawSubset!
+      if startImmediately then drawSubset!
 
   draw: (data) ->
     data.sort (a, b) -> a.time - b.time
