@@ -46,9 +46,14 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..x ~> @xScale it.date
       ..y0 (it, i) ~> @yScale it.y0 + targetArea.layerPoints[i].y0
       ..y1 (it, i) ~> @yScale it.y + it.y0 + targetArea.layerPoints[i].y0
-    @currentAreas.transition!
-      ..duration 800
-      ..attr \d ~> area it.layerPoints
+    @currentAreas
+      ..transition!
+        ..duration 800
+        ..attr \d ~> area it.layerPoints
+      ..transition!
+        ..delay 1600
+        ..remove!
+
     fadingKod = @lastKody.pop!toString!
     @currentKod = @lastKody[*-1]
     @emit 'drawing' @currentKod
@@ -69,6 +74,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @currentKod = kod
     @expand kod
     @emit 'drawing' kod
+    @lastLayers.push @currentLayers
     drawSubset = ~>
       layers = @stackData data
       lastAreas = @currentAreas
@@ -113,7 +119,6 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @drawCurrentArea layers
 
   drawCurrentArea: (layers) ->
-    @lastLayers.push @currentLayers if @currentLayers
     @currentLayers = layers
     @currentAreas = @drawing.selectAll \path.new .data layers .enter!append \path
       ..attr \d ~> @stdAreaGenerator it.layerPoints

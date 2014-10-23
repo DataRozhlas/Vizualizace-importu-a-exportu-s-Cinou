@@ -9,7 +9,6 @@ window.ig.Header = class Header
     @update!
 
   update: ->
-    console.log 'foo', @impExpGraph.currentKod
     if @impExpGraph.currentKod
       @backbutton.classed \disabled no
       @heading.html @ciselnik[@impExpGraph.currentKod]
