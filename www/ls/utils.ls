@@ -42,7 +42,7 @@ insertThousandSeparator = (input, separator = ' ') ->
     price = Math.round(input).toString()
     out = []
     len = price.length
-    for i in [0 ... len]
+    for i in [0 til len]
       out.unshift price[len - i - 1]
       isLast = i is len - 1
       isThirdNumeral = 2 is i % 3

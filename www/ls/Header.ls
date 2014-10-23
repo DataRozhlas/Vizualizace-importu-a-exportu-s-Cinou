@@ -2,13 +2,17 @@ window.ig.Header = class Header
   (@baseElement, @impExpGraph, @ciselnik) ->
     @element = @baseElement.append \div
       ..attr \class \header
+    @valueHeader = @element.append \div
+      ..attr \class \valueHeader
     @impExpGraph
       ..on \drawing @~update
       ..on \focusing @~focus
       ..on \highlight @~highlight
+      ..on \pointer @~displayValues
     @backbutton = window.ig.utils.backbutton @element
       ..on \click @impExpGraph~back
     @update!
+    @months = <[Leden Únor Březen Duben Květen Červen Červenec Srpen Září Říjen Listopad Prosinec]>
 
   update: ->
     if @heading
@@ -44,8 +48,14 @@ window.ig.Header = class Header
       ..transition!
         ..delay 100
         ..attr \class ''
-      ..append \span .html ~> @ciselnik[it.kod]
-      ..append \div .style \background-color ~> @impExpGraph.color it.kod
+      ..append \span
+        ..attr \class \title
+        ..html ~> @ciselnik[it.kod]
+      ..append \span
+        ..attr \class \value
+      ..append \div
+        ..attr \class \kost
+        ..style \background-color ~> @impExpGraph.color it.kod
       ..on \mouseover ~> @impExpGraph.highlight it.kod
       ..on \click ~> @impExpGraph.drawSubset it.kod
 
@@ -56,10 +66,36 @@ window.ig.Header = class Header
 
   highlight: (kod) ->
     kod .= toString! if kod
+    if kod is null
+      @hideValues!
     @legendItems
       .classed \active no
       .filter (.kod == kod)
       .classed \active yes
+
+  displayValues: (date) ->
+    @valueHeader.html "#{@months[date.getMonth!]} #{date.getFullYear!}"
+    time = date.getTime!
+    lastValidIndex = null
+    for datapoint, index in @impExpGraph.currentLayers.0.layerPoints
+      if datapoint.time < time
+        lastValidIndex := index
+      else
+        break
+    @element.classed \valuesDisplayed yes
+    @legendItems.selectAll \.value
+      ..html ->
+        if it.layerPoints[lastValidIndex]
+          if it.layerPoints[lastValidIndex].cena
+            "#{ig.utils.formatNumber it.layerPoints[lastValidIndex].cena} 000 Kč"
+          else
+            "0 Kč"
+        else
+          ""
+
+  hideValues: ->
+    @element.classed \valuesDisplayed no
+    @valueHeader.html ""
 
 
 

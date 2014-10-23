@@ -137,6 +137,10 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..on \click ~> @drawSubset it.kod
       ..on \mouseover ~> @highlight it.kod
       ..on \mouseout ~> @highlightOff!
+      ..on \mousemove ~>
+        x = d3.event.x - @margin.3
+        date = @xScale.invert x
+        @emit \pointer date
 
   highlight: (kod) ->
     kod .= toString!
@@ -290,17 +294,18 @@ smooth = (input) ->
 
 extrapolate = (input, range) ->
   currentIndex = 0
-  lastCena = null
+  lastInput = null
   rangeLength = range.length
   out = range.map (rangeItem, index) ->
     if input[currentIndex]?obdobi == rangeItem.obdobi
-      lastCena := input[currentIndex].cena
+      lastInput := input[currentIndex]
       ++currentIndex
       input[currentIndex - 1]
-    else if lastCena and (rangeLength - index) < 5
+    else if lastInput and (rangeLength - index) < 5
       date         : rangeItem.date
       obdobi       : rangeItem.obdobi
-      cena         : lastCena
+      cena         : lastInput.cena
+      lastInput    : lastInput
       extrapolated : yes
     else
       rangeItem
