@@ -25,7 +25,7 @@ init = ->
   if window.location.hash
     impExpGraph.goTo that.replace '#' ''
   sugCont.append \i
-      ..html "Zkuste třeba Drůběž, Tříkolky nebo Paruky"
+      ..html "Zkuste třeba drůbež, tříkolky nebo paruky"
 
 if d3?
   init!
