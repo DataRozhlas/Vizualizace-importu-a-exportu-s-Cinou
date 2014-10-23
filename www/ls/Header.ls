@@ -5,6 +5,7 @@ window.ig.Header = class Header
     @impExpGraph
       ..on \drawing @~update
       ..on \focusing @~focus
+      ..on \highlight @~highlight
     @backbutton = window.ig.utils.backbutton @element
       ..on \click @impExpGraph~back
     @update!
@@ -53,6 +54,12 @@ window.ig.Header = class Header
       .filter -> it.kod != kod.toString!
       .classed \old yes
 
+  highlight: (kod) ->
+    kod .= toString! if kod
+    @legendItems
+      .classed \active no
+      .filter (.kod == kod)
+      .classed \active yes
 
 
 

@@ -16,6 +16,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..attr \width width
       ..attr \height height
     @drawing = @svg.append \g
+      ..attr \class \drawing
       ..attr \transform "translate(#{@margin.3}, #{@margin.0})"
     @setXScale!
     @drawXAxis!
@@ -62,6 +63,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
         ..delay (d, i) -> 1200 + i * 50
         ..duration 600
         ..attr \opacity 1
+        ..attr \class \drawed
       ..filter (.kod == fadingKod)
         ..transition!
           ..delay 800
@@ -78,8 +80,8 @@ window.ig.ImpExpGraph = class ImpExpGraph
     drawSubset = ~>
       layers = @stackData data
       lastAreas = @currentAreas
-      @drawing.classed \highlighted no
-      @drawCurrentArea layers
+      @highlightOff!
+      currentArea = @drawCurrentArea layers
         ..attr \fill-opacity 0
         ..attr \stroke-opacity 0
         ..attr \stroke-width 1
@@ -96,6 +98,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
           ..attr \fill-opacity 1
       @emit 'drawing' kod
       <~ setTimeout _, 800 + layers.length * 100
+      currentArea.attr \class \drawed
       tempPath.remove!
     startImmediately = no
     data = null
@@ -119,6 +122,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..y0 ~> @yScale it.y0
       ..y1 ~> @yScale it.y0 + it.y
     @drawCurrentArea layers
+      ..attr \class \drawed
 
   drawCurrentArea: (layers) ->
     @currentLayers = layers
@@ -127,12 +131,14 @@ window.ig.ImpExpGraph = class ImpExpGraph
       ..attr \class "highlighted"
       ..attr \fill ~>
         @color it.kod
-      ..attr \data-tooltip ~> @ciselnik[it.kod]
       ..attr \opacity 1
       ..on \click ~> @drawSubset it.kod
+      ..on \mouseover ~> @highlight it.kod
+      ..on \mouseout ~> @highlightOff!
 
   highlight: (kod) ->
     kod .= toString!
+    @emit \highlight kod
     @currentAreas.classed \highlight off
     @drawing.classed \highlighted on
     @currentAreas
@@ -140,6 +146,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
       .classed \highlight on
 
   highlightOff: ->
+    @emit \highlight null
     @drawing.classed \highlighted off
 
   stackData: (data) ->
