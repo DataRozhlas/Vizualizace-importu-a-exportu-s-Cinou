@@ -22,6 +22,8 @@ init = ->
 
   suggester = new ig.Suggester sugCont, ciselnik_arr
     ..on \item -> impExpGraph.goTo it.kod
+  if window.location.hash
+    impExpGraph.goTo that.replace '#' ''
   sugCont.append \i
       ..html "Zkuste třeba Drůběž, Tříkolky nebo Paruky"
 
