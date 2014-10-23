@@ -8,6 +8,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @width = width - @margin.1 - @margin.3
     @lastDomains = []
     @lastActiveLayer = []
+    @lastLayerAssoc = []
     @lastLayers = []
     @lastKody = []
     @currentLayers = null
@@ -69,6 +70,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
           ..delay 800
           ..duration 800
           ..attr \opacity 1
+    @lastLayerAssoc.pop!
     @emit 'drawing' @currentKod
 
   drawSubset: (kod) ->
@@ -150,7 +152,8 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @drawing.classed \highlighted off
 
   stackData: (data) ->
-    @displayedLayersAssoc = layers_assoc = {}
+    layers_assoc = {}
+    @lastLayerAssoc.push layers_assoc
     for {kod}:datum in data
       layers_assoc[kod] ?= []
       layers_assoc[kod].push datum
@@ -162,7 +165,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
     layers
 
   expand: (kod) ->
-    layer = @displayedLayersAssoc[kod]
+    layer = @lastLayerAssoc[*-1][kod]
     return unless layer
     max = d3.max layer.map -> it.y
     @lastDomains.push @yScale.domain!
