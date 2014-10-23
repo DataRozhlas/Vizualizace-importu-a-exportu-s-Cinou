@@ -56,7 +56,6 @@ window.ig.ImpExpGraph = class ImpExpGraph
 
     fadingKod = @lastKody.pop!toString!
     @currentKod = @lastKody[*-1]
-    @emit 'drawing' @currentKod
     @drawCurrentArea @lastLayers.pop!
       ..attr \opacity 0
       ..transition!
@@ -68,12 +67,13 @@ window.ig.ImpExpGraph = class ImpExpGraph
           ..delay 800
           ..duration 800
           ..attr \opacity 1
+    @emit 'drawing' @currentKod
 
   drawSubset: (kod) ->
+    @emit \focusing kod
     @lastKody.push kod
     @currentKod = kod
     tempPath = @expand kod
-    @emit 'drawing' kod
     @lastLayers.push @currentLayers
     drawSubset = ~>
       layers = @stackData data
@@ -93,6 +93,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
           ..attr \stroke-opacity 0
           ..attr \stroke-width 0
           ..attr \fill-opacity 1
+      @emit 'drawing' kod
       <~ setTimeout _, 800 + layers.length * 100
       tempPath.remove!
     startImmediately = no
