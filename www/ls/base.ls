@@ -11,6 +11,9 @@ init = ->
   impExpGraph = new ig.ImpExpGraph container, ciselnik
     ..drawImport!
   header = new ig.Header container, impExpGraph, ciselnik
+  d = new Date!
+    ..setTime 1262498549361
+  header.displayValues d
 
 if d3?
   init!

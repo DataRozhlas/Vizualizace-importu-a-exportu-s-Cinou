@@ -46,6 +46,8 @@
       &.old
       &.new
         opacity 0
+      &.sum
+        display none
       &:hover
       &.active
         color black
@@ -77,6 +79,17 @@
           display block
           float left
           text-align right
+        &.sum
+          width 515px
+          font-weight bold
+          display list-item
+          text-align right
+          span
+            display block
+            float right
+            width 140px
+            padding-top 4px
+            border-top 1px solid #666
   .valueHeader
     position absolute
     top 45px

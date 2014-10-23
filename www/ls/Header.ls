@@ -58,6 +58,10 @@ window.ig.Header = class Header
         ..style \background-color ~> @impExpGraph.color it.kod
       ..on \mouseover ~> @impExpGraph.highlight it.kod
       ..on \click ~> @impExpGraph.drawSubset it.kod
+    @sumItem = @legend.append \li
+      .attr \class \sum
+      .append \span
+      .html ''
 
   focus: (kod) ->
     @legendItems
@@ -83,16 +87,18 @@ window.ig.Header = class Header
       else
         break
     @element.classed \valuesDisplayed yes
+    sum = 0
     @legendItems.selectAll \.value
       ..html ->
         if it.layerPoints[lastValidIndex]
           if it.layerPoints[lastValidIndex].cena
+            sum += that
             "#{ig.utils.formatNumber it.layerPoints[lastValidIndex].cena} 000 Kč"
           else
             "0 Kč"
         else
           ""
-
+    @sumItem.html "#{ig.utils.formatNumber sum} 000 Kč"
   hideValues: ->
     @element.classed \valuesDisplayed no
     @valueHeader.html ""
