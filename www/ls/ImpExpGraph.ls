@@ -78,6 +78,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
     drawSubset = ~>
       layers = @stackData data
       lastAreas = @currentAreas
+      @drawing.classed \highlighted no
       @drawCurrentArea layers
         ..attr \fill-opacity 0
         ..attr \stroke-opacity 0
@@ -123,11 +124,23 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @currentLayers = layers
     @currentAreas = @drawing.selectAll \path.new .data layers .enter!append \path
       ..attr \d ~> @stdAreaGenerator it.layerPoints
+      ..attr \class "highlighted"
       ..attr \fill ~>
         @color it.kod
       ..attr \data-tooltip ~> @ciselnik[it.kod]
       ..attr \opacity 1
       ..on \click ~> @drawSubset it.kod
+
+  highlight: (kod) ->
+    kod .= toString!
+    @currentAreas.classed \highlight off
+    @drawing.classed \highlighted on
+    @currentAreas
+      .filter (.kod == kod)
+      .classed \highlight on
+
+  highlightOff: ->
+    @drawing.classed \highlighted off
 
   stackData: (data) ->
     @displayedLayersAssoc = layers_assoc = {}
@@ -165,6 +178,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @lastActiveLayer.push fadingAreaElm.datum!
     @tempPath = @drawing.append \path
       ..attr \d fadingAreaElm.attr \d
+      ..attr \class "highlight"
       ..attr \fill fadingAreaElm.attr \fill
       ..datum fadingAreaElm.datum!
       ..transition!

@@ -36,6 +36,7 @@ window.ig.Header = class Header
           ..remove!
     items = @impExpGraph.currentLayers.slice!reverse!
     @legend = @element.append \ul
+      ..on \mouseout ~> @impExpGraph.highlightOff!
     len = items.length
     @legendItems = @legend.selectAll \li .data items .enter!append \li
       ..attr \class \new
@@ -44,6 +45,7 @@ window.ig.Header = class Header
         ..attr \class ''
       ..append \span .html ~> @ciselnik[it.kod]
       ..append \div .style \background-color ~> @impExpGraph.color it.kod
+      ..on \mouseover ~> @impExpGraph.highlight it.kod
       ..on \click ~> @impExpGraph.drawSubset it.kod
 
   focus: (kod) ->
