@@ -12,7 +12,10 @@ init = ->
   new Tooltip!watchElements!
   container = d3.select ig.containers.base
   impExpGraph = new ig.ImpExpGraph container, ciselnik
-    ..drawImport!
+  if window.location.hash == '#export'
+    impExpGraph.drawExport!
+  else
+    impExpGraph.drawImport!
   header = new ig.Header container, impExpGraph, ciselnik
   sugCont = container.append \div
     ..attr \class \suggester-container
@@ -23,8 +26,8 @@ init = ->
   suggester = new ig.Suggester sugCont, ciselnik_arr
     ..on \selected ->
       impExpGraph.goTo it.kod
-  if window.location.hash
-    impExpGraph.goTo that.replace '#' ''
+  if window.location.hash && window.location.hash != '#export'
+    impExpGraph.goTo window.location.hash.replace '#' ''
   sugCont.append \i
       ..html "Zkuste třeba zelenina, vánoční ozdoby nebo&nbsp;telefonní&nbsp;přístroje"
 
