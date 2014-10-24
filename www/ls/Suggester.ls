@@ -8,9 +8,6 @@ window.ig.Suggester = class Suggester
   onItemSelected: null
   lastQuery: null
   (parentElement, @suggestions) ->
-    @suggestions .= filter ->
-      kod = parseInt it.kod, 10
-      ig.existing.importAssoc[kod]
     window.ig.Events @
     self = @
     onValue = @~onValue

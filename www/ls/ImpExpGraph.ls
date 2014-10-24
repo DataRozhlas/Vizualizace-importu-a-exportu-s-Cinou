@@ -79,6 +79,9 @@ window.ig.ImpExpGraph = class ImpExpGraph
     @emit 'drawing' @currentKod
 
   goTo: (kod) ->
+    while ig.existing[@direction + "Assoc"][kod] is void
+      kod .= substr 0, kod.length - 1
+
     @currentAreas.remove!
     @drawSubset kod
 
