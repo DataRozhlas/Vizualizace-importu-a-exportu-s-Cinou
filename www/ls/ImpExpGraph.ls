@@ -63,7 +63,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
       @currentAreas.remove!
     fadingKod = @lastKody.pop!toString!
     @currentKod = @lastKody[*-1]
-    window.location.hash = @currentKod || ''
+    window.location.hash = @direction + (@currentKod || '')
     @drawCurrentArea @lastLayers.pop!
       ..attr \opacity 0
       ..transition!
@@ -88,7 +88,7 @@ window.ig.ImpExpGraph = class ImpExpGraph
   drawSubset: (kod) ->
     @emit \focusing kod
     @lastKody.push kod
-    window.location.hash = kod
+    window.location.hash = @direction + kod
     @currentKod = kod
     tempPath = @expand kod
     @lastLayers.push @currentLayers
